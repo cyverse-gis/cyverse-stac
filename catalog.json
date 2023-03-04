@@ -10,13 +10,18 @@
     "type": "application/json"
     },
     {
+        "rel": "self",
+        "href": "./catalog.json",
+        "type": "application/json"
+        },
+    {
     "rel": "child",
-    "href": "./collections/arizona-experiment-station-collections/arizona-experiment-station-collections.json",
+    "href": "./catalogs/collections/arizona-experiment-station-collections/arizona-experiment-station-collections.json",
     "type": "application/json"
     },
     {
         "rel": "child",
-        "href": "./collections/jemez-collections/jemez-collections.json",
+        "href": "./catalogs/collections/jemez-collections/jemez-collections.json",
         "type": "application/json"
         }
     ],
