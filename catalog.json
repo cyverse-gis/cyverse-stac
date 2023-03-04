@@ -1,0 +1,27 @@
+{
+    "type": "Catalog",
+    "id": "Cyverse STAC Catalog",
+    "stac_version": "1.0.0",
+    "description": "This catalog includes all of the imagery assets the exist in Cyverse Data Store",
+    "links": [
+    {
+    "rel": "root",
+    "href": "./catalog.json",
+    "type": "application/json"
+    },
+    {
+    "rel": "child",
+    "href": "./aes_collections/aes_collections.json",
+    "type": "application/json"
+    },
+    {
+        "rel": "child",
+        "href": "./jemez_collections/jemez_collections.json",
+        "type": "application/json"
+        }
+    ],
+    "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.1.0/schema.json"
+    ]
+}
