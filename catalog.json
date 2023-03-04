@@ -11,12 +11,12 @@
     },
     {
     "rel": "child",
-    "href": "./aes_collections/aes_collections.json",
+    "href": "./arizona-experiment-station-collections/arizona-experiment-station-collections.json",
     "type": "application/json"
     },
     {
         "rel": "child",
-        "href": "./jemez_collections/jemez_collections.json",
+        "href": "./jemez-collections/jemez-collections.json",
         "type": "application/json"
         }
     ],

@@ -1,6 +1,6 @@
 {
     "type": "Collection",
-    "id": "aes-collections",
+    "id": "arizona-experiment-station-collections",
     "stac_version": "1.0.0",
     "description": "Arizona Experiment Station (AES) STAC Collections",
     "links": [
@@ -28,7 +28,7 @@
     },
     {
         "rel": "self",
-        "href": "./aes-collections.json",
+        "href": "./arizona-experiment-station-collections.json",
         "type": "application/json"
     }
     ],
