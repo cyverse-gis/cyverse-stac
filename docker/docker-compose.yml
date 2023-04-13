@@ -1,0 +1,135 @@
+version: '3'
+services:
+  app-sqlalchemy:
+    container_name: stac-fastapi-sqlalchemy
+    image: ghcr.io/stac-utils/stac-fastapi:main-sqlalchemy
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    platform: linux/amd64
+    environment:
+      - APP_HOST=0.0.0.0
+      - APP_PORT=8081
+      - RELOAD=true
+      - ENVIRONMENT=local
+      - POSTGRES_USER=username
+      - POSTGRES_PASS=password
+      - POSTGRES_DBNAME=postgis
+      - POSTGRES_HOST_READER=database
+      - POSTGRES_HOST_WRITER=database
+      - POSTGRES_PORT=5432
+      - WEB_CONCURRENCY=10
+    ports:
+      - "8081:8081"
+    volumes:
+      - ../cyverse-stac:/app/cyverse-stac
+      - ./stac_fastapi:/app/stac_fastapi
+      - ./scripts:/app/scripts
+    depends_on:
+      - database
+    command: bash -c "./scripts/wait-for-it.sh database:5432 && python -m stac_fastapi.sqlalchemy.app"
+
+  app-pgstac:
+    container_name: stac-fastapi-pgstac
+    image: ghcr.io/stac-utils/stac-fastapi:main-pgstac
+    platform: linux/amd64
+    environment:
+      - APP_HOST=0.0.0.0
+      - APP_PORT=8082
+      - RELOAD=true
+      - ENVIRONMENT=local
+      - POSTGRES_USER=username
+      - POSTGRES_PASS=password
+      - POSTGRES_DBNAME=postgis
+      - POSTGRES_HOST_READER=database
+      - POSTGRES_HOST_WRITER=database
+      - POSTGRES_PORT=5432
+      - WEB_CONCURRENCY=10
+      - VSI_CACHE=TRUE
+      - GDAL_HTTP_MERGE_CONSECUTIVE_RANGES=YES
+      - GDAL_DISABLE_READDIR_ON_OPEN=EMPTY_DIR
+      - DB_MIN_CONN_SIZE=1
+      - DB_MAX_CONN_SIZE=1
+      - USE_API_HYDRATE=${USE_API_HYDRATE:-false}
+    ports:
+      - "8082:8082"
+    volumes:
+      - ../cyverse-stac:/app/cyverse-stac
+      - ./stac_fastapi:/app/stac_fastapi
+      - ./scripts:/app/scripts
+    depends_on:
+      - database
+    command: bash -c "./scripts/wait-for-it.sh database:5432 && python -m stac_fastapi.pgstac.app"
+
+  database:
+    container_name: stac-db
+    image: ghcr.io/stac-utils/pgstac:v0.6.12
+    environment:
+      - POSTGRES_USER=username
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_DB=postgis
+      - PGUSER=username
+      - PGPASSWORD=password
+      - PGHOST=localhost
+      - PGDATABASE=postgis
+    ports:
+      - "5439:5432"
+    command: postgres -N 500
+
+
+##################################
+#
+# CyVerse Data Testing Stuff
+#
+##################################
+
+# Load cyverse demo dataset into the SQLAlchemy Application
+  loadcyverse-sqlalchemy:
+    image: ghcr.io/stac-utils/stac-fastapi:main-sqlalchemy
+    environment:
+      - ENVIRONMENT=development
+      - POSTGRES_USER=username
+      - POSTGRES_PASS=password
+      - POSTGRES_DBNAME=postgis
+      - POSTGRES_HOST=database
+      - POSTGRES_PORT=5432
+    volumes:
+      - ../cyverse-stac:/app/cyverse-stac
+      - ./stac_fastapi:/app/stac_fastapi
+      - ./scripts:/app/scripts
+    command: >
+      bash -c "/app/scripts/wait-for-it.sh app-sqlalchemy:8081 -t 60 && cd /app/stac_fastapi/sqlalchemy && alembic upgrade head && python /app/scripts/ingest_cyverse.py http://app-sqlalchemy:8081"
+    depends_on:
+      - database
+      - app-sqlalchemy
+
+  # Load cyverse demo dataset into the PGStac Application
+  loadcyverse-pgstac:
+    image: ghcr.io/stac-utils/stac-fastapi:main-pgstac
+    environment:
+      - ENVIRONMENT=development
+    volumes:
+      - ../cyverse-stac:/app/cyverse-stac
+      - ./stac_fastapi:/app/stac_fastapi
+      - ./scripts:/app/scripts
+    command:
+      - "/app/scripts/wait-for-it.sh"
+      - "-t"
+      - "60"
+      - "app-pgstac:8082"
+      - "--"
+      - "python"
+      - "/app/scripts/ingest_cyverse.py"
+      - "http://app-pgstac:8082"
+    depends_on:
+      - database
+      - app-pgstac
+
+
+########################################
+## End CyVerse Testing Stuff
+##
+#########################################
+networks:
+  default:
+    name: stac-fastapi-network

@@ -1,0 +1,34 @@
+{
+    "id": "Santa Rita Experimental Range",
+    "description": "The Santa Rita Experimental Range is part of the Arizona Experiment Station (AES) STAC Collections",
+    "stac_version": "1.0.0",
+    "license": "public-domain",
+    "links": [
+        {
+            "rel": "license",
+            "href": "https://creativecommons.org/licenses/publicdomain/",
+            "title": "public domain"
+        }
+    ],
+    "type": "Collection",
+    "extent": {
+        "spatial": {
+            "bbox": [
+                [
+                    -110.97684,
+                    31.7572,
+                    -110.78748,
+                    31.9197
+                ]
+            ]
+        },
+        "temporal": {
+            "interval": [
+                [
+                "1900-01-01T12:00:00Z",
+                "2023-02-25T12:00:00Z"
+                ]
+            ]
+        }
+    }
+}
