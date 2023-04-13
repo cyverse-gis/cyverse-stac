@@ -75,21 +75,6 @@ There is one sample STAC catalog directory which can be removed or used for test
 
 `/stac_fastapi/testdata/joplin` - is the test dataset which is deployed by default. 
 
-### Create new Collections
-
-The `.json` Collection which will be used in the API must be present on the VM - we're still working out whether to set up a `cron` job or keep the file on GitHub instead.
-
-```bash
-cd ~/stac-fastapi/stac_fastapi/
-
-mkdir cyverse-data
-
-cd cyverse-data
-
-mkdir <new-collection-name
-
-```
-
 #### Edit `docker-compose.yml` 
 
 The `stac-fastapi` Docker-Compose will start up multiple containers, including a database which relies on the sample data.
@@ -97,8 +82,6 @@ The `stac-fastapi` Docker-Compose will start up multiple containers, including a
 Note: the GitHub repository for `stac-fastapi` expects containers from GitHub Container Registry, not from DockerHub - update the `docker-compose.yml` to use the specific containers and tag version 
 
 ??? Abstract "docker-compose.yml"
-
-    Copy/Paste
 
     ```yaml
     version: '3'
@@ -125,6 +108,7 @@ Note: the GitHub repository for `stac-fastapi` expects containers from GitHub Co
         ports:
           - "8081:8081"
         volumes:
+          - ../cyverse-stac:/app/cyverse-stac
           - ./stac_fastapi:/app/stac_fastapi
           - ./scripts:/app/scripts
         depends_on:
@@ -156,6 +140,7 @@ Note: the GitHub repository for `stac-fastapi` expects containers from GitHub Co
         ports:
           - "8082:8082"
         volumes:
+          - ../cyverse-stac:/app/cyverse-stac
           - ./stac_fastapi:/app/stac_fastapi
           - ./scripts:/app/scripts
         depends_on:
@@ -177,49 +162,11 @@ Note: the GitHub repository for `stac-fastapi` expects containers from GitHub Co
           - "5439:5432"
         command: postgres -N 500
 
-    # Load joplin demo dataset into the SQLAlchemy Application
-    #  loadjoplin-sqlalchemy:
-    #    image: ghcr.io/stac-utils/stac-fastapi:main-sqlalchemy
-    #    environment:
-    #      - ENVIRONMENT=development
-    #      - POSTGRES_USER=username
-    #      - POSTGRES_PASS=password
-    #      - POSTGRES_DBNAME=postgis
-    #      - POSTGRES_HOST=database
-    #      - POSTGRES_PORT=5432
-    #    volumes:
-    #      - ./stac_fastapi:/app/stac_fastapi
-    #      - ./scripts:/app/scripts
-    #    command: >
-    #      bash -c "./scripts/wait-for-it.sh app-sqlalchemy:8081 -t 60 && cd stac_fastapi/sqlalchemy && alembic upgrade head && python /app/scripts/ingest_joplin.py http://app-sqlalchemy:8081"
-    #    depends_on:
-    #      - database
-    #      - app-sqlalchemy
-    #
-    #  # Load joplin demo dataset into the PGStac Application
-    #  loadjoplin-pgstac:
-    #    image: ghcr.io/stac-utils/stac-fastapi:main-pgstac
-    #    environment:
-    #      - ENVIRONMENT=development
-    #    volumes:
-    #      - ./stac_fastapi:/app/stac_fastapi
-    #      - ./scripts:/app/scripts
-    #    command:
-    #      - "./app/scripts/wait-for-it.sh"
-    #      - "-t"
-    #      - "60"
-    #      - "app-pgstac:8082"
-    #      - "--"
-    #      - "python"
-    #      - "/app/scripts/ingest_joplin.py"
-    #      - "http://app-pgstac:8082"
-    #    depends_on:
-    #      - database
-    #      - app-pgstac
-    #
+
     ##################################
-    ## CyVerse Testing Stuff
-    ##
+    #
+    # CyVerse Data Testing Stuff
+    #
     ##################################
 
     # Load cyverse demo dataset into the SQLAlchemy Application
@@ -233,6 +180,7 @@ Note: the GitHub repository for `stac-fastapi` expects containers from GitHub Co
           - POSTGRES_HOST=database
           - POSTGRES_PORT=5432
         volumes:
+          - ../cyverse-stac:/app/cyverse-stac
           - ./stac_fastapi:/app/stac_fastapi
           - ./scripts:/app/scripts
         command: >
@@ -247,6 +195,7 @@ Note: the GitHub repository for `stac-fastapi` expects containers from GitHub Co
         environment:
           - ENVIRONMENT=development
         volumes:
+          - ../cyverse-stac:/app/cyverse-stac
           - ./stac_fastapi:/app/stac_fastapi
           - ./scripts:/app/scripts
         command:
@@ -267,16 +216,29 @@ Note: the GitHub repository for `stac-fastapi` expects containers from GitHub Co
     ## End CyVerse Testing Stuff
     ##
     #########################################
-    
     networks:
       default:
         name: stac-fastapi-network
 
     ```
 
-#### Edit `ingest_collections.py`
+[:simple-github: tyson-swetnam/cyverse-stac](https://github.com/tyson-swetnam/cyverse-stac){target=_blank}
 
-??? Abstract "`ingest_collections.py`"
+Clone the `cyverse-stac` repository to the home directory where you cloned `stac-fastapi`
+
+```bash
+git clone https://github.com/tyson-swetnam/cyverse-stac
+```
+
+Inside the `/cyverse-stac` repo is a directory called `catalogs` - this is where we are maintaining the list of public STAC Collections in CyVerse.
+
+The `catalogs` directory is ingested by the `ingest_cyverse.py` file in the `stac-fastapi/scripts` directory. 
+
+The `docker-compose.yml` is also modified to include the relative path to the `cyverse-stac` directory
+
+#### Edit `ingest_cyverse.py`
+
+??? Abstract "`ingest_cyverse.py`"
 
     ```python
     """Ingest sample data during docker-compose"""
@@ -307,11 +269,36 @@ Note: the GitHub repository for `stac-fastapi` expects containers from GitHub Co
         else:
             r.raise_for_status()
 
-    # Ingest CyVerse Collections 
+    ##################################
+    #
+    # Begin Collection Ingestion
+    #
+    ##################################
 
-    cyversedata = workingdir.parent / "stac_fastapi" / "cyverse-data" / "arizona-experiment-station"
+    ## Ingest Open Forest Observatory Collections
 
-    def ingest_cyverse_data(app_host: str = app_host, data_dir: Path = cyversedata):
+    ofodata =  Path("/app/cyverse-stac/catalogs/ofo")
+
+    def ingest_ofo_data(app_host: str = app_host, data_dir: Path = ofodata):
+        """ingest data."""
+
+        with open(data_dir / "collection.json") as f:
+            collection = json.load(f)
+
+        post_or_put(urljoin(app_host, "/collections"), collection)
+
+        with open(data_dir / "index.geojson") as f:
+            index = json.load(f)
+
+        for feat in index["features"]:
+            post_or_put(urljoin(app_host, f"collections/{collection['id']}/items"), feat)
+
+
+    # Ingest Arizona Experiment Station Collections 
+
+    srerdata =  Path("/app/cyverse-stac/catalogs/arizona-experiment-station")
+
+    def ingest_cyverse_data(app_host: str = app_host, data_dir: Path = srerdata):
         """ingest data."""
 
         with open(data_dir / "collection.json") as f:
@@ -327,7 +314,7 @@ Note: the GitHub repository for `stac-fastapi` expects containers from GitHub Co
 
     ## Ingest Joplin Collections
 
-    joplindata = workingdir.parent / "stac_fastapi" / "cyverse-data" / "joplin"
+    joplindata = Path("/app/cyverse-stac/catalogs/joplin")
 
     def ingest_joplin_data(app_host: str = app_host, data_dir: Path = joplindata):
         """ingest data."""
@@ -345,7 +332,10 @@ Note: the GitHub repository for `stac-fastapi` expects containers from GitHub Co
 
     if __name__ == "__main__":
         ingest_cyverse_data()
-        ingest_joplin_data()    
+        ingest_joplin_data()
+        ingest_ofo_data()
+
+
     ```
 
 ### Start :simple-docker: Docker-Compose
