@@ -81,7 +81,7 @@ The `stac-fastapi` Docker-Compose will start up multiple containers, including a
 
 Note: the GitHub repository for `stac-fastapi` expects containers from GitHub Container Registry, not from DockerHub - update the `docker-compose.yml` to use the specific containers and tag version 
 
-??? Abstract "docker-compose.yml"
+??? Abstract "`docker-compose.yml`"
 
     ```yaml
     version: '3'
