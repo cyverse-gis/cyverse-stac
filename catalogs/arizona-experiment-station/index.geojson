@@ -8,41 +8,1022 @@
         "stac_extensions": [
           "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
           "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
-          "https://stac-extensions.github.io/eo/v1.0.0/schema.json"
+          "https://stac-extensions.github.io/eo/v1.0.0/schema.json",
+          "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
         ],
-        "id": "15_g2_ortho.tif",
+        "id": "15_g2_ortho_cog.tif",  
         "geometry": {
           "type": "Polygon",
           "coordinates": [
             [
               [
-                -110.857684042126,
-                31.7763663413637
+                -110.85771560668945,
+                31.776336940984123
               ],
               [
-                -110.85464043957799,
-                31.7763663413637
+                -110.8546257019043,
+                31.776336940984123
               ],
               [
-                -110.85464043957799,
-                31.7789479713657
+                -110.8546257019043,
+                31.778963663421155
               ],
               [
-                -110.857684042126,
-                31.7789479713657
+                -110.85771560668945,
+                31.778963663421155
               ],
               [
-                -110.857684042126,
-                31.7763663413637
+                -110.85771560668945,
+                31.776336940984123
               ]
             ]
           ]
         },
         "bbox": [
-          -110.857684042126,
-          31.7763663413637,
-          -110.85464043957799,
-          31.7789479713657
+          -110.85771560668945,
+          31.776336940984123,
+          -110.8546257019043,
+          31.778963663421155
+        ],
+        "properties": {
+          "gsd": "0.1",
+          "platform": "DJI Phantom 4 RTK",
+          "license": "CC-BY-SA-4.0",
+          "mission": "Rangeland Monitoring at Santa Rita Experimental Range",
+          "sci:doi": "10.1002/ecs2.3649",
+          "sci:publications": [
+            {
+              "doi": "10.1002/ecs2.3649",
+              "citation": "Gillan, JK., GE Ponce-Campos, TL Swetnam, A Gorlier, P Heilman, MP McClaran. 2021. Innovations to expand drone data collection and analysis for rangeland monitoring. Ecosphere, 12(7)."
+            }
+         ],
+          "providers": [
+            {
+              "name": "Jeffrey Gillan at University of Arizona",
+              "roles": [
+                "producer"
+              ],
+              "url": "https://www.gillanscience.com/"
+            }
+          ],
+          "proj:epsg": 3857,
+          "proj:geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -12340624.451842207,
+                  3733987.050245002
+                ],
+                [
+                  -12340280.485214923,
+                  3733987.050245002
+                ],
+                [
+                  -12340280.485214923,
+                  3734331.016872287
+                ],
+                [
+                  -12340624.451842207,
+                  3734331.016872287
+                ],
+                [
+                  -12340624.451842207,
+                  3733987.050245002
+                ]
+              ]
+            ]
+          },
+          "proj:bbox": [
+            -12340624.451842207,
+            3733987.050245002,
+            -12340280.485214923,
+            3734331.016872287
+          ],
+          "proj:shape": [
+            18432,
+            18432
+          ],
+          "proj:transform": [
+            0.018661383858771943,
+            0,
+            -12340624.451842207,
+            0,
+            -0.018661383858771943,
+            3734331.016872287,
+            0,
+            0,
+            1
+          ],
+          "proj:projjson": {
+            "$schema": "https://proj.org/schemas/v0.4/projjson.schema.json",
+            "type": "ProjectedCRS",
+            "name": "WGS 84 / Pseudo-Mercator",
+            "base_crs": {
+              "name": "WGS 84",
+              "datum": {
+                "type": "GeodeticReferenceFrame",
+                "name": "World Geodetic System 1984",
+                "ellipsoid": {
+                  "name": "WGS 84",
+                  "semi_major_axis": 6378137,
+                  "inverse_flattening": 298.257223563
+                }
+              },
+              "coordinate_system": {
+                "subtype": "ellipsoidal",
+                "axis": [
+                  {
+                    "name": "Latitude",
+                    "abbreviation": "lat",
+                    "direction": "north",
+                    "unit": "degree"
+                  },
+                  {
+                    "name": "Longitude",
+                    "abbreviation": "lon",
+                    "direction": "east",
+                    "unit": "degree"
+                  }
+                ]
+              },
+              "id": {
+                "authority": "EPSG",
+                "code": 4326
+              }
+            },
+            "conversion": {
+              "name": "unnamed",
+              "method": {
+                "name": "Popular Visualisation Pseudo Mercator",
+                "id": {
+                  "authority": "EPSG",
+                  "code": 1024
+                }
+              },
+              "parameters": [
+                {
+                  "name": "Latitude of natural origin",
+                  "value": 0,
+                  "unit": "degree",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8801
+                  }
+                },
+                {
+                  "name": "Longitude of natural origin",
+                  "value": 0,
+                  "unit": "degree",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8802
+                  }
+                },
+                {
+                  "name": "False easting",
+                  "value": 0,
+                  "unit": "metre",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8806
+                  }
+                },
+                {
+                  "name": "False northing",
+                  "value": 0,
+                  "unit": "metre",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8807
+                  }
+                }
+              ]
+            },
+            "coordinate_system": {
+              "subtype": "Cartesian",
+              "axis": [
+                {
+                  "name": "Easting",
+                  "abbreviation": "",
+                  "direction": "east",
+                  "unit": "metre"
+                },
+                {
+                  "name": "Northing",
+                  "abbreviation": "",
+                  "direction": "north",
+                  "unit": "metre"
+                }
+              ]
+            },
+            "id": {
+              "authority": "EPSG",
+              "code": 3857
+            }
+          },
+          "datetime": "2023-04-19T15:36:41.043714Z"
+        },
+        "links": [
+          {
+            "rel": "alternative",
+            "href": "https://explorer.digitalearth.africa/dataset/c7d75b27-88d6-51cd-bf99-7d134917ba3e",
+            "type": "text/html",
+            "title": "ODC Dataset Overview"
+          }
+        ],
+        "assets": { 
+          "data": {
+            "href": "https://data.cyverse.org/dav-anon/iplant/home/jgillan/STAC_drone/15_g2_ortho_cog.tif",
+            "title": "15_g2_ortho_cog.tif",
+            "description": "[View COPC](https://viewer.copc.io?state=9c5b9fbbd21de69d2952219399dbe0ca2ecc473fe563f69b7e9eb9fc3abf8271)",
+            "roles": [
+              "data"
+            ],
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "raster:bands": [
+              {
+                "data_type": "uint8",
+                "scale": 1,
+                "offset": 0,
+                "sampling": "area",
+                "statistics": {
+                  "mean": 213.50796204620463,
+                  "minimum": 7,
+                  "maximum": 255,
+                  "stddev": 50.30937429791601,
+                  "valid_percent": 97.0916748046875
+                },
+                "histogram": {
+                  "count": 11,
+                  "min": 7,
+                  "max": 255,
+                  "buckets": [
+                    160,
+                    2018,
+                    11143,
+                    28666,
+                    44116,
+                    59589,
+                    104263,
+                    178887,
+                    60550,
+                    528688
+                  ]
+                }
+              },
+              {
+                "data_type": "uint8",
+                "scale": 1,
+                "offset": 0,
+                "sampling": "area",
+                "statistics": {
+                  "mean": 210.19352703127456,
+                  "minimum": 17,
+                  "maximum": 255,
+                  "stddev": 51.2553798894201,
+                  "valid_percent": 97.0916748046875
+                },
+                "histogram": {
+                  "count": 11,
+                  "min": 17,
+                  "max": 255,
+                  "buckets": [
+                    409,
+                    2497,
+                    9995,
+                    29527,
+                    55140,
+                    86244,
+                    164078,
+                    138976,
+                    3047,
+                    528167
+                  ]
+                }
+              },
+              {
+                "data_type": "uint8",
+                "scale": 1,
+                "offset": 0,
+                "sampling": "area",
+                "statistics": {
+                  "mean": 196.4999057048562,
+                  "minimum": 2,
+                  "maximum": 255,
+                  "stddev": 64.26736061923151,
+                  "valid_percent": 97.0916748046875
+                },
+                "histogram": {
+                  "count": 11,
+                  "min": 2,
+                  "max": 255,
+                  "buckets": [
+                    425,
+                    5315,
+                    25717,
+                    58414,
+                    77900,
+                    178189,
+                    138867,
+                    4685,
+                    642,
+                    527926
+                  ]
+                }
+              }
+            ],
+            "eo:bands": [
+              {
+                "name": "b1",
+                "description": "red"
+              },
+              {
+                "name": "b2",
+                "description": "green"
+              },
+              {
+                "name": "b3",
+                "description": "blue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "collection": "Santa Rita Experimental Range",
+        "stac_version": "1.0.0",
+        "stac_extensions": [
+          "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
+          "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+          "https://stac-extensions.github.io/eo/v1.0.0/schema.json"
+        ],
+        "id": "8_2_ortho_cog.tif",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -110.86698532104494,
+                31.784946474922037
+              ],
+              [
+                -110.863938331604,
+                31.784946474922037
+              ],
+              [
+                -110.863938331604,
+                31.78702577607688
+              ],
+              [
+                -110.86698532104494,
+                31.78702577607688
+              ],
+              [
+                -110.86698532104494,
+                31.784946474922037
+              ]
+            ]
+          ]
+        },
+        "bbox": [
+          -110.86698532104494,
+          31.784946474922037,
+          -110.863938331604,
+          31.78702577607688
+        ],
+        "properties": {
+          "proj:epsg": 3857,
+          "proj:geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -12341656.351724058,
+                  3735114.4964122083
+                ],
+                [
+                  -12341317.162411042,
+                  3735114.4964122083
+                ],
+                [
+                  -12341317.162411042,
+                  3735386.8033254743
+                ],
+                [
+                  -12341656.351724058,
+                  3735386.8033254743
+                ],
+                [
+                  -12341656.351724058,
+                  3735114.4964122083
+                ]
+              ]
+            ]
+          },
+          "proj:bbox": [
+            -12341656.351724058,
+            3735114.4964122083,
+            -12341317.162411042,
+            3735386.8033254743
+          ],
+          "proj:shape": [
+            14592,
+            18176
+          ],
+          "proj:transform": [
+            0.018661383858760556,
+            0,
+            -12341656.351724058,
+            0,
+            -0.018661383858686844,
+            3735386.8033254743,
+            0,
+            0,
+            1
+          ],
+          "proj:projjson": {
+            "$schema": "https://proj.org/schemas/v0.4/projjson.schema.json",
+            "type": "ProjectedCRS",
+            "name": "WGS 84 / Pseudo-Mercator",
+            "base_crs": {
+              "name": "WGS 84",
+              "datum": {
+                "type": "GeodeticReferenceFrame",
+                "name": "World Geodetic System 1984",
+                "ellipsoid": {
+                  "name": "WGS 84",
+                  "semi_major_axis": 6378137,
+                  "inverse_flattening": 298.257223563
+                }
+              },
+              "coordinate_system": {
+                "subtype": "ellipsoidal",
+                "axis": [
+                  {
+                    "name": "Latitude",
+                    "abbreviation": "lat",
+                    "direction": "north",
+                    "unit": "degree"
+                  },
+                  {
+                    "name": "Longitude",
+                    "abbreviation": "lon",
+                    "direction": "east",
+                    "unit": "degree"
+                  }
+                ]
+              },
+              "id": {
+                "authority": "EPSG",
+                "code": 4326
+              }
+            },
+            "conversion": {
+              "name": "unnamed",
+              "method": {
+                "name": "Popular Visualisation Pseudo Mercator",
+                "id": {
+                  "authority": "EPSG",
+                  "code": 1024
+                }
+              },
+              "parameters": [
+                {
+                  "name": "Latitude of natural origin",
+                  "value": 0,
+                  "unit": "degree",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8801
+                  }
+                },
+                {
+                  "name": "Longitude of natural origin",
+                  "value": 0,
+                  "unit": "degree",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8802
+                  }
+                },
+                {
+                  "name": "False easting",
+                  "value": 0,
+                  "unit": "metre",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8806
+                  }
+                },
+                {
+                  "name": "False northing",
+                  "value": 0,
+                  "unit": "metre",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8807
+                  }
+                }
+              ]
+            },
+            "coordinate_system": {
+              "subtype": "Cartesian",
+              "axis": [
+                {
+                  "name": "Easting",
+                  "abbreviation": "",
+                  "direction": "east",
+                  "unit": "metre"
+                },
+                {
+                  "name": "Northing",
+                  "abbreviation": "",
+                  "direction": "north",
+                  "unit": "metre"
+                }
+              ]
+            },
+            "id": {
+              "authority": "EPSG",
+              "code": 3857
+            }
+          },
+          "datetime": "2023-04-19T15:33:53.366606Z"
+        },
+        "links": [],
+        "assets": {
+          "data": {
+            "href": "https://data.cyverse.org/dav-anon/iplant/home/jgillan/STAC_drone/8_2_ortho_cog.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "raster:bands": [
+              {
+                "data_type": "uint8",
+                "scale": 1,
+                "offset": 0,
+                "sampling": "area",
+                "statistics": {
+                  "mean": 213.99853981708134,
+                  "minimum": 6,
+                  "maximum": 255,
+                  "stddev": 58.512345563804544,
+                  "valid_percent": 97.43435791312272
+                },
+                "histogram": {
+                  "count": 11,
+                  "min": 6,
+                  "max": 255,
+                  "buckets": [
+                    3910,
+                    11625,
+                    18301,
+                    26093,
+                    33687,
+                    46372,
+                    77881,
+                    76395,
+                    34962,
+                    491904
+                  ]
+                }
+              },
+              {
+                "data_type": "uint8",
+                "scale": 1,
+                "offset": 0,
+                "sampling": "area",
+                "statistics": {
+                  "mean": 211.27662489496183,
+                  "minimum": 9,
+                  "maximum": 255,
+                  "stddev": 59.7779531192141,
+                  "valid_percent": 97.43435791312272
+                },
+                "histogram": {
+                  "count": 11,
+                  "min": 9,
+                  "max": 255,
+                  "buckets": [
+                    4331,
+                    12342,
+                    17156,
+                    26553,
+                    39034,
+                    67872,
+                    95539,
+                    53809,
+                    15041,
+                    489453
+                  ]
+                }
+              },
+              {
+                "data_type": "uint8",
+                "scale": 1,
+                "offset": 0,
+                "sampling": "area",
+                "statistics": {
+                  "mean": 200.99458429237757,
+                  "minimum": 1,
+                  "maximum": 255,
+                  "stddev": 70.06500970444998,
+                  "valid_percent": 97.43435791312272
+                },
+                "histogram": {
+                  "count": 11,
+                  "min": 1,
+                  "max": 255,
+                  "buckets": [
+                    3614,
+                    17783,
+                    30541,
+                    43182,
+                    63098,
+                    108992,
+                    50933,
+                    10576,
+                    3645,
+                    488766
+                  ]
+                }
+              }
+            ],
+            "eo:bands": [
+              {
+                "name": "b1",
+                "description": "red"
+              },
+              {
+                "name": "b2",
+                "description": "green"
+              },
+              {
+                "name": "b3",
+                "description": "blue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "collection": "Santa Rita Experimental Range",
+        "stac_version": "1.0.0",
+        "stac_extensions": [
+          "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
+          "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+          "https://stac-extensions.github.io/eo/v1.0.0/schema.json"
+        ],
+        "id": "9_g1_ortho_cog.tif",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -110.87994575500488,
+                31.78111606091648
+              ],
+              [
+                -110.87646961212158,
+                31.78111606091648
+              ],
+              [
+                -110.87646961212158,
+                31.78410744542564
+              ],
+              [
+                -110.87994575500488,
+                31.78410744542564
+              ],
+              [
+                -110.87994575500488,
+                31.78111606091648
+              ]
+            ]
+          ]
+        },
+        "bbox": [
+          -110.87994575500488,
+          31.78111606091648,
+          -110.87646961212158,
+          31.78410744542564
+        ],
+        "properties": {
+          "proj:epsg": 3857,
+          "proj:geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -12343099.10063294,
+                  3734612.878414087
+                ],
+                [
+                  -12342712.138177246,
+                  3734612.878414087
+                ],
+                [
+                  -12342712.138177246,
+                  3735004.6181840487
+                ],
+                [
+                  -12343099.10063294,
+                  3735004.6181840487
+                ],
+                [
+                  -12343099.10063294,
+                  3734612.878414087
+                ]
+              ]
+            ]
+          },
+          "proj:bbox": [
+            -12343099.10063294,
+            3734612.878414087,
+            -12342712.138177246,
+            3735004.6181840487
+          ],
+          "proj:shape": [
+            20992,
+            20736
+          ],
+          "proj:transform": [
+            0.018661383858682115,
+            0,
+            -12343099.10063294,
+            0,
+            -0.01866138385869307,
+            3735004.6181840487,
+            0,
+            0,
+            1
+          ],
+          "proj:projjson": {
+            "$schema": "https://proj.org/schemas/v0.4/projjson.schema.json",
+            "type": "ProjectedCRS",
+            "name": "WGS 84 / Pseudo-Mercator",
+            "base_crs": {
+              "name": "WGS 84",
+              "datum": {
+                "type": "GeodeticReferenceFrame",
+                "name": "World Geodetic System 1984",
+                "ellipsoid": {
+                  "name": "WGS 84",
+                  "semi_major_axis": 6378137,
+                  "inverse_flattening": 298.257223563
+                }
+              },
+              "coordinate_system": {
+                "subtype": "ellipsoidal",
+                "axis": [
+                  {
+                    "name": "Latitude",
+                    "abbreviation": "lat",
+                    "direction": "north",
+                    "unit": "degree"
+                  },
+                  {
+                    "name": "Longitude",
+                    "abbreviation": "lon",
+                    "direction": "east",
+                    "unit": "degree"
+                  }
+                ]
+              },
+              "id": {
+                "authority": "EPSG",
+                "code": 4326
+              }
+            },
+            "conversion": {
+              "name": "unnamed",
+              "method": {
+                "name": "Popular Visualisation Pseudo Mercator",
+                "id": {
+                  "authority": "EPSG",
+                  "code": 1024
+                }
+              },
+              "parameters": [
+                {
+                  "name": "Latitude of natural origin",
+                  "value": 0,
+                  "unit": "degree",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8801
+                  }
+                },
+                {
+                  "name": "Longitude of natural origin",
+                  "value": 0,
+                  "unit": "degree",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8802
+                  }
+                },
+                {
+                  "name": "False easting",
+                  "value": 0,
+                  "unit": "metre",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8806
+                  }
+                },
+                {
+                  "name": "False northing",
+                  "value": 0,
+                  "unit": "metre",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8807
+                  }
+                }
+              ]
+            },
+            "coordinate_system": {
+              "subtype": "Cartesian",
+              "axis": [
+                {
+                  "name": "Easting",
+                  "abbreviation": "",
+                  "direction": "east",
+                  "unit": "metre"
+                },
+                {
+                  "name": "Northing",
+                  "abbreviation": "",
+                  "direction": "north",
+                  "unit": "metre"
+                }
+              ]
+            },
+            "id": {
+              "authority": "EPSG",
+              "code": 3857
+            }
+          },
+          "datetime": "2023-04-19T15:28:42.246182Z"
+        },
+        "links": [],
+        "assets": {
+          "data": {
+            "href": "https://data.cyverse.org/dav-anon/iplant/home/jgillan/STAC_drone/9_g1_ortho_cog.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "raster:bands": [
+              {
+                "data_type": "uint8",
+                "scale": 1,
+                "offset": 0,
+                "sampling": "area",
+                "statistics": {
+                  "mean": 230.34159524089077,
+                  "minimum": 12,
+                  "maximum": 255,
+                  "stddev": 43.14796250500202,
+                  "valid_percent": 98.62509263833992
+                },
+                "histogram": {
+                  "count": 11,
+                  "min": 12,
+                  "max": 255,
+                  "buckets": [
+                    391,
+                    2467,
+                    6966,
+                    16299,
+                    25810,
+                    37636,
+                    60568,
+                    90499,
+                    66295,
+                    715109
+                  ]
+                }
+              },
+              {
+                "data_type": "uint8",
+                "scale": 1,
+                "offset": 0,
+                "sampling": "area",
+                "statistics": {
+                  "mean": 225.46621756487025,
+                  "minimum": 12,
+                  "maximum": 255,
+                  "stddev": 48.24465442668367,
+                  "valid_percent": 98.62509263833992
+                },
+                "histogram": {
+                  "count": 11,
+                  "min": 12,
+                  "max": 255,
+                  "buckets": [
+                    512,
+                    3073,
+                    7794,
+                    18803,
+                    35359,
+                    58057,
+                    115724,
+                    62086,
+                    10400,
+                    710232
+                  ]
+                }
+              },
+              {
+                "data_type": "uint8",
+                "scale": 1,
+                "offset": 0,
+                "sampling": "area",
+                "statistics": {
+                  "mean": 216.48707682673867,
+                  "minimum": 1,
+                  "maximum": 255,
+                  "stddev": 60.438215044509334,
+                  "valid_percent": 98.62509263833992
+                },
+                "histogram": {
+                  "count": 11,
+                  "min": 1,
+                  "max": 255,
+                  "buckets": [
+                    640,
+                    5349,
+                    16639,
+                    33420,
+                    63600,
+                    141533,
+                    39485,
+                    9098,
+                    3071,
+                    709205
+                  ]
+                }
+              }
+            ],
+            "eo:bands": [
+              {
+                "name": "b1",
+                "description": "red"
+              },
+              {
+                "name": "b2",
+                "description": "green"
+              },
+              {
+                "name": "b3",
+                "description": "blue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "collection": "Santa Rita Experimental Range",
+        "stac_version": "1.0.0",
+        "stac_extensions": [
+          "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
+          "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+          "https://stac-extensions.github.io/eo/v1.0.0/schema.json"
+        ],
+        "id": "35a_u1_ortho.tif",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -110.887491179698,
+                31.8126809290365
+              ],
+              [
+                -110.884895266668,
+                31.8126809290365
+              ],
+              [
+                -110.884895266668,
+                31.8145434442845
+              ],
+              [
+                -110.887491179698,
+                31.8145434442845
+              ],
+              [
+                -110.887491179698,
+                31.8126809290365
+              ]
+            ]
+          ]
+        },
+        "bbox": [
+          -110.887491179698,
+          31.8126809290365,
+          -110.884895266668,
+          31.8145434442845
         ],
         "properties": {
           "proj:epsg": 4326,
@@ -51,45 +1032,45 @@
             "coordinates": [
               [
                 [
-                  -110.857684042126,
-                  31.7763663413637
+                  -110.887491179698,
+                  31.8126809290365
                 ],
                 [
-                  -110.85464043957799,
-                  31.7763663413637
+                  -110.884895266668,
+                  31.8126809290365
                 ],
                 [
-                  -110.85464043957799,
-                  31.7789479713657
+                  -110.884895266668,
+                  31.8145434442845
                 ],
                 [
-                  -110.857684042126,
-                  31.7789479713657
+                  -110.887491179698,
+                  31.8145434442845
                 ],
                 [
-                  -110.857684042126,
-                  31.7763663413637
+                  -110.887491179698,
+                  31.8126809290365
                 ]
               ]
             ]
           },
           "proj:bbox": [
-            -110.857684042126,
-            31.7763663413637,
-            -110.85464043957799,
-            31.7789479713657
+            -110.887491179698,
+            31.8126809290365,
+            -110.884895266668,
+            31.8145434442845
           ],
           "proj:shape": [
-            23382,
-            23548
+            17061,
+            20305
           ],
           "proj:transform": [
-            1.2925100000018206e-7,
+            1.278460000003257e-7,
             0,
-            -110.857684042126,
+            -110.887491179698,
             0,
-            -1.1041099999992695e-7,
-            31.7789479713657,
+            -1.0916799999999132e-7,
+            31.8145434442845,
             0,
             0,
             1
@@ -257,12 +1238,12 @@
               ]
             }
           },
-          "datetime": "2023-04-11T16:33:51.105022Z"
+          "datetime": "2023-04-19T00:27:15.985685Z"
         },
         "links": [],
         "assets": {
           "data": {
-            "href": "https://data.cyverse.org/dav-anon/iplant/commons/cyverse_curated/Gillan_Ecosphere_2021/raster_products/May_2019/15_g2_products/15_g2_ortho.tif",
+            "href": "https://data.cyverse.org/dav-anon/iplant/commons/cyverse_curated/Gillan_Ecosphere_2021/raster_products/May_2019/35a_u1_products/35a_u1_ortho.tif",
             "type": "image/tiff; application=geotiff",
             "raster:bands": [
               {
@@ -272,89 +1253,89 @@
                 "sampling": "area",
                 "unit": "metre",
                 "statistics": {
-                  "mean": 211.72905335853,
-                  "minimum": 9,
-                  "maximum": 255,
-                  "stddev": 51.3327053716147,
-                  "valid_percent": 0.00009602384464110128
-                },
-                "histogram": {
-                  "count": 11,
-                  "min": 9,
-                  "max": 255,
-                  "buckets": [
-                    160,
-                    2126,
-                    13318,
-                    32319,
-                    48467,
-                    63372,
-                    124621,
-                    183459,
-                    36861,
-                    536705
-                  ]
-                }
-              },
-              {
-                "data_type": "uint8",
-                "scale": 1,
-                "offset": 0,
-                "sampling": "area",
-                "unit": "metre",
-                "statistics": {
-                  "mean": 208.37602745513766,
-                  "minimum": 13,
-                  "maximum": 255,
-                  "stddev": 52.29911637194262,
-                  "valid_percent": 0.00009602384464110128
-                },
-                "histogram": {
-                  "count": 11,
-                  "min": 13,
-                  "max": 255,
-                  "buckets": [
-                    211,
-                    1836,
-                    8979,
-                    29655,
-                    59712,
-                    97677,
-                    190667,
-                    115715,
-                    400,
-                    536556
-                  ]
-                }
-              },
-              {
-                "data_type": "uint8",
-                "scale": 1,
-                "offset": 0,
-                "sampling": "area",
-                "unit": "metre",
-                "statistics": {
-                  "mean": 194.74026510263027,
+                  "mean": 205.80944214576076,
                   "minimum": 7,
                   "maximum": 255,
-                  "stddev": 65.38326961822062,
-                  "valid_percent": 0.00009602384464110128
+                  "stddev": 54.30951993491869,
+                  "valid_percent": 0.00011342189314750291
                 },
                 "histogram": {
                   "count": 11,
                   "min": 7,
                   "max": 255,
                   "buckets": [
-                    424,
-                    7248,
-                    34799,
-                    65128,
-                    83070,
-                    219025,
-                    94189,
-                    969,
+                    231,
+                    3798,
+                    18567,
+                    41848,
+                    46863,
+                    49494,
+                    94717,
+                    126587,
+                    118622,
+                    380937
+                  ]
+                }
+              },
+              {
+                "data_type": "uint8",
+                "scale": 1,
+                "offset": 0,
+                "sampling": "area",
+                "unit": "metre",
+                "statistics": {
+                  "mean": 200.31415595963995,
+                  "minimum": 8,
+                  "maximum": 255,
+                  "stddev": 53.88375589108549,
+                  "valid_percent": 0.00011342189314750291
+                },
+                "histogram": {
+                  "count": 11,
+                  "min": 8,
+                  "max": 255,
+                  "buckets": [
+                    185,
+                    2420,
+                    10194,
+                    33272,
+                    67182,
+                    76027,
+                    145127,
+                    164274,
+                    5811,
+                    377172
+                  ]
+                }
+              },
+              {
+                "data_type": "uint8",
+                "scale": 1,
+                "offset": 0,
+                "sampling": "area",
+                "unit": "metre",
+                "statistics": {
+                  "mean": 181.8292490109611,
+                  "minimum": 3,
+                  "maximum": 255,
+                  "stddev": 67.48775654460273,
+                  "valid_percent": 0.00011342189314750291
+                },
+                "histogram": {
+                  "count": 11,
+                  "min": 3,
+                  "max": 255,
+                  "buckets": [
+                    753,
+                    9297,
+                    41136,
+                    68777,
+                    74944,
+                    227677,
+                    81783,
+                    125,
                     0,
-                    536556
+                    377172
                   ]
                 }
               }
@@ -391,33 +1372,33 @@
           "coordinates": [
             [
               [
-                -110.887101133618,
-                31.811103854589398
+                -110.88731036534,
+                31.8109444965928
               ],
               [
-                -110.884909950313,
-                31.811103854589398
+                -110.884672430915,
+                31.8109444965928
               ],
               [
-                -110.884909950313,
-                31.8128838057904
+                -110.884672430915,
+                31.8130591450936
               ],
               [
-                -110.887101133618,
-                31.8128838057904
+                -110.88731036534,
+                31.8130591450936
               ],
               [
-                -110.887101133618,
-                31.811103854589398
+                -110.88731036534,
+                31.8109444965928
               ]
             ]
           ]
         },
         "bbox": [
-          -110.887101133618,
-          31.811103854589398,
-          -110.884909950313,
-          31.8128838057904
+          -110.88731036534,
+          31.8109444965928,
+          -110.884672430915,
+          31.8130591450936
         ],
         "properties": {
           "proj:epsg": 4326,
@@ -426,45 +1407,45 @@
             "coordinates": [
               [
                 [
-                  -110.887101133618,
-                  31.811103854589398
+                  -110.88731036534,
+                  31.8109444965928
                 ],
                 [
-                  -110.884909950313,
-                  31.811103854589398
+                  -110.884672430915,
+                  31.8109444965928
                 ],
                 [
-                  -110.884909950313,
-                  31.8128838057904
+                  -110.884672430915,
+                  31.8130591450936
                 ],
                 [
-                  -110.887101133618,
-                  31.8128838057904
+                  -110.88731036534,
+                  31.8130591450936
                 ],
                 [
-                  -110.887101133618,
-                  31.811103854589398
+                  -110.88731036534,
+                  31.8109444965928
                 ]
               ]
             ]
           },
           "proj:bbox": [
-            -110.887101133618,
-            31.811103854589398,
-            -110.884909950313,
-            31.8128838057904
+            -110.88731036534,
+            31.8109444965928,
+            -110.884672430915,
+            31.8130591450936
           ],
           "proj:shape": [
-            17463,
-            18357
+            23448,
+            24975
           ],
           "proj:transform": [
-            1.193650000000671e-7,
+            1.0562299999984172e-7,
             0,
-            -110.887101133618,
+            -110.88731036534,
             0,
-            -1.0192700000008561e-7,
-            31.8128838057904,
+            -9.01846000000146e-8,
+            31.8130591450936,
             0,
             0,
             1
@@ -632,12 +1613,12 @@
               ]
             }
           },
-          "datetime": "2023-04-11T16:35:40.786704Z"
+          "datetime": "2023-04-19T00:19:41.095531Z"
         },
         "links": [],
         "assets": {
           "data": {
-            "href": "https://data.cyverse.org/dav-anon/iplant/commons/cyverse_curated/Gillan_Ecosphere_2021/raster_products/May_2019/1a_g2_products/1a_g2_ortho.tif",
+            "href": "https://data.cyverse.org/dav-anon/iplant/home/jgillan/STAC_drone/1a_g2_ortho.tif",
             "type": "image/tiff; application=geotiff",
             "raster:bands": [
               {
@@ -647,27 +1628,27 @@
                 "sampling": "area",
                 "unit": "metre",
                 "statistics": {
-                  "mean": 196.0608122996795,
-                  "minimum": 14,
+                  "mean": 227.96525792619542,
+                  "minimum": 4,
                   "maximum": 255,
-                  "stddev": 52.54872392550692,
-                  "valid_percent": 0.00010016025641025641
+                  "stddev": 47.632920175936505,
+                  "valid_percent": 0.0001015137733887734
                 },
                 "histogram": {
                   "count": 11,
-                  "min": 14,
+                  "min": 4,
                   "max": 255,
                   "buckets": [
-                    588,
-                    4606,
-                    23447,
-                    60278,
-                    65177,
-                    67832,
-                    132423,
-                    197835,
-                    134819,
-                    311395
+                    386,
+                    2689,
+                    8248,
+                    21698,
+                    35028,
+                    40391,
+                    52040,
+                    70567,
+                    62923,
+                    691118
                   ]
                 }
               },
@@ -678,27 +1659,27 @@
                 "sampling": "area",
                 "unit": "metre",
                 "statistics": {
-                  "mean": 190.33340845352564,
-                  "minimum": 17,
+                  "mean": 224.96802620679574,
+                  "minimum": 4,
                   "maximum": 255,
-                  "stddev": 51.03325361389477,
-                  "valid_percent": 0.00010016025641025641
+                  "stddev": 49.49941304102586,
+                  "valid_percent": 0.0001015137733887734
                 },
                 "histogram": {
                   "count": 11,
-                  "min": 17,
+                  "min": 4,
                   "max": 255,
                   "buckets": [
-                    588,
-                    3502,
-                    12918,
-                    52845,
-                    89157,
-                    99859,
-                    220739,
-                    205700,
-                    4247,
-                    308845
+                    312,
+                    2242,
+                    6538,
+                    17755,
+                    41923,
+                    58367,
+                    77376,
+                    85833,
+                    8529,
+                    686213
                   ]
                 }
               },
@@ -709,27 +1690,700 @@
                 "sampling": "area",
                 "unit": "metre",
                 "statistics": {
-                  "mean": 169.35512319711538,
-                  "minimum": 16,
+                  "mean": 215.5310256545608,
+                  "minimum": 0,
                   "maximum": 255,
-                  "stddev": 62.625333389182195,
-                  "valid_percent": 0.00010016025641025641
+                  "stddev": 62.07965657442036,
+                  "valid_percent": 0.0001015137733887734
                 },
                 "histogram": {
                   "count": 11,
-                  "min": 16,
+                  "min": 0,
                   "max": 255,
                   "buckets": [
-                    1269,
-                    14802,
-                    72429,
-                    90487,
-                    109249,
-                    310677,
-                    90099,
-                    543,
+                    540,
+                    4246,
+                    17871,
+                    46935,
+                    65932,
+                    108735,
+                    53564,
+                    1051,
+                    1,
+                    686213
+                  ]
+                }
+              }
+            ],
+            "eo:bands": [
+              {
+                "name": "b1",
+                "description": "red"
+              },
+              {
+                "name": "b2",
+                "description": "green"
+              },
+              {
+                "name": "b3",
+                "description": "blue"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "collection": "Santa Rita Experimental Range",
+        "stac_version": "1.0.0",
+        "stac_extensions": [
+          "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
+          "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+          "https://stac-extensions.github.io/eo/v1.0.0/schema.json"
+        ],
+        "id": "21_7_ortho_cog.tif",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -110.8334255218506,
+                31.805336198207687
+              ],
+              [
+                -110.82879066467284,
+                31.805336198207687
+              ],
+              [
+                -110.82879066467284,
+                31.808290328799202
+              ],
+              [
+                -110.8334255218506,
+                31.808290328799202
+              ],
+              [
+                -110.8334255218506,
+                31.805336198207687
+              ]
+            ]
+          ]
+        },
+        "bbox": [
+          -110.8334255218506,
+          31.805336198207687,
+          -110.82879066467284,
+          31.808290328799202
+        ],
+        "properties": {
+          "proj:epsg": 3857,
+          "proj:geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -12337920.49196662,
+                  3737785.015087923
+                ],
+                [
+                  -12337404.542025693,
+                  3737785.015087923
+                ],
+                [
+                  -12337404.542025693,
+                  3738171.9775436167
+                ],
+                [
+                  -12337920.49196662,
+                  3738171.9775436167
+                ],
+                [
+                  -12337920.49196662,
+                  3737785.015087923
+                ]
+              ]
+            ]
+          },
+          "proj:bbox": [
+            -12337920.49196662,
+            3737785.015087923,
+            -12337404.542025693,
+            3738171.9775436167
+          ],
+          "proj:shape": [
+            20736,
+            27648
+          ],
+          "proj:transform": [
+            0.018661383858771943,
+            0,
+            -12337920.49196662,
+            0,
+            -0.018661383858682115,
+            3738171.9775436167,
+            0,
+            0,
+            1
+          ],
+          "proj:projjson": {
+            "$schema": "https://proj.org/schemas/v0.4/projjson.schema.json",
+            "type": "ProjectedCRS",
+            "name": "WGS 84 / Pseudo-Mercator",
+            "base_crs": {
+              "name": "WGS 84",
+              "datum": {
+                "type": "GeodeticReferenceFrame",
+                "name": "World Geodetic System 1984",
+                "ellipsoid": {
+                  "name": "WGS 84",
+                  "semi_major_axis": 6378137,
+                  "inverse_flattening": 298.257223563
+                }
+              },
+              "coordinate_system": {
+                "subtype": "ellipsoidal",
+                "axis": [
+                  {
+                    "name": "Latitude",
+                    "abbreviation": "lat",
+                    "direction": "north",
+                    "unit": "degree"
+                  },
+                  {
+                    "name": "Longitude",
+                    "abbreviation": "lon",
+                    "direction": "east",
+                    "unit": "degree"
+                  }
+                ]
+              },
+              "id": {
+                "authority": "EPSG",
+                "code": 4326
+              }
+            },
+            "conversion": {
+              "name": "unnamed",
+              "method": {
+                "name": "Popular Visualisation Pseudo Mercator",
+                "id": {
+                  "authority": "EPSG",
+                  "code": 1024
+                }
+              },
+              "parameters": [
+                {
+                  "name": "Latitude of natural origin",
+                  "value": 0,
+                  "unit": "degree",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8801
+                  }
+                },
+                {
+                  "name": "Longitude of natural origin",
+                  "value": 0,
+                  "unit": "degree",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8802
+                  }
+                },
+                {
+                  "name": "False easting",
+                  "value": 0,
+                  "unit": "metre",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8806
+                  }
+                },
+                {
+                  "name": "False northing",
+                  "value": 0,
+                  "unit": "metre",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8807
+                  }
+                }
+              ]
+            },
+            "coordinate_system": {
+              "subtype": "Cartesian",
+              "axis": [
+                {
+                  "name": "Easting",
+                  "abbreviation": "",
+                  "direction": "east",
+                  "unit": "metre"
+                },
+                {
+                  "name": "Northing",
+                  "abbreviation": "",
+                  "direction": "north",
+                  "unit": "metre"
+                }
+              ]
+            },
+            "id": {
+              "authority": "EPSG",
+              "code": 3857
+            }
+          },
+          "datetime": "2023-04-18T23:44:43.405866Z"
+        },
+        "links": [],
+        "assets": {
+          "data": {
+            "href": "https://data.cyverse.org/dav-anon/iplant/home/jgillan/STAC_drone/21_7_ortho_cog.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "raster:bands": [
+              {
+                "data_type": "uint8",
+                "scale": 1,
+                "offset": 0,
+                "sampling": "area",
+                "unit": "metre",
+                "statistics": {
+                  "mean": 146.43751858025166,
+                  "minimum": 0,
+                  "maximum": 255,
+                  "stddev": 44.26850984632996,
+                  "valid_percent": 38.067754109700516
+                },
+                "histogram": {
+                  "count": 11,
+                  "min": 0,
+                  "max": 255,
+                  "buckets": [
+                    573,
+                    3810,
+                    16761,
+                    36360,
+                    43802,
+                    41617,
+                    80322,
+                    52627,
+                    20381,
+                    3124
+                  ]
+                }
+              },
+              {
+                "data_type": "uint8",
+                "scale": 1,
+                "offset": 0,
+                "sampling": "area",
+                "unit": "metre",
+                "statistics": {
+                  "mean": 143.79477715388958,
+                  "minimum": 0,
+                  "maximum": 255,
+                  "stddev": 36.94725236855165,
+                  "valid_percent": 38.067754109700516
+                },
+                "histogram": {
+                  "count": 11,
+                  "min": 0,
+                  "max": 255,
+                  "buckets": [
+                    514,
+                    2685,
+                    12384,
+                    29125,
+                    47817,
+                    60141,
+                    99862,
+                    39267,
+                    7216,
+                    366
+                  ]
+                }
+              },
+              {
+                "data_type": "uint8",
+                "scale": 1,
+                "offset": 0,
+                "sampling": "area",
+                "unit": "metre",
+                "statistics": {
+                  "mean": 117.64585121769541,
+                  "minimum": 0,
+                  "maximum": 255,
+                  "stddev": 35.46110460594096,
+                  "valid_percent": 38.067754109700516
+                },
+                "histogram": {
+                  "count": 11,
+                  "min": 0,
+                  "max": 255,
+                  "buckets": [
+                    871,
+                    8085,
+                    38447,
+                    55663,
+                    49483,
+                    102722,
+                    40232,
+                    3481,
+                    122,
+                    271
+                  ]
+                }
+              },
+              {
+                "data_type": "uint8",
+                "scale": 1,
+                "offset": 0,
+                "sampling": "area",
+                "unit": "metre",
+                "statistics": {
+                  "mean": 97.07277297973633,
+                  "minimum": 0,
+                  "maximum": 255,
+                  "stddev": 123.81612922336639,
+                  "valid_percent": 100
+                },
+                "histogram": {
+                  "count": 11,
+                  "min": 0,
+                  "max": 255,
+                  "buckets": [
+                    487055,
                     0,
-                    308845
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    299377
+                  ]
+                }
+              }
+            ],
+            "eo:bands": [
+              {
+                "name": "b1",
+                "description": "red"
+              },
+              {
+                "name": "b2",
+                "description": "green"
+              },
+              {
+                "name": "b3",
+                "description": "blue"
+              },
+              {
+                "name": "b4",
+                "description": "alpha"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "collection": "Santa Rita Experimental Range",
+        "stac_version": "1.0.0",
+        "stac_extensions": [
+          "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
+          "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+          "https://stac-extensions.github.io/eo/v1.0.0/schema.json"
+        ],
+        "id": "22_2_ortho_cog.tif",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -110.84844589233397,
+                31.78279416658182
+              ],
+              [
+                -110.84432601928711,
+                31.78279416658182
+              ],
+              [
+                -110.84432601928711,
+                31.78582197584454
+              ],
+              [
+                -110.84844589233397,
+                31.78582197584454
+              ],
+              [
+                -110.84844589233397,
+                31.78279416658182
+              ]
+            ]
+          ]
+        },
+        "bbox": [
+          -110.84844589233397,
+          31.78279416658182,
+          -110.84432601928711,
+          31.78582197584454
+        ],
+        "properties": {
+          "proj:epsg": 3857,
+          "proj:geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -12339592.551960357,
+                  3734832.634870408
+                ],
+                [
+                  -12339133.929790646,
+                  3734832.634870408
+                ],
+                [
+                  -12339133.929790646,
+                  3735229.151954636
+                ],
+                [
+                  -12339592.551960357,
+                  3735229.151954636
+                ],
+                [
+                  -12339592.551960357,
+                  3734832.634870408
+                ]
+              ]
+            ]
+          },
+          "proj:bbox": [
+            -12339592.551960357,
+            3734832.634870408,
+            -12339133.929790646,
+            3735229.151954636
+          ],
+          "proj:shape": [
+            21248,
+            24576
+          ],
+          "proj:transform": [
+            0.018661383858670888,
+            0,
+            -12339592.551960357,
+            0,
+            -0.0186613838586161,
+            3735229.151954636,
+            0,
+            0,
+            1
+          ],
+          "proj:projjson": {
+            "$schema": "https://proj.org/schemas/v0.4/projjson.schema.json",
+            "type": "ProjectedCRS",
+            "name": "WGS 84 / Pseudo-Mercator",
+            "base_crs": {
+              "name": "WGS 84",
+              "datum": {
+                "type": "GeodeticReferenceFrame",
+                "name": "World Geodetic System 1984",
+                "ellipsoid": {
+                  "name": "WGS 84",
+                  "semi_major_axis": 6378137,
+                  "inverse_flattening": 298.257223563
+                }
+              },
+              "coordinate_system": {
+                "subtype": "ellipsoidal",
+                "axis": [
+                  {
+                    "name": "Latitude",
+                    "abbreviation": "lat",
+                    "direction": "north",
+                    "unit": "degree"
+                  },
+                  {
+                    "name": "Longitude",
+                    "abbreviation": "lon",
+                    "direction": "east",
+                    "unit": "degree"
+                  }
+                ]
+              },
+              "id": {
+                "authority": "EPSG",
+                "code": 4326
+              }
+            },
+            "conversion": {
+              "name": "unnamed",
+              "method": {
+                "name": "Popular Visualisation Pseudo Mercator",
+                "id": {
+                  "authority": "EPSG",
+                  "code": 1024
+                }
+              },
+              "parameters": [
+                {
+                  "name": "Latitude of natural origin",
+                  "value": 0,
+                  "unit": "degree",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8801
+                  }
+                },
+                {
+                  "name": "Longitude of natural origin",
+                  "value": 0,
+                  "unit": "degree",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8802
+                  }
+                },
+                {
+                  "name": "False easting",
+                  "value": 0,
+                  "unit": "metre",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8806
+                  }
+                },
+                {
+                  "name": "False northing",
+                  "value": 0,
+                  "unit": "metre",
+                  "id": {
+                    "authority": "EPSG",
+                    "code": 8807
+                  }
+                }
+              ]
+            },
+            "coordinate_system": {
+              "subtype": "Cartesian",
+              "axis": [
+                {
+                  "name": "Easting",
+                  "abbreviation": "",
+                  "direction": "east",
+                  "unit": "metre"
+                },
+                {
+                  "name": "Northing",
+                  "abbreviation": "",
+                  "direction": "north",
+                  "unit": "metre"
+                }
+              ]
+            },
+            "id": {
+              "authority": "EPSG",
+              "code": 3857
+            }
+          },
+          "datetime": "2023-04-18T22:54:33.784353Z"
+        },
+        "links": [],
+        "assets": {
+          "data": {
+            "href": "https://data.cyverse.org/dav-anon/iplant/home/jgillan/STAC_drone/22_2_ortho_cog.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "raster:bands": [
+              {
+                "data_type": "uint8",
+                "scale": 1,
+                "offset": 0,
+                "sampling": "area",
+                "unit": "metre",
+                "statistics": {
+                  "mean": 172.4348963500946,
+                  "minimum": 19,
+                  "maximum": 237,
+                  "stddev": 31.338736216502248,
+                  "valid_percent": 33.32701396726862
+                },
+                "histogram": {
+                  "count": 11,
+                  "min": 19,
+                  "max": 237,
+                  "buckets": [
+                    130,
+                    1124,
+                    3991,
+                    8155,
+                    15230,
+                    33279,
+                    59841,
+                    92131,
+                    83410,
+                    5073
+                  ]
+                }
+              },
+              {
+                "data_type": "uint8",
+                "scale": 1,
+                "offset": 0,
+                "sampling": "area",
+                "unit": "metre",
+                "statistics": {
+                  "mean": 161.06594369700096,
+                  "minimum": 25,
+                  "maximum": 227,
+                  "stddev": 25.554417450007016,
+                  "valid_percent": 33.32701396726862
+                },
+                "histogram": {
+                  "count": 11,
+                  "min": 25,
+                  "max": 227,
+                  "buckets": [
+                    136,
+                    717,
+                    2580,
+                    7213,
+                    17672,
+                    48363,
+                    75670,
+                    110635,
+                    38085,
+                    1293
+                  ]
+                }
+              },
+              {
+                "data_type": "uint8",
+                "scale": 1,
+                "offset": 0,
+                "sampling": "area",
+                "unit": "metre",
+                "statistics": {
+                  "mean": 134.76739955814847,
+                  "minimum": 19,
+                  "maximum": 204,
+                  "stddev": 20.17316893516504,
+                  "valid_percent": 33.32701396726862
+                },
+                "histogram": {
+                  "count": 11,
+                  "min": 19,
+                  "max": 204,
+                  "buckets": [
+                    176,
+                    973,
+                    3591,
+                    8640,
+                    21079,
+                    58406,
+                    139124,
+                    63992,
+                    6338,
+                    45
                   ]
                 }
               }

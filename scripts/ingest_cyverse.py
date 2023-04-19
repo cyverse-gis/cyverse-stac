@@ -51,7 +51,7 @@ def ingest_ofo_data(app_host: str = app_host, data_dir: Path = ofodata):
         post_or_put(urljoin(app_host, f"collections/{collection['id']}/items"), feat)
 
 
-# Ingest CyVerse Collections 
+# Ingest Arizona Experiment Station Collections 
 
 srerdata =  Path("/app/cyverse-stac/catalogs/arizona-experiment-station")
 
