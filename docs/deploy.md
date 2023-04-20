@@ -378,14 +378,25 @@ https://titiler.cyverse.org/
 
 ### Start Docker
 
-We are running TiTiler with Docker
+We are running TiTiler with Docker:
 
 ```bash
-docker run --name titiler \
-    -p 8000:8000 \
-    --env PORT=8000 \
-    --env WORKERS_PER_CORE=1 \
-    --rm -it ghcr.io/developmentseed/titiler:latest
+docker run \
+--name titiler \
+--env REDIRECT_URL=https://titiler.cyverse.org \
+-p 8000:8000 \
+--env PORT=8000 \
+--env WORKERS_PER_CORE=1 \
+--restart always \
+-d  \
+-it \
+ghcr.io/developmentseed/titiler:latest
+```
+
+To ensure that the container is always alive and is healthy, we are running a `cron` job every 5 minutes to test it and restart it as necessary 
+
+```bash
+*/5 * * * * docker ps -f health=unhealthy --format "docker restart {{.ID}}" | sh
 ```
 
 ### Start CaddyServer
