@@ -69,6 +69,24 @@ def ingest_cyverse_data(app_host: str = app_host, data_dir: Path = srerdata):
     for feat in index["features"]:
         post_or_put(urljoin(app_host, f"collections/{collection['id']}/items"), feat)
 
+# Ingest Gillan test
+
+#testdata =  Path("/app/cyverse-stac/catalogs/gillan-test")
+
+#def ingest_test_data(app_host: str = app_host, data_dir: Path = testdata):
+  #  """ingest data."""
+
+  #  with open(data_dir / "collection.json") as f:
+   #     collection = json.load(f)
+
+   # post_or_put(urljoin(app_host, "/collections"), collection)
+
+   # with open(data_dir / "index.geojson") as f:
+   #     index = json.load(f)
+
+   # for feat in index["features"]:
+   #     post_or_put(urljoin(app_host, f"collections/{collection['id']}/items"), feat)
+
 ## Ingest Joplin Collections
 
 joplindata = Path("/app/cyverse-stac/catalogs/joplin")
@@ -91,4 +109,4 @@ if __name__ == "__main__":
     ingest_cyverse_data()
     ingest_joplin_data()
     ingest_ofo_data()
-
+    #ingest_test_data()
