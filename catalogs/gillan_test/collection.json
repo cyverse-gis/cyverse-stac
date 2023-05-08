@@ -1,0 +1,1094 @@
+{
+  "type": "Collection",
+  "id": "Drone_Imagery_Collection",
+  "stac_version": "1.0.0",
+  "description": "Drone_Imagery",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./15_g2_CHM/15_g2_CHM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./15_g2_DSM/15_g2_DSM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./15_g2_DTM/15_g2_DTM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./15_g2_ortho/15_g2_ortho.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./1a_g2_CHM/1a_g2_CHM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./1a_g2_DSM/1a_g2_DSM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./1a_g2_DTM/1a_g2_DTM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./1a_g2_ortho/1a_g2_ortho.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./1a_u6_DTM/1a_u6_DTM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./1a_u6_ortho/1a_u6_ortho.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./1a_u6_CHM/1a_u6_CHM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./1a_u6_DSM/1a_u6_DSM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./21_2_CHM/21_2_CHM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./21_2_DSM/21_2_DSM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./21_2_DTM/21_2_DTM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./21_2_ortho/21_2_ortho.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./21_3_DSM/21_3_DSM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./21_3_DTM/21_3_DTM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./21_3_ortho/21_3_ortho.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./21_3_CHM/21_3_CHM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./21_5_CHM/21_5_CHM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./21_5_DSM/21_5_DSM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./21_5_DTM/21_5_DTM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./21_5_ortho/21_5_ortho.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./21_6_CHM/21_6_CHM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./21_6_DSM/21_6_DSM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./21_6_DTM/21_6_DTM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./21_6_ortho/21_6_ortho.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./21_7_DTM/21_7_DTM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./21_7_ortho/21_7_ortho.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./21_7_CHM/21_7_CHM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./21_7_DSM/21_7_DSM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./21_8_DTM/21_8_DTM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./21_8_ortho/21_8_ortho.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./21_8_CHM/21_8_CHM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./21_8_DSM/21_8_DSM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./21_9_CHM/21_9_CHM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./21_9_DSM/21_9_DSM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./21_9_DTM/21_9_DTM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./21_9_ortho/21_9_ortho.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./22_1_CHM/22_1_CHM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./22_1_DSM/22_1_DSM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./22_1_DTM/22_1_DTM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./22_1_ortho/22_1_ortho.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./22_2_DTM/22_2_DTM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./22_2_ortho/22_2_ortho.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./22_2_CHM/22_2_CHM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./22_2_DSM/22_2_DSM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./22_3_CHM/22_3_CHM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./22_3_DSM/22_3_DSM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./22_3_DTM/22_3_DTM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./22_3_ortho/22_3_ortho.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./22_5_ortho/22_5_ortho.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./22_5_CHM/22_5_CHM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./22_5_DSM/22_5_DSM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./22_5_DTM/22_5_DTM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./22_6_CHM/22_6_CHM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./22_6_DSM/22_6_DSM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./22_6_DTM/22_6_DTM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./22_6_ortho/22_6_ortho.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./22_9_CHM/22_9_CHM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./22_9_DSM/22_9_DSM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./22_9_DTM/22_9_DTM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./22_9_ortho/22_9_ortho.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./22_g1_DSM/22_g1_DSM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./22_g1_DTM/22_g1_DTM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./22_g1_ortho/22_g1_ortho.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./22_g1_CHM/22_g1_CHM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./23_g1_DSM/23_g1_DSM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./23_g1_DTM/23_g1_DTM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./23_g1_ortho/23_g1_ortho.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./23_g1_CHM/23_g1_CHM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./28_g1_ortho/28_g1_ortho.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./28_g1_CHM/28_g1_CHM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./28_g1_DSM/28_g1_DSM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./28_g1_DTM/28_g1_DTM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./2b_u1_CHM/2b_u1_CHM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./2b_u1_DSM/2b_u1_DSM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./2b_u1_DTM/2b_u1_DTM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./2b_u1_ortho/2b_u1_ortho.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./2n_10w_DSM/2n_10w_DSM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./2n_10w_DTM/2n_10w_DTM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./2n_10w_ortho/2n_10w_ortho.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./2n_10w_CHM/2n_10w_CHM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./2n_1w_DTM/2n_1w_DTM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./2n_1w_ortho/2n_1w_ortho.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./2n_1w_CHM/2n_1w_CHM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./2n_1w_DSM/2n_1w_DSM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./2s_1_DTM/2s_1_DTM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./2s_1_ortho/2s_1_ortho.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./2s_1_CHM/2s_1_CHM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./2s_1_DSM/2s_1_DSM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./2s_2_CHM/2s_2_CHM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./2s_2_DSM/2s_2_DSM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./2s_2_DTM/2s_2_DTM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./2s_2_ortho/2s_2_ortho.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./2s_6_DTM/2s_6_DTM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./2s_6_ortho/2s_6_ortho.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./2s_6_CHM/2s_6_CHM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./2s_6_DSM/2s_6_DSM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./2s_9_CHM/2s_9_CHM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./2s_9_DSM/2s_9_DSM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./2s_9_DTM/2s_9_DTM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./2s_9_ortho/2s_9_ortho.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./35a_u1_CHM/35a_u1_CHM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./35a_u1_DSM/35a_u1_DSM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./35a_u1_DTM/35a_u1_DTM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./35a_u1_ortho/35a_u1_ortho.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./35b_u2_DTM/35b_u2_DTM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./35b_u2_ortho/35b_u2_ortho.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./35b_u2_CHM/35b_u2_CHM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./35b_u2_DSM/35b_u2_DSM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./40_g1_CHM/40_g1_CHM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./40_g1_DSM/40_g1_DSM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./40_g1_DTM/40_g1_DTM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./40_g1_ortho/40_g1_ortho.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./41_g2_CHM/41_g2_CHM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./41_g2_DSM/41_g2_DSM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./41_g2_DTM/41_g2_DTM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./41_g2_ortho/41_g2_ortho.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./42_g2_DTM/42_g2_DTM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./42_g2_ortho/42_g2_ortho.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./42_g2_CHM/42_g2_CHM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./42_g2_DSM/42_g2_DSM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./42_u1_DTM/42_u1_DTM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./42_u1_ortho/42_u1_ortho.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./42_u1_CHM/42_u1_CHM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./42_u1_DSM/42_u1_DSM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./4_g2_CHM/4_g2_CHM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./4_g2_DSM/4_g2_DSM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./4_g2_DTM/4_g2_DTM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./4_g2_ortho/4_g2_ortho.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./5_g1_CHM/5_g1_CHM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./5_g1_DSM/5_g1_DSM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./5_g1_DTM/5_g1_DTM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./5_g1_ortho/5_g1_ortho.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./6a_15_CHM/6a_15_CHM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./6a_15_DSM/6a_15_DSM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./6a_15_DTM/6a_15_DTM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./6a_15_ortho/6a_15_ortho.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./6a_16_CHM/6a_16_CHM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./6a_16_DSM/6a_16_DSM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./6a_16_DTM/6a_16_DTM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./6a_16_ortho/6a_16_ortho.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./6a_1_CHM/6a_1_CHM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./6a_1_DSM/6a_1_DSM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./6a_1_DTM/6a_1_DTM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./6a_1_ortho/6a_1_ortho.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./6a_20_CHM/6a_20_CHM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./6a_20_DSM/6a_20_DSM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./6a_20_DTM/6a_20_DTM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./6a_20_ortho/6a_20_ortho.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./6a_36_CHM/6a_36_CHM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./6a_36_DSM/6a_36_DSM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./6a_36_DTM/6a_36_DTM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./6a_36_ortho/6a_36_ortho.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./6a_39_CHM/6a_39_CHM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./6a_39_DSM/6a_39_DSM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./6a_39_DTM/6a_39_DTM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./6a_39_ortho/6a_39_ortho.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./6a_3_CHM/6a_3_CHM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./6a_3_DSM/6a_3_DSM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./6a_3_DTM/6a_3_DTM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./6a_3_ortho/6a_3_ortho.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./6a_42_CHM/6a_42_CHM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./6a_42_DSM/6a_42_DSM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./6a_42_DTM/6a_42_DTM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./6a_42_ortho/6a_42_ortho.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./6b_3w_DTM/6b_3w_DTM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./6b_3w_ortho/6b_3w_ortho.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./6b_3w_CHM/6b_3w_CHM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./6b_3w_DSM/6b_3w_DSM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./6b_54_DTM/6b_54_DTM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./6b_54_ortho/6b_54_ortho.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./6b_54_CHM/6b_54_CHM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./6b_54_DSM/6b_54_DSM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./6b_56_DSM/6b_56_DSM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./6b_56_DTM/6b_56_DTM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./6b_56_ortho/6b_56_ortho.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./6b_56_CHM/6b_56_CHM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./6b_60_CHM/6b_60_CHM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./6b_60_DSM/6b_60_DSM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./6b_60_DTM/6b_60_DTM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./6b_60_ortho/6b_60_ortho.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./6_g2_CHM/6_g2_CHM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./6_g2_DSM/6_g2_DSM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./6_g2_DTM/6_g2_DTM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./6_g2_ortho/6_g2_ortho.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./8_2_CHM/8_2_CHM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./8_2_DSM/8_2_DSM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./8_2_DTM/8_2_DTM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./8_2_ortho/8_2_ortho.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./8_4_DTM/8_4_DTM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./8_4_ortho/8_4_ortho.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./8_4_CHM/8_4_CHM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./8_4_DSM/8_4_DSM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./8_5_DSM/8_5_DSM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./8_5_DTM/8_5_DTM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./8_5_ortho/8_5_ortho.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./8_5_CHM/8_5_CHM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./8_7_DTM/8_7_DTM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./8_7_ortho/8_7_ortho.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./8_7_CHM/8_7_CHM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./8_7_DSM/8_7_DSM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./8_g2_CHM/8_g2_CHM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./8_g2_DSM/8_g2_DSM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./8_g2_DTM/8_g2_DTM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./8_g2_ortho/8_g2_ortho.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./9_g1_CHM/9_g1_CHM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./9_g1_DSM/9_g1_DSM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./9_g1_DTM/9_g1_DTM.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./9_g1_ortho/9_g1_ortho.json",
+      "type": "application/json"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -110.91204997,
+          31.776189516,
+          -110.806544988,
+          31.8699816352659
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-05-25T12:00:00Z",
+          "2019-05-25T12:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-SA-4.0"
+}
