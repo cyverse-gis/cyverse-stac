@@ -1,5 +1,5 @@
-site_name: 'CyVerse STAC API'
-site_description: 'Documentation for maintaining STAC API on CyVerse'
+site_name: 'CyVerse STAC'
+site_description: 'Documentation for Spatio Temporal Assets Catalogs used by CyVerse'
 site_author: 'Tyson L Swetnam'
 site_url: https://tyson-swetnam.github.io/cyverse-stac
 
@@ -13,12 +13,12 @@ copyright: 'Copyright &copy; 2019-2023 Tyson Lee Swetnam'
 # Page tree
 nav:
   - Home: index.md
-  - Deployment: 
-    - Virtual Machines: vms.md
-    - Deploy: deploy.md
   - STAC: 
     - Collections: collections.md
     - Features: features.md
+  - API:
+    - Virtual Machines: vms.md
+    - Deploy: deploy.md
 
 # Configuration
 imgwidth: 70px;
