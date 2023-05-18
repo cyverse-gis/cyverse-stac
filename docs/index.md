@@ -1,4 +1,4 @@
-# CyVerse STAC API Documentation
+# CyVerse STAC 
 
 Instructions for deploying the Radiant Earth `stac-fastapi` [STAC](https://stacspec.org/en) API on CyVerse
 
