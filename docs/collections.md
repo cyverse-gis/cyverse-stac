@@ -2,7 +2,7 @@
 
 CyVerse features a set of public datasets that are curated in the CyVerse DataStore.
 
-The assets are primarily available from the DataStore over the public WebDAV
+The assets are primarily available from the DataStore over the public WebDAV.
 
 https://data.cyverse.org/dav-anon/
 
