@@ -1,14 +1,14 @@
 site_name: 'CyVerse STAC'
 site_description: 'Documentation for Spatio Temporal Assets Catalogs used by CyVerse'
-site_author: 'Tyson L Swetnam'
-site_url: https://tyson-swetnam.github.io/cyverse-stac
+site_author: 'Cyverse'
+site_url: https://cyverse-gis.github.io/cyverse-stac
 
 # Repository
 repo_name: cyverse-stac
-repo_url: https://github.com/tyson-swetnam/cyverse-stac
+repo_url: https://github.com/cyverse-gis/cyverse-stac
 edit_uri: edit/main/docs/
 # Copyright
-copyright: 'Copyright &copy; 2019-2023 Tyson Lee Swetnam'
+copyright: 'Copyright &copy; 2019-2023 ABOR'
 
 # Page tree
 nav:
@@ -62,25 +62,9 @@ theme:
 # Options
 extra:
   social:
-    - icon: fontawesome/brands/orcid
-      link: https://orcid.org/0000-0002-6639-7181
-    - icon: simple/googlescholar  
-      link: https://scholar.google.com/citations?user=nanIeAYAAAAJ&hl=en
     - icon: fontawesome/brands/github
-      link: https://github.com/tyson-swetnam/
-    - icon: fontawesome/brands/mastodon
-      link: https://fosstodon.org/@tswetnam  
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/tswetnam
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/tyson-swetnam
-    - icon: fontawesome/brands/docker
-      link: https://hub.docker.com/u/tswetnam
-    - icon: fontawesome/brands/youtube
-      link: https://www.youtube.com/channel/UC5xPt9KZHccC0ehMNEkINzQ
-  analytics:
-    provider: google
-    property: G-NYETZFD8DN
+      link: https://github.com/cyverse-gis/
+    
   
 # Extensions
 markdown_extensions:
