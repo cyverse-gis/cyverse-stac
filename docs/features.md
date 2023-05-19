@@ -2,7 +2,7 @@
 
 ### JPEG / DNG / TIF
 
-TODO
+**TODO**
 
 ### COGs & GEOTiff
 
