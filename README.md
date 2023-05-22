@@ -1,7 +1,6 @@
 # cyverse-stac
 
-This repository contains documentation and scripts related to Cyverse's efforts on SpatioTemporal Assets Catalogs (STAC)
- catalogs and collections for CyVerse. Documentation is being served through Github pages at
+This repository contains documentation and scripts related to Cyverse's efforts on SpatioTemporal Assets Catalogs (STAC). Documentation is being served through Github pages at
  [https//cyverse-gis.github.io/cyverse-stac](https://cyverse-gis.github.io/cyverse-stac).
 
 [![pages-build-deployment](https://github.com/cyverse-gis/cyverse-stac/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/cyverse-gis/cyverse-stac/actions/workflows/pages/pages-build-deployment)
