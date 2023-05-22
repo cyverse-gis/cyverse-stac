@@ -1,13 +1,25 @@
 # CyVerse STAC 
 
-Instructions for deploying the Radiant Earth `stac-fastapi` [STAC](https://stacspec.org/en) API on CyVerse
+**SpatioTemporal Asset Catalog (STAC)** is a json-based metadata standard to describe geospatial data. It's goal is 
+to make geospatial data more easily worked with, indexed, and discovered. 
 
-**Deployment**
+[Cyverse](https://cyverse.org){target=_blank} is developing STAC capabilities to share out remotely sensed imagery that is stored in the [Cyverse Datastore](https://cyverse.org/data-store){target=_blank}
 
-We are running multiple [Virtual Machines (VM)](./vms.md) to manage our [STAC Collections](./collections.md)
+This documentation will cover: 
 
-[Deployment Instructions](./deploy.md) include configurations for Docker and CaddyServer (`https://` reverse proxy)
+1. Creating STAC compliant json/geojson files
+2. Differences between static and dynamic STAC catalogs
+3. Instructions for how Cyverse is deploying a STAC API
+4. STAC browser 
 
-**STAC** 
 
-Instructions for updating or adding to our Catalog of [Collections](./collections.md) and [Features](./features.md) 
+## Important Resources
+[StacSpec](https://stacspec.org/en) is the official documentation for the STAC standard.
+
+[pystac](https://pystac.readthedocs.io/en/stable/) is a python library for working with STAC data, which thus far has been used for creating STAC compliant json/geojson files  
+
+The [STACIndex](https://stacindex.org/) is a community driven index of STAC catalogs, learning resources, and tools.
+
+The [Radiant Earth Stac Browser](https://radiantearth.github.io/stac-browser/#/) a tool that allows you to graphically browse through static and API STAC catalogs. 
+
+
