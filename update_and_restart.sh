@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Variables
-REPO_URL="https://github.com/tyson-swetnam/cyverse-stac.git"
+REPO_URL="https://github.com/cyverse-gis/cyverse-stac.git"
 LOCAL_REPO_DIR="/home/ubuntu/cyverse-stac"
 DOCKER_COMPOSE_FILE="/home/ubuntu/stac-fastapi/docker-compose.yml"
 
