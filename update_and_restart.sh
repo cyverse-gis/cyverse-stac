@@ -9,7 +9,7 @@ cd "${LOCAL_REPO_DIR}"
 git fetch
 
 # Check if there are any changes
-if [ -n "$(git diff origin/master)" ]; then
+if [ -n "$(git diff origin/main)" ]; then
   # Pull the changes and restart the service
   git pull
   docker-compose -f "${DOCKER_COMPOSE_FILE}" restart
