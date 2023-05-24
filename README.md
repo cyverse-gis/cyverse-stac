@@ -19,3 +19,4 @@ pip install -r requirements.txt
 python3 -m mkdocs serve
 ```
 Open a browser tab and type `localhost:8000`
+:)
