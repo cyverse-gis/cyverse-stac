@@ -14,12 +14,8 @@ copyright: 'Copyright &copy; 2019-2023 ABOR'
 nav:
   - Home: index.md
   - STAC Creation: stac_creation.md
-  - STAC: 
-    - Collections: collections.md
-    - Features: features.md
-  - API:
-    - Virtual Machines: vms.md
-    - Deploy: deploy.md
+  - API: api.md
+  - TiTiler: titiler.md
 
 # Configuration
 imgwidth: 70px;

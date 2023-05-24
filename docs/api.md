@@ -1,6 +1,47 @@
-# Deployments
+# STAC API
+## OpenStack Virtual Machines
 
-## Install :simple-docker: Docker
+We are currently running two instances on CyVerse OpenStack Cloud 
+
+[https://tombstone-cloud.cyverse.org/](https://tombstone-cloud.cyverse.org/){target=_blank}
+
+One instance is running a Radiant Earth `stac-fastapi` [STAC API](https://stac-utils.github.io/stac-fastapi/){target=_blank} 
+
+[**https://stac.cyverse.org**](https://stac.cyverse.org){target=_blank}
+
+It is a `small` instance (2 virtual CPUs, 16 GB RAM) with Ubuntu 22.04, Docker, and Docker-Compose.
+
+The other instance is running [DevSeed TiTiler](https://developmentseed.org/titiler/){target=_blank} 
+
+[**https://titiler.cyverse.org**](https://titiler.cyverse.org){target=_blank} 
+
+For this we are running a `xl` instance (16-cores, 64 GB RAM, 200 GiB Disk ) with Ubuntu 22.04 and Docker
+
+### Launch using OpenStack
+
+Log into OpenStack and provision each instance 
+
+After the instance is active, assign a floating IP address
+
+Make sure that the `default` Security Group includes egress and ingress settings to connect the VM over :443
+
+### create and add `ssh` keys
+
+Make sure that the VMs are using your public `ssh` key
+
+Add your other admin keys by `ssh` to the VM
+
+copy their `id_rsa.pub` keys to `~/.ssh/known_hosts`
+
+```
+nano ~/.ssh/known_hosts
+```
+<br/>
+<br/>
+
+## Deployments
+
+### Install :simple-docker: Docker
 
 If the image does not have Docker, install it.
 
@@ -26,7 +67,7 @@ sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-
 sudo chmod +x /usr/local/bin/docker-compose
 ```
 
-## Install :octicons-lock-24: CaddyServer
+### Install :octicons-lock-24: CaddyServer
 
 To secure both instances over `https://` we are runninng [CaddyServer](https://caddyserver.com/) with a reverse proxy to the public IP addresses.
 
@@ -55,7 +96,7 @@ Ctrl + b + % to split the current pane vertically.
 Ctrl + b + " to split the current pane horizontally.
 Ctrl + b + x to close the current pane.
 
-## Run :simple-docker: STAC API
+### Run :simple-docker: STAC API
 
 [:simple-github: stac-utils/stac-fastapi](https://github.com/stac-utils/stac-fastapi){target=_blank}
 
@@ -74,6 +115,7 @@ There are two configuration files which need to be updated:
 There is one sample STAC catalog directory which can be removed or used for testing:
 
 `/stac_fastapi/testdata/joplin` - is the test dataset which is deployed by default. 
+<br/>
 
 #### Edit `docker-compose.yml` 
 
@@ -235,7 +277,7 @@ Inside the `/cyverse-stac` repo is a directory called `catalogs` - this is where
 The `catalogs` directory is ingested by the `ingest_cyverse.py` file in the `stac-fastapi/scripts` directory. 
 
 The `docker-compose.yml` is also modified to include the relative path to the `cyverse-stac` directory
-
+<br/><br/>
 #### Edit `ingest_cyverse.py`
 
 ??? Abstract "`ingest_cyverse.py`"
@@ -338,7 +380,7 @@ The `docker-compose.yml` is also modified to include the relative path to the `c
 
     ```
 
-### Start :simple-docker: Docker-Compose
+#### Start :simple-docker: Docker-Compose
 
 ```bash
 cd ~/stac-fastapi
@@ -354,7 +396,7 @@ Start Docker-Compose in detached mode. The `-d` flag will start Docker Compose i
 docker-compose up -d 
 ```
 
-### Start CaddyServer
+#### Start CaddyServer
 
 Caddy privileges will need to be escalated before it can use port `:443`
 
@@ -366,47 +408,6 @@ Start a fresh `tmux` session
 
 ```bash
 caddy reverse-proxy --from stac.cyverse.org --to localhost:8080 --change-host-header &
-```
-
-Detach the session
-
-## Instructions for :simple-docker: DevSeed TiTiler
-
-[TiTiler Documentation](https://developmentseed.org/titiler/)
-
-https://titiler.cyverse.org/
-
-### Start Docker
-
-We are running TiTiler with Docker:
-
-```bash
-docker run \
---name titiler \
---env REDIRECT_URL=https://titiler.cyverse.org \
--p 8000:8000 \
---env PORT=8000 \
---env WORKERS_PER_CORE=1 \
---restart always \
--d  \
--it \
-ghcr.io/developmentseed/titiler:latest
-```
-
-To ensure that the container is always alive and is healthy, we are running a `cron` job every 5 minutes to test it and restart it as necessary 
-
-```bash
-*/5 * * * * docker ps -f health=unhealthy --format "docker restart {{.ID}}" | sh
-```
-
-### Start CaddyServer
-
-Start a fresh `tmux` session 
-
-Star the Caddy Server with a reverse proxy, pointing at the same port as Docker
-
-```bash
-caddy reverse-proxy --from titler.cyverse.org --to localhost:8000 --change-host-header &
 ```
 
 Detach the session
