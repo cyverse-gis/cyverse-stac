@@ -13,6 +13,7 @@ copyright: 'Copyright &copy; 2019-2023 ABOR'
 # Page tree
 nav:
   - Home: index.md
+  - STAC Creation: stac_creation.md
   - STAC: 
     - Collections: collections.md
     - Features: features.md
