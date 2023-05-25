@@ -5,17 +5,23 @@ We are currently running two instances on CyVerse OpenStack Cloud
 
 [https://tombstone-cloud.cyverse.org/](https://tombstone-cloud.cyverse.org/){target=_blank}
 
+<br/>
+
 One instance is running a Radiant Earth `stac-fastapi` [STAC API](https://stac-utils.github.io/stac-fastapi/){target=_blank} 
 
-[**https://stac.cyverse.org**](https://stac.cyverse.org){target=_blank}
+This vm is called `stac-api` and is served to [**https://stac.cyverse.org**](https://stac.cyverse.org){target=_blank}
 
 It is a `small` instance (2 virtual CPUs, 16 GB RAM) with Ubuntu 22.04, Docker, and Docker-Compose.
 
+<br/>
+
 The other instance is running [DevSeed TiTiler](https://developmentseed.org/titiler/){target=_blank} 
 
-[**https://titiler.cyverse.org**](https://titiler.cyverse.org){target=_blank} 
+This vm is called `titiler` and is served at [**https://titiler.cyverse.org**](https://titiler.cyverse.org){target=_blank} 
 
 For this we are running a `xl` instance (16-cores, 64 GB RAM, 200 GiB Disk ) with Ubuntu 22.04 and Docker
+
+<br/>
 
 ### Launch using OpenStack
 
@@ -66,6 +72,7 @@ sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-
 
 sudo chmod +x /usr/local/bin/docker-compose
 ```
+<br/>
 
 ### Install :octicons-lock-24: CaddyServer
 
@@ -96,6 +103,8 @@ Ctrl + b + % to split the current pane vertically.
 Ctrl + b + " to split the current pane horizontally.
 Ctrl + b + x to close the current pane.
 
+<br/>
+
 ### Run :simple-docker: STAC API
 
 [:simple-github: stac-utils/stac-fastapi](https://github.com/stac-utils/stac-fastapi){target=_blank}
@@ -105,6 +114,7 @@ git clone https://github.com/stac-utils/stac-fastapi.git
 
 cd stac-fastapi
 ```
+<br/>
 
 There are two configuration files which need to be updated:
 
@@ -264,12 +274,12 @@ Note: the GitHub repository for `stac-fastapi` expects containers from GitHub Co
 
     ```
 
-[:simple-github: tyson-swetnam/cyverse-stac](https://github.com/tyson-swetnam/cyverse-stac){target=_blank}
+[:simple-github: cyverse-gis/cyverse-stac](https://github.com/cyverse-gis/cyverse-stac){target=_blank}
 
 Clone the `cyverse-stac` repository to the home directory where you cloned `stac-fastapi`
 
 ```bash
-git clone https://github.com/tyson-swetnam/cyverse-stac
+git clone https://github.com/cyverse-gis/cyverse-stac
 ```
 
 Inside the `/cyverse-stac` repo is a directory called `catalogs` - this is where we are maintaining the list of public STAC Collections in CyVerse.
@@ -380,6 +390,9 @@ The `docker-compose.yml` is also modified to include the relative path to the `c
 
     ```
 
+<br/>
+<br/>
+
 #### Start :simple-docker: Docker-Compose
 
 ```bash
@@ -390,11 +403,14 @@ In the `/stac-fastapi` directory there is a `docker-compose.yml` which is set to
 
 Note: if you do not modify the `docker-compose.yml` the sample dataset will be shown.
 
+<br/>
+
 Start Docker-Compose in detached mode. The `-d` flag will start Docker Compose in the background
 
 ```bash
 docker-compose up -d 
 ```
+<br/>
 
 #### Start CaddyServer
 

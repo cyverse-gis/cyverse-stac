@@ -10,7 +10,9 @@ This documentation will cover:
 1. Creating STAC compliant json/geojson files
 2. Differences between static and dynamic STAC catalogs
 3. Instructions for how Cyverse is deploying a STAC API
-4. STAC browser 
+4. How to add new collections to the API
+5. STAC browser 
+6. TiTiler
 
 
 ## Important Resources

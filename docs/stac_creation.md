@@ -21,7 +21,7 @@ Within this repo there is a directory called `scripts`. Within it is a jupyter n
 
 * Find point clouds in a directory (laz, copc) and index them in STAC. There is a 'pointcloud' extension in pystac that should make it possible. 
 
-* Link out to [COPC Viewer](viewer.copc.io) for point cloud visualization
+* Link out to [COPC Viewer](https://viewer.copc.io/){target=_blank} for point cloud visualization
 
 
 ### STAC json and geojson examples
