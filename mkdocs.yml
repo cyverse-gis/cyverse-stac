@@ -14,7 +14,8 @@ copyright: 'Copyright &copy; 2019-2023 ABOR'
 nav:
   - Home: index.md
   - STAC Creation: stac_creation.md
-  - API: api.md
+  - API Setup: api.md
+  - API Operations: api_ops.md
   - TiTiler: titiler.md
 
 # Configuration

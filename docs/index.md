@@ -24,13 +24,4 @@ The [Radiant Earth Stac Browser](https://radiantearth.github.io/stac-browser/#/)
 
 
 
-We currently have it set up to where `collection.json` and `index.geojson` files are located at `/home/ubuntu/cyverse-stac/catalogs`. You can add new collections by adding a new folder and having 2 files within it: `collection.json` and `index.geojson`. `/home/unbuntu/cyverse-stac/catalogs` is simply holding all of the catalogs. The docker-compose that creates the STAC API is located at `/home/unbuntu/stac-fastapi`.
 
-If you add new catalogs, then you must also add that information to the `home/ubuntu/stac-fastapi/scripts/ingest_cyverse.py`
-
-
-After I make changes to the `collection.json`, `index.geojson`, or ingest_cyverse.py`, I need to restart the stac-api docker compose. 
-```
-cd /home/ubuntu/stac-fastapi/
-docker-compose restart
-```
