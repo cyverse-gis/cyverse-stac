@@ -41,7 +41,7 @@ Start a fresh `tmux` session
 Star the Caddy Server with a reverse proxy, pointing at the same port as Docker
 
 ```bash
-caddy reverse-proxy --from titler.cyverse.org --to localhost:8000 --change-host-header &
+caddy reverse-proxy --from titiler.cyverse.org --to localhost:8000 --change-host-header &
 ```
 
 Detach the session
