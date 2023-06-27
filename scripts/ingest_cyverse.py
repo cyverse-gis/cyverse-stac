@@ -7,8 +7,6 @@ from urllib.parse import urljoin
 
 import requests
 
-#workingdir = Path(__file__).parent.absolute()
-
 APP_HOST = sys.argv[1]
 
 collection_list_file = Path('/app/cyverse-stac/api_collections.txt')
@@ -56,8 +54,5 @@ if __name__ == "__main__":
     with open(collection_list_file, 'r', encoding='utf-8') as coll_list_in:
         for cur_coll_path in coll_list_in:
             # Make sure we have a valid line and that the file exists
-            if cur_coll_path.strip() and os.path.isfile(cur_coll_path):
+            if cur_coll_path.strip():
                 ingest_data(Path(cur_coll_path))
-    #ingest_srer_data()
-    #ingest_ofo_data()
-    #ingest_joplin_data()
