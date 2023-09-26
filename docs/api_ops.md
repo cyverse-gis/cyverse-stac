@@ -2,16 +2,16 @@
 On the `stac-api` vm, the github repo [https://github.com/cyverse-gis/cyverse-stac](https://github.com/cyverse-gis/cyverse-stac){target=_blank} has been cloned to the vm directory `/home/ubuntu/cyverse-stac`. Editing or adding new content to the API is done through this repo in Github.
 
 <figure markdown>
-  ![Image title](assets/repo_tree.png){ width="400" }
+  ![Image title](assets/cyverse-stac_repo.png){ width="400" }
   <figcaption> </figcaption>
 </figure>
 
 To add new collections to the API, you would add a new directory under `/catalogs`. Within this new directory you would add a
 `collection.json` file and `index.geojson` file that were created by the `STAC_creation_latest.ipynb`. 
 
-Additionally, you will need to edit `ingest_cyverse.py` file found at `/scripts` within the repo. 
+Additionally, you will need to edit `api_collections.txt` file found at `/cyverse-stac` within the repo. Add a single line the mimics the previous lines, but has the name of the directory you created in `/catalogs` 
 
-This edits should be done in the Github repo, not on the vm. 
+This edits should be done in the Github repo, **not directly on the vm**. 
 
 <br/>
 
