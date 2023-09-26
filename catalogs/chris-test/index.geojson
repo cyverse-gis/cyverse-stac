@@ -1,0 +1,861 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "collection": "ChrisTest",
+            "stac_version": "1.0.0",
+            "stac_extensions": [
+                "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
+                "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+            ],
+            "id": "plot_5",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -109.92933436491333,
+                            27.395678018960734
+                        ],
+                        [
+                            -109.92933436491333,
+                            27.396040597340885
+                        ],
+                        [
+                            -109.92887051657874,
+                            27.396040597340885
+                        ],
+                        [
+                            -109.92887051657874,
+                            27.395678018960734
+                        ],
+                        [
+                            -109.92933436491333,
+                            27.395678018960734
+                        ]
+                    ]
+                ]
+            },
+            "bbox": [
+                -109.92933436491333,
+                27.395678018960734,
+                -109.92887051657874,
+                27.396040597340885
+            ],
+            "properties": {
+                "gsd": "0.049",
+                "platform": "DJI Phantom 4 RTK",
+                "license": "CC-BY-SA-4.0",
+                "mission": "The imagery was part of the Ecostate Mapping project of 2019 at Santa Rita Experimental Range",
+                "sci:doi": "10.1002/ecs2.3649",
+                "sci:citation": "Gillan, JK., GE Ponce-Campos, TL Swetnam, A Gorlier, P Heilman, MP McClaran. 2021. Innovations to expand drone data collection and analysis for rangeland monitoring. Ecosphere, 12(7)",
+                "providers": [
+                    {
+                        "name": "Jeffrey Gillan",
+                        "description": "A provider that supplies example geospatial data.",
+                        "roles": [
+                            "producer",
+                            "processor"
+                        ],
+                        "url": "https://www.gillanscience.com/"
+                    }
+                ],
+                "proj:epsg": 32612,
+                "proj:geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                -109.92933436491333,
+                                27.395678018960734
+                            ],
+                            [
+                                -109.92933436491333,
+                                27.396040597340885
+                            ],
+                            [
+                                -109.92887051657874,
+                                27.396040597340885
+                            ],
+                            [
+                                -109.92887051657874,
+                                27.395678018960734
+                            ],
+                            [
+                                -109.92933436491333,
+                                27.395678018960734
+                            ]
+                        ]
+                    ]
+                },
+                "proj:bbox": [
+                    -109.92933436491333,
+                    27.395678018960734,
+                    -109.92887051657874,
+                    27.396040597340885
+                ],
+                "proj:shape": [
+                    796,
+                    911
+                ],
+                "datetime": "2021-12-25T00:00:00Z"
+            },
+            "assets": {
+                "no_fixed_camera_cimmyt_180119_odm_orthophoto_cog": {
+                    "href": "https://data.cyverse.org/dav-anon/iplant/home/schnaufer/STAC/COGs/no_fixed_camera_cimmyt_180119_odm_orthophoto_cog.tif",
+                    "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+                    "roles": "data"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "collection": "ChrisTest",
+            "stac_version": "1.0.0",
+            "stac_extensions": [
+                "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
+                "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+            ],
+            "id": "plot_6",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -109.92969321654114,
+                            27.39515921579816
+                        ],
+                        [
+                            -109.92969321654114,
+                            27.396198846727078
+                        ],
+                        [
+                            -109.9286930168838,
+                            27.396198846727078
+                        ],
+                        [
+                            -109.9286930168838,
+                            27.39515921579816
+                        ],
+                        [
+                            -109.92969321654114,
+                            27.39515921579816
+                        ]
+                    ]
+                ]
+            },
+            "bbox": [
+                -109.92969321654114,
+                27.39515921579816,
+                -109.9286930168838,
+                27.396198846727078
+            ],
+            "properties": {
+                "gsd": "0.049",
+                "platform": "DJI Phantom 4 RTK",
+                "license": "CC-BY-SA-4.0",
+                "mission": "The imagery was part of the Ecostate Mapping project of 2019 at Santa Rita Experimental Range",
+                "sci:doi": "10.1002/ecs2.3649",
+                "sci:citation": "Gillan, JK., GE Ponce-Campos, TL Swetnam, A Gorlier, P Heilman, MP McClaran. 2021. Innovations to expand drone data collection and analysis for rangeland monitoring. Ecosphere, 12(7)",
+                "providers": [
+                    {
+                        "name": "Jeffrey Gillan",
+                        "description": "A provider that supplies example geospatial data.",
+                        "roles": [
+                            "producer",
+                            "processor"
+                        ],
+                        "url": "https://www.gillanscience.com/"
+                    }
+                ],
+                "proj:epsg": 32612,
+                "proj:geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                -109.92969321654114,
+                                27.39515921579816
+                            ],
+                            [
+                                -109.92969321654114,
+                                27.396198846727078
+                            ],
+                            [
+                                -109.9286930168838,
+                                27.396198846727078
+                            ],
+                            [
+                                -109.9286930168838,
+                                27.39515921579816
+                            ],
+                            [
+                                -109.92969321654114,
+                                27.39515921579816
+                            ]
+                        ]
+                    ]
+                },
+                "proj:bbox": [
+                    -109.92969321654114,
+                    27.39515921579816,
+                    -109.9286930168838,
+                    27.396198846727078
+                ],
+                "proj:shape": [
+                    2287,
+                    1959
+                ],
+                "datetime": "2021-12-29T00:00:00Z"
+            },
+            "assets": {
+                "nogcp_cimmyt_180119_odm_orthophoto_cog": {
+                    "href": "https://data.cyverse.org/dav-anon/iplant/home/schnaufer/STAC/COGs/nogcp_cimmyt_180119_odm_orthophoto_cog.tif",
+                    "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+                    "roles": "data"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "collection": "ChrisTest",
+            "stac_version": "1.0.0",
+            "stac_extensions": [
+                "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
+                "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+            ],
+            "id": "plot_1",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -109.92942006955654,
+                            27.395532858750023
+                        ],
+                        [
+                            -109.92942006955654,
+                            27.395991115722417
+                        ],
+                        [
+                            -109.92877568638878,
+                            27.395991115722417
+                        ],
+                        [
+                            -109.92877568638878,
+                            27.395532858750023
+                        ],
+                        [
+                            -109.92942006955654,
+                            27.395532858750023
+                        ]
+                    ]
+                ]
+            },
+            "bbox": [
+                -109.92942006955654,
+                27.395532858750023,
+                -109.92877568638878,
+                27.395991115722417
+            ],
+            "properties": {
+                "gsd": "0.049",
+                "platform": "DJI Phantom 4 RTK",
+                "license": "CC-BY-SA-4.0",
+                "mission": "The imagery was part of the Ecostate Mapping project of 2019 at Santa Rita Experimental Range",
+                "sci:doi": "10.1002/ecs2.3649",
+                "sci:citation": "Gillan, JK., GE Ponce-Campos, TL Swetnam, A Gorlier, P Heilman, MP McClaran. 2021. Innovations to expand drone data collection and analysis for rangeland monitoring. Ecosphere, 12(7)",
+                "providers": [
+                    {
+                        "name": "Jeffrey Gillan",
+                        "description": "A provider that supplies example geospatial data.",
+                        "roles": [
+                            "producer",
+                            "processor"
+                        ],
+                        "url": "https://www.gillanscience.com/"
+                    }
+                ],
+                "proj:epsg": 32612,
+                "proj:geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                -109.92942006955654,
+                                27.395532858750023
+                            ],
+                            [
+                                -109.92942006955654,
+                                27.395991115722417
+                            ],
+                            [
+                                -109.92877568638878,
+                                27.395991115722417
+                            ],
+                            [
+                                -109.92877568638878,
+                                27.395532858750023
+                            ],
+                            [
+                                -109.92942006955654,
+                                27.395532858750023
+                            ]
+                        ]
+                    ]
+                },
+                "proj:bbox": [
+                    -109.92942006955654,
+                    27.395532858750023,
+                    -109.92877568638878,
+                    27.395991115722417
+                ],
+                "proj:shape": [
+                    1005,
+                    1266
+                ],
+                "datetime": "2021-12-25T00:00:00Z"
+            },
+            "assets": {
+                "1_cimmyt_180119_odm_orthophoto_cog": {
+                    "href": "https://data.cyverse.org/dav-anon/iplant/home/schnaufer/STAC/COGs/1_cimmyt_180119_odm_orthophoto_cog.tif",
+                    "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+                    "roles": "data"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "collection": "ChrisTest",
+            "stac_version": "1.0.0",
+            "stac_extensions": [
+                "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
+                "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+            ],
+            "id": "plot_2",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -109.92942195084956,
+                            27.395534396142942
+                        ],
+                        [
+                            -109.92942195084956,
+                            27.395992197721007
+                        ],
+                        [
+                            -109.92877759201629,
+                            27.395992197721007
+                        ],
+                        [
+                            -109.92877759201629,
+                            27.395534396142942
+                        ],
+                        [
+                            -109.92942195084956,
+                            27.395534396142942
+                        ]
+                    ]
+                ]
+            },
+            "bbox": [
+                -109.92942195084956,
+                27.395534396142942,
+                -109.92877759201629,
+                27.395992197721007
+            ],
+            "properties": {
+                "gsd": "0.049",
+                "platform": "DJI Phantom 4 RTK",
+                "license": "CC-BY-SA-4.0",
+                "mission": "The imagery was part of the Ecostate Mapping project of 2019 at Santa Rita Experimental Range",
+                "sci:doi": "10.1002/ecs2.3649",
+                "sci:citation": "Gillan, JK., GE Ponce-Campos, TL Swetnam, A Gorlier, P Heilman, MP McClaran. 2021. Innovations to expand drone data collection and analysis for rangeland monitoring. Ecosphere, 12(7)",
+                "providers": [
+                    {
+                        "name": "Jeffrey Gillan",
+                        "description": "A provider that supplies example geospatial data.",
+                        "roles": [
+                            "producer",
+                            "processor"
+                        ],
+                        "url": "https://www.gillanscience.com/"
+                    }
+                ],
+                "proj:epsg": 32612,
+                "proj:geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                -109.92942195084956,
+                                27.395534396142942
+                            ],
+                            [
+                                -109.92942195084956,
+                                27.395992197721007
+                            ],
+                            [
+                                -109.92877759201629,
+                                27.395992197721007
+                            ],
+                            [
+                                -109.92877759201629,
+                                27.395534396142942
+                            ],
+                            [
+                                -109.92942195084956,
+                                27.395534396142942
+                            ]
+                        ]
+                    ]
+                },
+                "proj:bbox": [
+                    -109.92942195084956,
+                    27.395534396142942,
+                    -109.92877759201629,
+                    27.395992197721007
+                ],
+                "proj:shape": [
+                    1004,
+                    1266
+                ],
+                "datetime": "2021-12-25T00:00:00Z"
+            },
+            "assets": {
+                "2_cimmyt_180119_odm_orthophoto_cog": {
+                    "href": "https://data.cyverse.org/dav-anon/iplant/home/schnaufer/STAC/COGs/2_cimmyt_180119_odm_orthophoto_cog.tif",
+                    "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+                    "roles": "data"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "collection": "ChrisTest",
+            "stac_version": "1.0.0",
+            "stac_extensions": [
+                "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
+                "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+            ],
+            "id": "plot_3",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -109.929182362125,
+                            27.39580651604965
+                        ],
+                        [
+                            -109.929182362125,
+                            27.396037581464643
+                        ],
+                        [
+                            -109.928615082731,
+                            27.396037581464643
+                        ],
+                        [
+                            -109.928615082731,
+                            27.39580651604965
+                        ],
+                        [
+                            -109.929182362125,
+                            27.39580651604965
+                        ]
+                    ]
+                ]
+            },
+            "bbox": [
+                -109.929182362125,
+                27.39580651604965,
+                -109.928615082731,
+                27.396037581464643
+            ],
+            "properties": {
+                "gsd": "0.049",
+                "platform": "DJI Phantom 4 RTK",
+                "license": "CC-BY-SA-4.0",
+                "mission": "The imagery was part of the Ecostate Mapping project of 2019 at Santa Rita Experimental Range",
+                "sci:doi": "10.1002/ecs2.3649",
+                "sci:citation": "Gillan, JK., GE Ponce-Campos, TL Swetnam, A Gorlier, P Heilman, MP McClaran. 2021. Innovations to expand drone data collection and analysis for rangeland monitoring. Ecosphere, 12(7)",
+                "providers": [
+                    {
+                        "name": "Jeffrey Gillan",
+                        "description": "A provider that supplies example geospatial data.",
+                        "roles": [
+                            "producer",
+                            "processor"
+                        ],
+                        "url": "https://www.gillanscience.com/"
+                    }
+                ],
+                "proj:epsg": 32612,
+                "proj:geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                -109.929182362125,
+                                27.39580651604965
+                            ],
+                            [
+                                -109.929182362125,
+                                27.396037581464643
+                            ],
+                            [
+                                -109.928615082731,
+                                27.396037581464643
+                            ],
+                            [
+                                -109.928615082731,
+                                27.39580651604965
+                            ],
+                            [
+                                -109.929182362125,
+                                27.39580651604965
+                            ]
+                        ]
+                    ]
+                },
+                "proj:bbox": [
+                    -109.929182362125,
+                    27.39580651604965,
+                    -109.928615082731,
+                    27.396037581464643
+                ],
+                "proj:shape": [
+                    503,
+                    1118
+                ],
+                "datetime": "2021-12-25T00:00:00Z"
+            },
+            "assets": {
+                "3_cimmyt_180119_odm_orthophoto_cog": {
+                    "href": "https://data.cyverse.org/dav-anon/iplant/home/schnaufer/STAC/COGs/3_cimmyt_180119_odm_orthophoto_cog.tif",
+                    "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+                    "roles": "data"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "collection": "ChrisTest",
+            "stac_version": "1.0.0",
+            "stac_extensions": [
+                "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
+                "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+            ],
+            "id": "plot_4",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -109.92959336409004,
+                            27.395905021399866
+                        ],
+                        [
+                            -109.92959336409004,
+                            27.39626107065807
+                        ],
+                        [
+                            -109.92888749671789,
+                            27.39626107065807
+                        ],
+                        [
+                            -109.92888749671789,
+                            27.395905021399866
+                        ],
+                        [
+                            -109.92959336409004,
+                            27.395905021399866
+                        ]
+                    ]
+                ]
+            },
+            "bbox": [
+                -109.92959336409004,
+                27.395905021399866,
+                -109.92888749671789,
+                27.39626107065807
+            ],
+            "properties": {
+                "gsd": "0.049",
+                "platform": "DJI Phantom 4 RTK",
+                "license": "CC-BY-SA-4.0",
+                "mission": "The imagery was part of the Ecostate Mapping project of 2019 at Santa Rita Experimental Range",
+                "sci:doi": "10.1002/ecs2.3649",
+                "sci:citation": "Gillan, JK., GE Ponce-Campos, TL Swetnam, A Gorlier, P Heilman, MP McClaran. 2021. Innovations to expand drone data collection and analysis for rangeland monitoring. Ecosphere, 12(7)",
+                "providers": [
+                    {
+                        "name": "Jeffrey Gillan",
+                        "description": "A provider that supplies example geospatial data.",
+                        "roles": [
+                            "producer",
+                            "processor"
+                        ],
+                        "url": "https://www.gillanscience.com/"
+                    }
+                ],
+                "proj:epsg": 32612,
+                "proj:geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                -109.92959336409004,
+                                27.395905021399866
+                            ],
+                            [
+                                -109.92959336409004,
+                                27.39626107065807
+                            ],
+                            [
+                                -109.92888749671789,
+                                27.39626107065807
+                            ],
+                            [
+                                -109.92888749671789,
+                                27.395905021399866
+                            ],
+                            [
+                                -109.92959336409004,
+                                27.395905021399866
+                            ]
+                        ]
+                    ]
+                },
+                "proj:bbox": [
+                    -109.92959336409004,
+                    27.395905021399866,
+                    -109.92888749671789,
+                    27.39626107065807
+                ],
+                "proj:shape": [
+                    777,
+                    1390
+                ],
+                "datetime": "2021-12-25T00:00:00Z"
+            },
+            "assets": {
+                "4_cimmyt_180119_odm_orthophoto_cog": {
+                    "href": "https://data.cyverse.org/dav-anon/iplant/home/schnaufer/STAC/COGs/4_cimmyt_180119_odm_orthophoto_cog.tif",
+                    "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+                    "roles": "data"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "collection": "ChrisTest",
+            "stac_version": "1.0.0",
+            "stac_extensions": [
+                "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
+                "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+            ],
+            "id": "plot2",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -109.12249400634994,
+                            33.61105195989868
+                        ],
+                        [
+                            -109.12249400634994,
+                            33.62731863479694
+                        ],
+                        [
+                            -109.10919394355557,
+                            33.62731863479694
+                        ],
+                        [
+                            -109.10919394355557,
+                            33.61105195989868
+                        ],
+                        [
+                            -109.12249400634994,
+                            33.61105195989868
+                        ]
+                    ]
+                ]
+            },
+            "bbox": [
+                -109.12249400634994,
+                33.61105195989868,
+                -109.10919394355557,
+                33.62731863479694
+            ],
+            "properties": {
+                "gsd": 0.00057085271401514,
+                "platform": "DJI Phantom 4 RTK",
+                "license": "CC-BY-SA-4.0",
+                "mission": "The imagery was part of the Ecostate Mapping project of 2019 at Santa Rita Experimental Range",
+                "sci:doi": "10.1002/ecs2.3649",
+                "sci:citation": "Gillan, JK., GE Ponce-Campos, TL Swetnam, A Gorlier, P Heilman, MP McClaran. 2021. Innovations to expand drone data collection and analysis for rangeland monitoring. Ecosphere, 12(7)",
+                "providers": [
+                    {
+                        "name": "Jeffrey Gillan",
+                        "description": "A provider that supplies example geospatial data.",
+                        "roles": [
+                            "producer",
+                            "processor"
+                        ],
+                        "url": "https://www.gillanscience.com/"
+                    }
+                ],
+                "proj:epsg": 32612,
+                "proj:geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                -109.12249400634994,
+                                33.61105195989868
+                            ],
+                            [
+                                -109.12249400634994,
+                                33.62731863479694
+                            ],
+                            [
+                                -109.10919394355557,
+                                33.62731863479694
+                            ],
+                            [
+                                -109.10919394355557,
+                                33.61105195989868
+                            ],
+                            [
+                                -109.12249400634994,
+                                33.61105195989868
+                            ]
+                        ]
+                    ]
+                },
+                "proj:bbox": [
+                    -109.12249400634994,
+                    33.61105195989868,
+                    -109.10919394355557,
+                    33.62731863479694
+                ],
+                "datetime": "2023-12-31T00:00:00Z"
+            },
+            "assets": {
+                "33109e1101": {
+                    "href": "https://data.cyverse.org/dav-anon/iplant/home/schnaufer/STAC/COGs/33109e1101.laz",
+                    "type": "application/vnd.laszip",
+                    "roles": "data"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "collection": "ChrisTest",
+            "stac_version": "1.0.0",
+            "stac_extensions": [
+                "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
+                "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+            ],
+            "id": "plot1",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -109.11615453018258,
+                            33.607455890175615
+                        ],
+                        [
+                            -109.11615453018258,
+                            33.62863492515846
+                        ],
+                        [
+                            -109.09678063772888,
+                            33.62863492515846
+                        ],
+                        [
+                            -109.09678063772888,
+                            33.607455890175615
+                        ],
+                        [
+                            -109.11615453018258,
+                            33.607455890175615
+                        ]
+                    ]
+                ]
+            },
+            "bbox": [
+                -109.11615453018258,
+                33.607455890175615,
+                -109.09678063772888,
+                33.62863492515846
+            ],
+            "properties": {
+                "gsd": 0.0002595220880559652,
+                "platform": "DJI Phantom 4 RTK",
+                "license": "CC-BY-SA-4.0",
+                "mission": "The imagery was part of the Ecostate Mapping project of 2019 at Santa Rita Experimental Range",
+                "sci:doi": "10.1002/ecs2.3649",
+                "sci:citation": "Gillan, JK., GE Ponce-Campos, TL Swetnam, A Gorlier, P Heilman, MP McClaran. 2021. Innovations to expand drone data collection and analysis for rangeland monitoring. Ecosphere, 12(7)",
+                "providers": [
+                    {
+                        "name": "Jeffrey Gillan",
+                        "description": "A provider that supplies example geospatial data.",
+                        "roles": [
+                            "producer",
+                            "processor"
+                        ],
+                        "url": "https://www.gillanscience.com/"
+                    }
+                ],
+                "proj:epsg": 32612,
+                "proj:geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                -109.11615453018258,
+                                33.607455890175615
+                            ],
+                            [
+                                -109.11615453018258,
+                                33.62863492515846
+                            ],
+                            [
+                                -109.09678063772888,
+                                33.62863492515846
+                            ],
+                            [
+                                -109.09678063772888,
+                                33.607455890175615
+                            ],
+                            [
+                                -109.11615453018258,
+                                33.607455890175615
+                            ]
+                        ]
+                    ]
+                },
+                "proj:bbox": [
+                    -109.11615453018258,
+                    33.607455890175615,
+                    -109.09678063772888,
+                    33.62863492515846
+                ],
+                "datetime": "2019-05-05T00:00:00Z"
+            },
+            "assets": {
+                "33109e1102": {
+                    "href": "https://data.cyverse.org/dav-anon/iplant/home/schnaufer/STAC/COGs/33109e1102.laz",
+                    "type": "application/vnd.laszip",
+                    "roles": "data"
+                }
+            }
+        }
+    ]
+}

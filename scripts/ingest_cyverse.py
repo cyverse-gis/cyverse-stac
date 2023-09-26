@@ -53,6 +53,8 @@ if __name__ == "__main__":
     # Loop through the list of paths stored in the file and ingest them
     with open(collection_list_file, 'r', encoding='utf-8') as coll_list_in:
         for cur_coll_path in coll_list_in:
+            print(f'Working on {cur_coll_path}', flush=True)
             # Make sure we have a valid line and that the file exists
+            cur_coll_path = cur_coll_path.rstrip('\n')
             if cur_coll_path.strip():
                 ingest_data(Path(cur_coll_path))
