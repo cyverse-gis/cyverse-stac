@@ -7,7 +7,7 @@ This repository contains documentation and scripts related to Cyverse's efforts 
 
 Built using [MkDocs](https://www.mkdocs.org/) with [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) 
 
-# Build instructions
+##Build MkDocs locally
 To build and edit the MkDocs locally, do the following. 
 ```
 git clone https://github.com/cyverse-gis/cyverse-stac
@@ -20,3 +20,11 @@ python3 -m mkdocs serve
 ```
 Open a browser tab and type `localhost:8000`
 :) ;)
+
+
+## Run Docker
+I have created python code in a juypter notbook that will create STAC catalogs from crawling over geospatial assets. You can run this notebook in a Docker container. 
+
+```
+Docker run -p 8888:8888 jeffgillan/stac-creation:0.1
+```
