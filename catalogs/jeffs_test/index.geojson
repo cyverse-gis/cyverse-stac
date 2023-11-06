@@ -221,6 +221,7 @@
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
                     "roles": [
                         "data"
+                    ]
                     }
                 }
             }
