@@ -106,7 +106,10 @@
                 "1a_u6_highdensity": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/jgillan/stac_test/1a_u6_highdensity.laz",
                     "type": "application/vnd.laszip",
-                    "roles": "data"
+                    "roles": [
+                        "data",
+                        "cog"
+                    ]
                 }
             }
         },
