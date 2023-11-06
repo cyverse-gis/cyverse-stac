@@ -101,14 +101,17 @@
                 "1a_u6_ortho": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/jgillan/stac_test/1a_u6_ortho.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": "data"
+                    gsd: 0.05 m
+                    "roles": [
+                        "data",
+                        "cog"
+                    [
                 },
                 "1a_u6_highdensity": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/jgillan/stac_test/1a_u6_highdensity.laz",
                     "type": "application/vnd.laszip",
                     "roles": [
-                        "data",
-                        "cog"
+                        "data"
                     ]
                 }
             }
