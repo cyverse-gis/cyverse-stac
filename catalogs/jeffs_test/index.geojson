@@ -102,7 +102,9 @@
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/jgillan/stac_test/1a_u6_ortho.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
                     "gsd": "0.05",
-                    "roles": "data"
+                    "roles": [
+                        "data"
+                    ]
                 },
                 "1a_u6_highdensity": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/jgillan/stac_test/1a_u6_highdensity.laz",
@@ -217,7 +219,9 @@
                 "15_g2_ortho_cog": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/jgillan/stac_test/15_g2_ortho_cog.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": "data"
+                    "roles": [
+                        "data"
+                    }
                 }
             }
         }
