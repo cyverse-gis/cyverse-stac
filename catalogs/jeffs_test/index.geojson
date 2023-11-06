@@ -103,7 +103,7 @@
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
                     "gsd": "0.05",
                     "roles": [
-                        "data",
+                        "data"
                     ]
                 },
                 "1a_u6_highdensity": {
