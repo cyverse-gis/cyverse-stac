@@ -3,6 +3,16 @@
   "id": "test_nov43",
   "stac_version": "1.0.0",
   "description": "The imagery was part of the Ecostate Mapping project of 2019 at Santa Rita Experimental Range",
+  "assets": {
+        "thumbnail": {
+           "href": "https://ai4edatasetspublicassets.blob.core.windows.net/assets/pc_thumbnails/modis-15A3H-061.png",
+           "type": "image/png",
+           "roles": [
+               "thumbnail"
+           ],
+           "title": "MODIS Leaf Area Index/FPAR 4-Day thumbnail"
+        },
+  },
   "links": [
     {
       "rel": "root",
