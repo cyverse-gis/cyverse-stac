@@ -2,5 +2,5 @@
 /app/cyverse-stac/catalogs/arizona-experiment-station
 /app/cyverse-stac/catalogs/joplin
 /app/cyverse-stac/catalogs/chris-test
-/app/cyverse-stac/catalogs/jeffs_test
+
 
