@@ -45,15 +45,5 @@
       ]
     }
   },
-  "license": "CC-BY-SA-4.0",
-  "assets": {
-    "thumbnail": {
-      "href": "https://ai4edatasetspublicassets.blob.core.windows.net/assets/pc_thumbnails/alos-fnf-thumbnail.png",
-      "type": "image/png",
-      "title": "ALOS PALSAR MOSAIC",
-      "roles": [
-        "thumbnail"
-      ]
-    }
-  }
+  "license": "CC-BY-SA-4.0"
 }
