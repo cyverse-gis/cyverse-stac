@@ -1,0 +1,230 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "collection": "test_nov43",
+            "stac_version": "1.0.0",
+            "stac_extensions": [
+                "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
+                "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+                "https://stac-extensions.github.io/pointcloud/v1.0.0/schema.json"
+            ],
+            "id": "1a_u6",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -110.885224228711,
+                            31.8104800748027
+                        ],
+                        [
+                            -110.885224228711,
+                            31.8121318959363
+                        ],
+                        [
+                            -110.882211860751,
+                            31.8121318959363
+                        ],
+                        [
+                            -110.882211860751,
+                            31.8104800748027
+                        ],
+                        [
+                            -110.885224228711,
+                            31.8104800748027
+                        ]
+                    ]
+                ]
+            },
+            "bbox": [
+                -110.885224228711,
+                31.8104800748027,
+                -110.882211860751,
+                31.8121318959363
+            ],
+            "properties": {
+                "gsd": "0.000",
+                "platform": "DJI Phantom 4 RTK",
+                "license": "CC-BY-SA-4.0",
+                "mission": "STAC Test Nov 43",
+                "sci:doi": "10.1002/ecs2.3649",
+                "sci:citation": "Gillan, JK., GE Ponce-Campos, TL Swetnam, A Gorlier, P Heilman, MP McClaran. 2021. Innovations to expand drone data collection and analysis for rangeland monitoring. Ecosphere, 12(7)",
+                "providers": [
+                    {
+                        "name": "Jeffrey Gillan",
+                        "description": "A provider that supplies example geospatial data.",
+                        "roles": [
+                            "producer",
+                            "processor"
+                        ],
+                        "url": "https://openforestobservatory.org/"
+                    }
+                ],
+                "proj:epsg": 32612,
+                "proj:geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                -110.88573076451918,
+                                31.81003563488091
+                            ],
+                            [
+                                -110.88573076451918,
+                                31.81248777011362
+                            ],
+                            [
+                                -110.8818278907672,
+                                31.81248777011362
+                            ],
+                            [
+                                -110.8818278907672,
+                                31.81003563488091
+                            ],
+                            [
+                                -110.88573076451918,
+                                31.81003563488091
+                            ]
+                        ]
+                    ]
+                },
+                "proj:bbox": [
+                    -110.88573076451918,
+                    31.81003563488091,
+                    -110.8818278907672,
+                    31.81248777011362
+                ],
+                "datetime": "2019-05-15T00:00:00Z"
+            },
+            "assets": {
+                "1a_u6_ortho": {
+                    "href": "https://data.cyverse.org/dav-anon/iplant/home/jgillan/stac_test/1a_u6_ortho.tif",
+                    "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+                    "roles": [
+                        "data"
+                    ]
+                },
+                "1a_u6_highdensity": {
+                    "href": "https://data.cyverse.org/dav-anon/iplant/home/jgillan/stac_test/1a_u6_highdensity.laz",
+                    "type": "application/vnd.laszip",
+                    "roles": [
+                        "data"
+                    ]
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "collection": "test_nov43",
+            "stac_version": "1.0.0",
+            "stac_extensions": [
+                "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
+                "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+                "https://stac-extensions.github.io/pointcloud/v1.0.0/schema.json"
+            ],
+            "id": "15_g2",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -110.85771560668945,
+                            31.776336940984123
+                        ],
+                        [
+                            -110.85771560668945,
+                            31.778963663421155
+                        ],
+                        [
+                            -110.8546257019043,
+                            31.778963663421155
+                        ],
+                        [
+                            -110.8546257019043,
+                            31.776336940984123
+                        ],
+                        [
+                            -110.85771560668945,
+                            31.776336940984123
+                        ]
+                    ]
+                ]
+            },
+            "bbox": [
+                -110.85771560668945,
+                31.776336940984123,
+                -110.8546257019043,
+                31.778963663421155
+            ],
+            "properties": {
+                "gsd": "0.018",
+                "platform": "DJI Phantom 4 RTK",
+                "license": "CC-BY-SA-4.0",
+                "mission": "STAC Test Nov 43",
+                "sci:doi": "10.1002/ecs2.3649",
+                "sci:citation": "Gillan, JK., GE Ponce-Campos, TL Swetnam, A Gorlier, P Heilman, MP McClaran. 2021. Innovations to expand drone data collection and analysis for rangeland monitoring. Ecosphere, 12(7)",
+                "providers": [
+                    {
+                        "name": "Jeffrey Gillan",
+                        "description": "A provider that supplies example geospatial data.",
+                        "roles": [
+                            "producer",
+                            "processor"
+                        ],
+                        "url": "https://openforestobservatory.org/"
+                    }
+                ],
+                "proj:epsg": 3857,
+                "proj:geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                -110.85771560668945,
+                                31.776336940984123
+                            ],
+                            [
+                                -110.85771560668945,
+                                31.778963663421155
+                            ],
+                            [
+                                -110.8546257019043,
+                                31.778963663421155
+                            ],
+                            [
+                                -110.8546257019043,
+                                31.776336940984123
+                            ],
+                            [
+                                -110.85771560668945,
+                                31.776336940984123
+                            ]
+                        ]
+                    ]
+                },
+                "proj:bbox": [
+                    -110.85771560668945,
+                    31.776336940984123,
+                    -110.8546257019043,
+                    31.778963663421155
+                ],
+                "proj:shape": [
+                    18432,
+                    18432
+                ],
+                "datetime": "2019-06-21T00:00:00Z"
+            },
+            "assets": {
+                "15_g2_ortho_cog": {
+                    "href": "https://data.cyverse.org/dav-anon/iplant/home/jgillan/stac_test/15_g2_ortho_cog.tif",
+                    "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+                    "roles": [
+                        "data"
+                    ]
+                }
+            }
+        }
+    ]
+}
