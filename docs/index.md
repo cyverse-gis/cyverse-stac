@@ -18,7 +18,9 @@ This documentation will cover:
 ## Important Resources
 [StacSpec](https://stacspec.org/en) is the official documentation for the STAC standard.
 
-[pystac](https://pystac.readthedocs.io/en/stable/) is a python library for working with STAC data, which thus far has been used for creating STAC compliant json/geojson files  
+[pystac](https://pystac.readthedocs.io/en/stable/) is a python library for creating STAC compliant json/geojson files  
+
+[pystac-client](https://pystac-client.readthedocs.io/en/stable/index.html) is a python library for accessing and querying STAC catalogs
 
 The [STACIndex](https://stacindex.org/) is a community driven index of STAC catalogs, learning resources, and tools.
 
