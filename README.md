@@ -1,4 +1,4 @@
-# cyverse-stac!
+# cyverse-stac
 
 This repository contains documentation and scripts related to Cyverse's efforts on SpatioTemporal Assets Catalogs (STAC). Documentation is being served through Github pages at
  [https//cyverse-gis.github.io/cyverse-stac](https://cyverse-gis.github.io/cyverse-stac).
