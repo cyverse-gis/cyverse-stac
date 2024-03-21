@@ -1,0 +1,986 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentation for Spatio Temporal Assets Catalogs used by CyVerse">
+      
+      
+        <meta name="author" content="Cyverse">
+      
+      
+        <link rel="canonical" href="https://cyverse-gis.github.io/cyverse-stac/stac_creation/">
+      
+      <link rel="icon" href="../assets/favicon.ico">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-8.5.10">
+    
+    
+      
+        <title>STAC Creation - CyVerse STAC</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.975780f9.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.2505c338.min.css">
+        
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Open Sans";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/_mkdocstrings.css">
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#here-is-what-the-code-currently-does" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="CyVerse STAC" class="md-header__button md-logo" aria-label="CyVerse STAC" data-md-component="logo">
+      
+  <img src="../assets/cyverse_ball_2022.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            CyVerse STAC
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              STAC Creation
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: white)" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent=""  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3 3.19.09m3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95 2.06.05m-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31Z"/></svg>
+            </label>
+          
+        
+          
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5c-.84 0-1.65.15-2.39.42L12 2M3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29L3.34 7m.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14L3.36 17M20.65 7l-1.77 3.79a7.023 7.023 0 0 0-2.38-4.15l4.15.36m-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29L20.64 17M12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44L12 22Z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/cyverse-gis/cyverse-stac" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    cyverse-stac
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href=".." class="md-tabs__link">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+    
+  
+
+
+  <li class="md-tabs__item">
+    <a href="./" class="md-tabs__link md-tabs__link--active">
+      STAC Creation
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../api/" class="md-tabs__link">
+      API Setup
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../api_ops/" class="md-tabs__link">
+      API Operations
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../titiler/" class="md-tabs__link">
+      TiTiler
+    </a>
+  </li>
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="CyVerse STAC" class="md-nav__button md-logo" aria-label="CyVerse STAC" data-md-component="logo">
+      
+  <img src="../assets/cyverse_ball_2022.png" alt="logo">
+
+    </a>
+    CyVerse STAC
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/cyverse-gis/cyverse-stac" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    cyverse-stac
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          STAC Creation
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        STAC Creation
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#here-is-what-the-code-currently-does" class="md-nav__link">
+    Here is what the code currently does:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#additional-functionality-that-is-needed" class="md-nav__link">
+    Additional Functionality that is Needed
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stac-json-and-geojson-examples" class="md-nav__link">
+    STAC json and geojson examples
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stac-assets-in-cyverse-datastore" class="md-nav__link">
+    STAC Assets in Cyverse Datastore
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/" class="md-nav__link">
+        API Setup
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api_ops/" class="md-nav__link">
+        API Operations
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../titiler/" class="md-nav__link">
+        TiTiler
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <a href="https://github.com/cyverse-gis/cyverse-stac/edit/main/docs/stac_creation.md" title="Edit this page" class="md-content__button md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
+  </a>
+
+
+  <h1>STAC Creation</h1>
+
+<p>Within this repo there is a directory called <code>scripts</code>. Within it is a jupyter notebook <code>STAC_creation_latest.ipynb</code> that has python code for creating STAC json and geojson files from crawling over imagery assets. The code primarily uses the <a href="https://pystac.readthedocs.io/en/stable/">pystac</a> library to create the STAC metadata. The STAC creation code is in active development.</p>
+<h3 id="here-is-what-the-code-currently-does">Here is what the code currently does:<a class="headerlink" href="#here-is-what-the-code-currently-does" title="Permanent link">&para;</a></h3>
+<ul>
+<li>
+<p>Users manually input metadata about the geospatial imagery products. These include: Title of the collection, description of collection and items, provider name and info.</p>
+</li>
+<li>
+<p>Users can specify the collection date with a single entry or they can provide a csv file that lists each of the assets and their date of collection. </p>
+</li>
+<li>
+<p>The script crawls over a user defined directory (e.g., in Cyverse DataStore) and looks for geotiff and cloud optimized geotiff (COG) files. </p>
+</li>
+<li>
+<p>It pulls out the projection, ground sampling distance (gsd) and footprint of the imagery asset. If an asset does not have a projection, the gsd will return 0.00 meters. </p>
+</li>
+<li>
+<p>It will assign multiple assets to a single item. This is also based on a user provided csv file that lists which assets should belong to which item. </p>
+</li>
+<li>
+<p>It can output a static STAC with the structure catalog&gt;&gt;collection&gt;&gt;items. These will have relative links. A static catalog can be browsed by the STAC browser but it has limited ability to be queried. </p>
+</li>
+<li>
+<p>It can output a dynamic STAC that can be ingesting into a STAC API. The structure is: collection&gt;&gt;index.geojson. It has absolute links. The STAC API is a lot more powerful compared with the static catalog. STAC APIs can be queried by space or time within the STAC Browser. </p>
+</li>
+</ul>
+<h3 id="additional-functionality-that-is-needed">Additional Functionality that is Needed<a class="headerlink" href="#additional-functionality-that-is-needed" title="Permanent link">&para;</a></h3>
+<ul>
+<li>
+<p>Find point clouds in a directory (laz, copc) and index them in STAC. There is a 'pointcloud' extension in pystac that should make it possible. </p>
+</li>
+<li>
+<p>Link out to <a href="https://viewer.copc.io/" target="_blank">COPC Viewer</a> for point cloud visualization</p>
+</li>
+</ul>
+<h3 id="stac-json-and-geojson-examples">STAC json and geojson examples<a class="headerlink" href="#stac-json-and-geojson-examples" title="Permanent link">&para;</a></h3>
+<p><code>collection.json</code> - contains the relevant metadata which you want to be visible in a STAC Browser</p>
+<details class="abstract">
+<summary>collection.json</summary>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Open-Forest-Observatory&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;The [Open Forest Observatory](https://openforestobservatory.org) Project&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;stac_version&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;1.0.0&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;license&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;public-domain&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;links&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">        </span><span class="p">{</span>
+<span class="w">            </span><span class="nt">&quot;rel&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;license&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">&quot;href&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://creativecommons.org/licenses/publicdomain/&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;public domain&quot;</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">    </span><span class="p">],</span>
+<span class="w">    </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Collection&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;extent&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;spatial&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="nt">&quot;bbox&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">                </span><span class="p">[</span>
+<span class="w">                    </span><span class="mf">-106.79191589355467</span><span class="p">,</span>
+<span class="w">                    </span><span class="mf">35.648927129774336</span><span class="p">,</span>
+<span class="w">                    </span><span class="mf">-106.49803161621092</span><span class="p">,</span>
+<span class="w">                    </span><span class="mf">35.95744398067361</span>
+<span class="w">                </span><span class="p">]</span>
+<span class="w">            </span><span class="p">]</span>
+<span class="w">        </span><span class="p">},</span>
+<span class="w">        </span><span class="nt">&quot;temporal&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="nt">&quot;interval&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">                </span><span class="p">[</span>
+<span class="w">                </span><span class="s2">&quot;2022-01-01T12:00:00Z&quot;</span><span class="p">,</span>
+<span class="w">                </span><span class="s2">&quot;2023-02-25T12:00:00Z&quot;</span>
+<span class="w">                </span><span class="p">]</span>
+<span class="w">            </span><span class="p">]</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+</details>
+<p><code>index.geojson</code> - list of <code>Features</code> in a <code>FeatureCollection</code> that corresponds to the <code>Collection</code></p>
+<details class="abstract">
+<summary><code>index.geojson</code></summary>
+<div class="highlight"><pre><span></span><code><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;FeatureCollection&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;features&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">        </span><span class="p">{</span>
+<span class="w">          </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Feature&quot;</span><span class="p">,</span>
+<span class="w">          </span><span class="nt">&quot;collection&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Open-Forest-Observatory&quot;</span><span class="p">,</span>
+<span class="w">          </span><span class="nt">&quot;stac_version&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;1.0.0&quot;</span><span class="p">,</span>
+<span class="w">          </span><span class="nt">&quot;stac_extensions&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">            </span><span class="s2">&quot;https://stac-extensions.github.io/projection/v1.0.0/schema.json&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="s2">&quot;https://stac-extensions.github.io/raster/v1.1.0/schema.json&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="s2">&quot;https://stac-extensions.github.io/eo/v1.0.0/schema.json&quot;</span>
+<span class="w">          </span><span class="p">],</span>
+<span class="w">          </span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;chm_cog.tif&quot;</span><span class="p">,</span>
+<span class="w">          </span><span class="nt">&quot;geometry&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Polygon&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">&quot;coordinates&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">              </span><span class="p">[</span>
+<span class="w">                </span><span class="p">[</span>
+<span class="w">                  </span><span class="mf">-106.79191589355467</span><span class="p">,</span>
+<span class="w">                  </span><span class="mf">35.648927129774336</span>
+<span class="w">                </span><span class="p">],</span>
+<span class="w">                </span><span class="p">[</span>
+<span class="w">                  </span><span class="mf">-106.49803161621092</span><span class="p">,</span>
+<span class="w">                  </span><span class="mf">35.648927129774336</span>
+<span class="w">                </span><span class="p">],</span>
+<span class="w">                </span><span class="p">[</span>
+<span class="w">                  </span><span class="mf">-106.49803161621092</span><span class="p">,</span>
+<span class="w">                  </span><span class="mf">35.95744398067361</span>
+<span class="w">                </span><span class="p">],</span>
+<span class="w">                </span><span class="p">[</span>
+<span class="w">                  </span><span class="mf">-106.79191589355467</span><span class="p">,</span>
+<span class="w">                  </span><span class="mf">35.95744398067361</span>
+<span class="w">                </span><span class="p">],</span>
+<span class="w">                </span><span class="p">[</span>
+<span class="w">                  </span><span class="mf">-106.79191589355467</span><span class="p">,</span>
+<span class="w">                  </span><span class="mf">35.648927129774336</span>
+<span class="w">                </span><span class="p">]</span>
+<span class="w">              </span><span class="p">]</span>
+<span class="w">            </span><span class="p">]</span>
+<span class="w">          </span><span class="p">},</span>
+<span class="w">          </span><span class="nt">&quot;bbox&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">            </span><span class="mf">-106.79191589355467</span><span class="p">,</span>
+<span class="w">            </span><span class="mf">35.648927129774336</span><span class="p">,</span>
+<span class="w">            </span><span class="mf">-106.49803161621092</span><span class="p">,</span>
+<span class="w">            </span><span class="mf">35.95744398067361</span>
+<span class="w">          </span><span class="p">],</span>
+<span class="w">          </span><span class="nt">&quot;properties&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="nt">&quot;proj:epsg&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">3857</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">&quot;proj:geometry&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">              </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Polygon&quot;</span><span class="p">,</span>
+<span class="w">              </span><span class="nt">&quot;coordinates&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">                </span><span class="p">[</span>
+<span class="w">                  </span><span class="p">[</span>
+<span class="w">                    </span><span class="mf">-11888021.698108606</span><span class="p">,</span>
+<span class="w">                    </span><span class="mf">4252421.194589211</span>
+<span class="w">                  </span><span class="p">],</span>
+<span class="w">                  </span><span class="p">[</span>
+<span class="w">                    </span><span class="mf">-11855306.65000255</span><span class="p">,</span>
+<span class="w">                    </span><span class="mf">4252421.194589211</span>
+<span class="w">                  </span><span class="p">],</span>
+<span class="w">                  </span><span class="p">[</span>
+<span class="w">                    </span><span class="mf">-11855306.65000255</span><span class="p">,</span>
+<span class="w">                    </span><span class="mf">4294767.308259198</span>
+<span class="w">                  </span><span class="p">],</span>
+<span class="w">                  </span><span class="p">[</span>
+<span class="w">                    </span><span class="mf">-11888021.698108606</span><span class="p">,</span>
+<span class="w">                    </span><span class="mf">4294767.308259198</span>
+<span class="w">                  </span><span class="p">],</span>
+<span class="w">                  </span><span class="p">[</span>
+<span class="w">                    </span><span class="mf">-11888021.698108606</span><span class="p">,</span>
+<span class="w">                    </span><span class="mf">4252421.194589211</span>
+<span class="w">                  </span><span class="p">]</span>
+<span class="w">                </span><span class="p">]</span>
+<span class="w">              </span><span class="p">]</span>
+<span class="w">            </span><span class="p">},</span>
+<span class="w">            </span><span class="nt">&quot;proj:bbox&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">              </span><span class="mf">-11888021.698108606</span><span class="p">,</span>
+<span class="w">              </span><span class="mf">4252421.194589211</span><span class="p">,</span>
+<span class="w">              </span><span class="mf">-11855306.65000255</span><span class="p">,</span>
+<span class="w">              </span><span class="mf">4294767.308259198</span>
+<span class="w">            </span><span class="p">],</span>
+<span class="w">            </span><span class="nt">&quot;proj:shape&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">              </span><span class="mi">141824</span><span class="p">,</span>
+<span class="w">              </span><span class="mi">109568</span>
+<span class="w">            </span><span class="p">],</span>
+<span class="w">            </span><span class="nt">&quot;proj:transform&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">              </span><span class="mf">0.29858214173896974</span><span class="p">,</span>
+<span class="w">              </span><span class="mi">0</span><span class="p">,</span>
+<span class="w">              </span><span class="mf">-11888021.698108606</span><span class="p">,</span>
+<span class="w">              </span><span class="mi">0</span><span class="p">,</span>
+<span class="w">              </span><span class="mf">-0.29858214173896974</span><span class="p">,</span>
+<span class="w">              </span><span class="mf">4294767.308259198</span><span class="p">,</span>
+<span class="w">              </span><span class="mi">0</span><span class="p">,</span>
+<span class="w">              </span><span class="mi">0</span><span class="p">,</span>
+<span class="w">              </span><span class="mi">1</span>
+<span class="w">            </span><span class="p">],</span>
+<span class="w">            </span><span class="nt">&quot;proj:projjson&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">              </span><span class="nt">&quot;$schema&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://proj.org/schemas/v0.4/projjson.schema.json&quot;</span><span class="p">,</span>
+<span class="w">              </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;ProjectedCRS&quot;</span><span class="p">,</span>
+<span class="w">              </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;WGS 84 / Pseudo-Mercator&quot;</span><span class="p">,</span>
+<span class="w">              </span><span class="nt">&quot;base_crs&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;WGS 84&quot;</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">&quot;datum&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                  </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;GeodeticReferenceFrame&quot;</span><span class="p">,</span>
+<span class="w">                  </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;World Geodetic System 1984&quot;</span><span class="p">,</span>
+<span class="w">                  </span><span class="nt">&quot;ellipsoid&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                    </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;WGS 84&quot;</span><span class="p">,</span>
+<span class="w">                    </span><span class="nt">&quot;semi_major_axis&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">6378137</span><span class="p">,</span>
+<span class="w">                    </span><span class="nt">&quot;inverse_flattening&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">298.257223563</span>
+<span class="w">                  </span><span class="p">}</span>
+<span class="w">                </span><span class="p">},</span>
+<span class="w">                </span><span class="nt">&quot;coordinate_system&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                  </span><span class="nt">&quot;subtype&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;ellipsoidal&quot;</span><span class="p">,</span>
+<span class="w">                  </span><span class="nt">&quot;axis&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">                    </span><span class="p">{</span>
+<span class="w">                      </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Latitude&quot;</span><span class="p">,</span>
+<span class="w">                      </span><span class="nt">&quot;abbreviation&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;lat&quot;</span><span class="p">,</span>
+<span class="w">                      </span><span class="nt">&quot;direction&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;north&quot;</span><span class="p">,</span>
+<span class="w">                      </span><span class="nt">&quot;unit&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;degree&quot;</span>
+<span class="w">                    </span><span class="p">},</span>
+<span class="w">                    </span><span class="p">{</span>
+<span class="w">                      </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Longitude&quot;</span><span class="p">,</span>
+<span class="w">                      </span><span class="nt">&quot;abbreviation&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;lon&quot;</span><span class="p">,</span>
+<span class="w">                      </span><span class="nt">&quot;direction&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;east&quot;</span><span class="p">,</span>
+<span class="w">                      </span><span class="nt">&quot;unit&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;degree&quot;</span>
+<span class="w">                    </span><span class="p">}</span>
+<span class="w">                  </span><span class="p">]</span>
+<span class="w">                </span><span class="p">},</span>
+<span class="w">                </span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                  </span><span class="nt">&quot;authority&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;EPSG&quot;</span><span class="p">,</span>
+<span class="w">                  </span><span class="nt">&quot;code&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">4326</span>
+<span class="w">                </span><span class="p">}</span>
+<span class="w">              </span><span class="p">},</span>
+<span class="w">              </span><span class="nt">&quot;conversion&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;unnamed&quot;</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">&quot;method&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                  </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Popular Visualisation Pseudo Mercator&quot;</span><span class="p">,</span>
+<span class="w">                  </span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                    </span><span class="nt">&quot;authority&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;EPSG&quot;</span><span class="p">,</span>
+<span class="w">                    </span><span class="nt">&quot;code&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1024</span>
+<span class="w">                  </span><span class="p">}</span>
+<span class="w">                </span><span class="p">},</span>
+<span class="w">                </span><span class="nt">&quot;parameters&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">                  </span><span class="p">{</span>
+<span class="w">                    </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Latitude of natural origin&quot;</span><span class="p">,</span>
+<span class="w">                    </span><span class="nt">&quot;value&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
+<span class="w">                    </span><span class="nt">&quot;unit&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;degree&quot;</span><span class="p">,</span>
+<span class="w">                    </span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                      </span><span class="nt">&quot;authority&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;EPSG&quot;</span><span class="p">,</span>
+<span class="w">                      </span><span class="nt">&quot;code&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">8801</span>
+<span class="w">                    </span><span class="p">}</span>
+<span class="w">                  </span><span class="p">},</span>
+<span class="w">                  </span><span class="p">{</span>
+<span class="w">                    </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Longitude of natural origin&quot;</span><span class="p">,</span>
+<span class="w">                    </span><span class="nt">&quot;value&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
+<span class="w">                    </span><span class="nt">&quot;unit&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;degree&quot;</span><span class="p">,</span>
+<span class="w">                    </span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                      </span><span class="nt">&quot;authority&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;EPSG&quot;</span><span class="p">,</span>
+<span class="w">                      </span><span class="nt">&quot;code&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">8802</span>
+<span class="w">                    </span><span class="p">}</span>
+<span class="w">                  </span><span class="p">},</span>
+<span class="w">                  </span><span class="p">{</span>
+<span class="w">                    </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;False easting&quot;</span><span class="p">,</span>
+<span class="w">                    </span><span class="nt">&quot;value&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
+<span class="w">                    </span><span class="nt">&quot;unit&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;metre&quot;</span><span class="p">,</span>
+<span class="w">                    </span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                      </span><span class="nt">&quot;authority&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;EPSG&quot;</span><span class="p">,</span>
+<span class="w">                      </span><span class="nt">&quot;code&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">8806</span>
+<span class="w">                    </span><span class="p">}</span>
+<span class="w">                  </span><span class="p">},</span>
+<span class="w">                  </span><span class="p">{</span>
+<span class="w">                    </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;False northing&quot;</span><span class="p">,</span>
+<span class="w">                    </span><span class="nt">&quot;value&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
+<span class="w">                    </span><span class="nt">&quot;unit&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;metre&quot;</span><span class="p">,</span>
+<span class="w">                    </span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                      </span><span class="nt">&quot;authority&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;EPSG&quot;</span><span class="p">,</span>
+<span class="w">                      </span><span class="nt">&quot;code&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">8807</span>
+<span class="w">                    </span><span class="p">}</span>
+<span class="w">                  </span><span class="p">}</span>
+<span class="w">                </span><span class="p">]</span>
+<span class="w">              </span><span class="p">},</span>
+<span class="w">              </span><span class="nt">&quot;coordinate_system&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                </span><span class="nt">&quot;subtype&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Cartesian&quot;</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">&quot;axis&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">                  </span><span class="p">{</span>
+<span class="w">                    </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Easting&quot;</span><span class="p">,</span>
+<span class="w">                    </span><span class="nt">&quot;abbreviation&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;&quot;</span><span class="p">,</span>
+<span class="w">                    </span><span class="nt">&quot;direction&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;east&quot;</span><span class="p">,</span>
+<span class="w">                    </span><span class="nt">&quot;unit&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;metre&quot;</span>
+<span class="w">                  </span><span class="p">},</span>
+<span class="w">                  </span><span class="p">{</span>
+<span class="w">                    </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Northing&quot;</span><span class="p">,</span>
+<span class="w">                    </span><span class="nt">&quot;abbreviation&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;&quot;</span><span class="p">,</span>
+<span class="w">                    </span><span class="nt">&quot;direction&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;north&quot;</span><span class="p">,</span>
+<span class="w">                    </span><span class="nt">&quot;unit&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;metre&quot;</span>
+<span class="w">                  </span><span class="p">}</span>
+<span class="w">                </span><span class="p">]</span>
+<span class="w">              </span><span class="p">},</span>
+<span class="w">              </span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                </span><span class="nt">&quot;authority&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;EPSG&quot;</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">&quot;code&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">3857</span>
+<span class="w">              </span><span class="p">}</span>
+<span class="w">            </span><span class="p">},</span>
+<span class="w">            </span><span class="nt">&quot;datetime&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2023-04-12T20:19:05.989194Z&quot;</span>
+<span class="w">          </span><span class="p">},</span>
+<span class="w">          </span><span class="nt">&quot;links&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[],</span>
+<span class="w">          </span><span class="nt">&quot;assets&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="nt">&quot;data&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">              </span><span class="nt">&quot;href&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://data.cyverse.org/dav-anon/iplant/home/tswetnam/jemez/chm_cog.tif&quot;</span><span class="p">,</span>
+<span class="w">              </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;image/tiff; application=geotiff&quot;</span><span class="p">,</span>
+<span class="w">              </span><span class="nt">&quot;raster:bands&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">                </span><span class="p">{</span>
+<span class="w">                  </span><span class="nt">&quot;data_type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;uint8&quot;</span><span class="p">,</span>
+<span class="w">                  </span><span class="nt">&quot;scale&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span>
+<span class="w">                  </span><span class="nt">&quot;offset&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
+<span class="w">                  </span><span class="nt">&quot;sampling&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;area&quot;</span><span class="p">,</span>
+<span class="w">                  </span><span class="nt">&quot;statistics&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                    </span><span class="nt">&quot;mean&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">37.61441723935138</span><span class="p">,</span>
+<span class="w">                    </span><span class="nt">&quot;minimum&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
+<span class="w">                    </span><span class="nt">&quot;maximum&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">255</span><span class="p">,</span>
+<span class="w">                    </span><span class="nt">&quot;stddev&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">57.379448784450744</span><span class="p">,</span>
+<span class="w">                    </span><span class="nt">&quot;valid_percent&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">96.65515013415404</span>
+<span class="w">                  </span><span class="p">},</span>
+<span class="w">                  </span><span class="nt">&quot;histogram&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                    </span><span class="nt">&quot;count&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">11</span><span class="p">,</span>
+<span class="w">                    </span><span class="nt">&quot;min&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
+<span class="w">                    </span><span class="nt">&quot;max&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">255</span><span class="p">,</span>
+<span class="w">                    </span><span class="nt">&quot;buckets&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">                      </span><span class="mi">517158</span><span class="p">,</span>
+<span class="w">                      </span><span class="mi">39168</span><span class="p">,</span>
+<span class="w">                      </span><span class="mi">41201</span><span class="p">,</span>
+<span class="w">                      </span><span class="mi">44410</span><span class="p">,</span>
+<span class="w">                      </span><span class="mi">48328</span><span class="p">,</span>
+<span class="w">                      </span><span class="mi">41809</span><span class="p">,</span>
+<span class="w">                      </span><span class="mi">31172</span><span class="p">,</span>
+<span class="w">                      </span><span class="mi">15240</span><span class="p">,</span>
+<span class="w">                      </span><span class="mi">4904</span><span class="p">,</span>
+<span class="w">                      </span><span class="mi">491</span>
+<span class="w">                    </span><span class="p">]</span>
+<span class="w">                  </span><span class="p">}</span>
+<span class="w">                </span><span class="p">},</span>
+<span class="w">                </span><span class="p">{</span>
+<span class="w">                  </span><span class="nt">&quot;data_type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;uint8&quot;</span><span class="p">,</span>
+<span class="w">                  </span><span class="nt">&quot;scale&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span>
+<span class="w">                  </span><span class="nt">&quot;offset&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
+<span class="w">                  </span><span class="nt">&quot;sampling&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;area&quot;</span><span class="p">,</span>
+<span class="w">                  </span><span class="nt">&quot;statistics&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                    </span><span class="nt">&quot;mean&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">46.35795866974706</span><span class="p">,</span>
+<span class="w">                    </span><span class="nt">&quot;minimum&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
+<span class="w">                    </span><span class="nt">&quot;maximum&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">255</span><span class="p">,</span>
+<span class="w">                    </span><span class="nt">&quot;stddev&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">64.61711636383107</span><span class="p">,</span>
+<span class="w">                    </span><span class="nt">&quot;valid_percent&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">96.65515013415404</span>
+<span class="w">                  </span><span class="p">},</span>
+<span class="w">                  </span><span class="nt">&quot;histogram&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                    </span><span class="nt">&quot;count&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">11</span><span class="p">,</span>
+<span class="w">                    </span><span class="nt">&quot;min&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
+<span class="w">                    </span><span class="nt">&quot;max&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">255</span><span class="p">,</span>
+<span class="w">                    </span><span class="nt">&quot;buckets&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">                      </span><span class="mi">478873</span><span class="p">,</span>
+<span class="w">                      </span><span class="mi">42203</span><span class="p">,</span>
+<span class="w">                      </span><span class="mi">35378</span><span class="p">,</span>
+<span class="w">                      </span><span class="mi">38875</span><span class="p">,</span>
+<span class="w">                      </span><span class="mi">49278</span><span class="p">,</span>
+<span class="w">                      </span><span class="mi">53347</span><span class="p">,</span>
+<span class="w">                      </span><span class="mi">50634</span><span class="p">,</span>
+<span class="w">                      </span><span class="mi">27259</span><span class="p">,</span>
+<span class="w">                      </span><span class="mi">7593</span><span class="p">,</span>
+<span class="w">                      </span><span class="mi">441</span>
+<span class="w">                    </span><span class="p">]</span>
+<span class="w">                  </span><span class="p">}</span>
+<span class="w">                </span><span class="p">},</span>
+<span class="w">                </span><span class="p">{</span>
+<span class="w">                  </span><span class="nt">&quot;data_type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;uint8&quot;</span><span class="p">,</span>
+<span class="w">                  </span><span class="nt">&quot;scale&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span>
+<span class="w">                  </span><span class="nt">&quot;offset&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
+<span class="w">                  </span><span class="nt">&quot;sampling&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;area&quot;</span><span class="p">,</span>
+<span class="w">                  </span><span class="nt">&quot;statistics&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                    </span><span class="nt">&quot;mean&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">40.6277738585321</span><span class="p">,</span>
+<span class="w">                    </span><span class="nt">&quot;minimum&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
+<span class="w">                    </span><span class="nt">&quot;maximum&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">212</span><span class="p">,</span>
+<span class="w">                    </span><span class="nt">&quot;stddev&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">54.02405921611601</span><span class="p">,</span>
+<span class="w">                    </span><span class="nt">&quot;valid_percent&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">96.65515013415404</span>
+<span class="w">                  </span><span class="p">},</span>
+<span class="w">                  </span><span class="nt">&quot;histogram&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                    </span><span class="nt">&quot;count&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">11</span><span class="p">,</span>
+<span class="w">                    </span><span class="nt">&quot;min&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
+<span class="w">                    </span><span class="nt">&quot;max&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">212</span><span class="p">,</span>
+<span class="w">                    </span><span class="nt">&quot;buckets&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">                      </span><span class="mi">461045</span><span class="p">,</span>
+<span class="w">                      </span><span class="mi">39961</span><span class="p">,</span>
+<span class="w">                      </span><span class="mi">37265</span><span class="p">,</span>
+<span class="w">                      </span><span class="mi">41672</span><span class="p">,</span>
+<span class="w">                      </span><span class="mi">52391</span><span class="p">,</span>
+<span class="w">                      </span><span class="mi">65596</span><span class="p">,</span>
+<span class="w">                      </span><span class="mi">55782</span><span class="p">,</span>
+<span class="w">                      </span><span class="mi">26377</span><span class="p">,</span>
+<span class="w">                      </span><span class="mi">3671</span><span class="p">,</span>
+<span class="w">                      </span><span class="mi">121</span>
+<span class="w">                    </span><span class="p">]</span>
+<span class="w">                  </span><span class="p">}</span>
+<span class="w">                </span><span class="p">}</span>
+<span class="w">              </span><span class="p">],</span>
+<span class="w">              </span><span class="nt">&quot;eo:bands&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">                </span><span class="p">{</span>
+<span class="w">                  </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;b1&quot;</span><span class="p">,</span>
+<span class="w">                  </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;red&quot;</span>
+<span class="w">                </span><span class="p">},</span>
+<span class="w">                </span><span class="p">{</span>
+<span class="w">                  </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;b2&quot;</span><span class="p">,</span>
+<span class="w">                  </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;green&quot;</span>
+<span class="w">                </span><span class="p">},</span>
+<span class="w">                </span><span class="p">{</span>
+<span class="w">                  </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;b3&quot;</span><span class="p">,</span>
+<span class="w">                  </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;blue&quot;</span>
+<span class="w">                </span><span class="p">}</span>
+<span class="w">              </span><span class="p">]</span>
+<span class="w">            </span><span class="p">}</span>
+<span class="w">          </span><span class="p">}</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">    </span><span class="p">]</span>
+<span class="p">}</span><span class="w">   </span>
+</code></pre></div>
+</details>
+<h3 id="stac-assets-in-cyverse-datastore">STAC Assets in Cyverse Datastore<a class="headerlink" href="#stac-assets-in-cyverse-datastore" title="Permanent link">&para;</a></h3>
+<p>CyVerse features a set of public datasets that are curated in the CyVerse DataStore.</p>
+<p>The assets are primarily available from the DataStore over the public WebDAV.</p>
+<p><a href="https://data.cyverse.org/dav-anon/">https://data.cyverse.org/dav-anon/</a></p>
+<p>All assets must be shared as <code>read-only</code> with the <code>anonymous</code> user in the iRODS environment (accessed via the Discovery Environment, Share Data feature) in order for them to be visible and downloadable.</p>
+
+  <hr>
+<div class="md-source-file">
+  <small>
+    
+      Last update:
+      2024-03-21
+    
+  </small>
+</div>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Back to top
+          </a>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href=".." class="md-footer__link md-footer__link--prev" aria-label="Previous: Home" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Home
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../api/" class="md-footer__link md-footer__link--next" aria-label="Next: API Setup" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              API Setup
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2019-2023 ABOR
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+      
+      
+    
+    <a href="https://github.com/cyverse-gis/" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.indexes", "navigation.top", "toc.integrate", "toc.follow", "content.code.copy"], "search": "../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.5a2dcb6a.min.js"></script>
+      
+    
+    
+  </body>
+</html>
