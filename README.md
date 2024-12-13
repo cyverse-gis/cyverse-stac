@@ -7,7 +7,7 @@ This repository contains documentation and scripts related to Cyverse's efforts 
 
 Built using [MkDocs](https://www.mkdocs.org/) with [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) 
 
-##Build MkDocs locally
+## Build MkDocs locally
 To build and edit the MkDocs locally, do the following. 
 ```
 git clone https://github.com/cyverse-gis/cyverse-stac
