@@ -155,18 +155,21 @@ The general directory structure on `stac-api` vm is:
   -stac-fastapi 
 ```
 
+`cyverse-stac` is the cloned version of [THIS repository](https://github.com/cyverse-gis/cyverse-stac) It contains the json & geojson metadata the descibes the geospatial collections, items, and assets.
 
-
-
-
-https://github.com/stac-utils/stac-fastapi
-
-```bash
-git clone https://github.com/stac-utils/stac-fastapi.git
-
-cd stac-fastapi
-```
 <br/>
+
+`stac-fastapi` is a [repo](https://github.com/stac-utils/stac-fastapi) that contains the files needed to run the API. This version is from 2023 and quite a bit behind the latest development. 
+
+<br/>
+<br/>
+
+
+## Run stac-fastapi with Docker-compose
+
+
+
+
 
 There are two configuration files which need to be updated:
 
