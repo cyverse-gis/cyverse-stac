@@ -143,9 +143,9 @@ Some nginx configuration files are located in:
 <br/>
 <br/>
 
-## Run STAC API
+## `stac-api` vm
 
-[:simple-github: stac-utils/stac-fastapi](https://github.com/stac-utils/stac-fastapi)
+https://github.com/stac-utils/stac-fastapi
 
 ```bash
 git clone https://github.com/stac-utils/stac-fastapi.git
