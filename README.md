@@ -1,30 +1,31 @@
-# cyverse-stac
+# CyVerse STAC 
 
-This repository contains documentation and scripts related to Cyverse's efforts on SpatioTemporal Assets Catalogs (STAC). Documentation is being served through Github pages at
- [https//cyverse-gis.github.io/cyverse-stac](https://cyverse-gis.github.io/cyverse-stac).
+**SpatioTemporal Asset Catalog (STAC)** is a json-based metadata standard to describe geospatial data. It's goal is 
+to make geospatial data more easily worked with, indexed, and discovered. 
 
-[![pages-build-deployment](https://github.com/cyverse-gis/cyverse-stac/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/cyverse-gis/cyverse-stac/actions/workflows/pages/pages-build-deployment)
+[Cyverse](https://cyverse.org) is developing STAC capabilities to share out remotely sensed imagery that is stored in the [Cyverse Datastore](https://cyverse.org/data-store)
 
-Built using [MkDocs](https://www.mkdocs.org/) with [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) 
+This documentation will cover: 
 
-## Build MkDocs locally
-To build and edit the MkDocs locally, do the following. 
-```
-git clone https://github.com/cyverse-gis/cyverse-stac
-
-cd cyverse-stac
-
-pip install -r requirements.txt
-
-python3 -m mkdocs serve
-```
-Open a browser tab and type `localhost:8000`
-:) ;)
+1. Creating STAC compliant json/geojson files
+2. Differences between static and dynamic STAC catalogs
+3. Instructions for how Cyverse is deploying a STAC API
+4. How to add new collections to the API
+5. STAC browser 
+6. TiTiler
 
 
-## Run Docker
-I have created python code in a juypter notbook that will create STAC catalogs from crawling over geospatial assets. You can run this notebook in a Docker container. 
+## Important Resources
+[StacSpec](https://stacspec.org/en) is the official documentation for the STAC standard.
 
-```
-Docker run -p 8888:8888 jeffgillan/stac-creation:0.1
-```
+[pystac](https://pystac.readthedocs.io/en/stable/) is a python library for creating STAC compliant json/geojson files  
+
+[pystac-client](https://pystac-client.readthedocs.io/en/stable/index.html) is a python library for accessing and querying STAC catalogs
+
+The [STACIndex](https://stacindex.org/) is a community driven index of STAC catalogs, learning resources, and tools.
+
+The [Radiant Earth Stac Browser](https://radiantearth.github.io/stac-browser/#/) a tool that allows you to graphically browse through static and API STAC catalogs. 
+
+
+
+
