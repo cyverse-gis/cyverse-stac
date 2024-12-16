@@ -142,8 +142,22 @@ Some nginx configuration files are located in:
 
 <br/>
 <br/>
+<br/>
+<br/>
 
 ## `stac-api` vm
+
+The general directory structure on `stac-api` vm is:
+
+```
+-ubuntu
+  -cyverse-stac
+  -stac-fastapi 
+```
+
+
+
+
 
 https://github.com/stac-utils/stac-fastapi
 
