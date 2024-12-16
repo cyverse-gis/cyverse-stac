@@ -185,11 +185,7 @@ There are two configuration files which need to be updated:
 
 `docker-compose.yaml` - provisions the deployment of a [PostgreSQL](https://www.postgresql.org/docs/) database and [SQL lchemy](https://www.sqlalchemy.org/) Python SQL toolkit and object relational mapper mapped to a STAC `.json` Collection and `.geojson` Feature Collection.
 
-`/scripts/ingest_collection.py` - there is a sample `.py` ingestion file called "joplin" which you can make a copy of and edit.
 
-There is one sample STAC catalog directory which can be removed or used for testing:
-
-`/stac_fastapi/testdata/joplin` - is the test dataset which is deployed by default. 
 <br/>
 
 <br/>
@@ -208,7 +204,7 @@ The `docker-compose.yml` is also modified to include the relative path to the `c
 
 <br/><br/>
 
-### Edit `ingest_cyverse.py`
+#### Edit `ingest_cyverse.py`
 
 
 <br/>
@@ -237,6 +233,17 @@ Start Docker-Compose in detached mode. The `-d` flag will start Docker Compose i
 <br/>
 <br/>
 
+
+### Editing the API title and description
+`/home/ubuntu/stac-fastapi/stac_fastapi/api/stac_fastapi/api/app.py`
+
+
+
+
+<br/>
+<br/>
+<br/>
+<br/>
 
 
 
