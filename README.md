@@ -113,7 +113,7 @@ sudo chmod +x /usr/local/bin/docker-compose
 
 ## Nginx
 
-To secure both instances over `https://` we are runninng [Nginx](https://nginx.org/) with a reverse proxy to the public IP addresses. Currently, the ssl certicates have expired and need to be updated. I have asked Jeremy Frady to do this. 
+To secure both instances over `https://` we are runninng [Nginx](https://nginx.org/) with a reverse proxy to the public IP addresses. Nginx is installed on the vm (not containerized). Currently, the ssl certicates have expired and need to be updated. I have asked Jeremy Frady to do this. 
 
 Check the expiration date of the certificate
 
@@ -139,6 +139,12 @@ Is nginx listening on port 80 (standard http port)?
 Some nginx configuration files are located in:
 
  `/etc/nginx/sites-available` and `/etc/nginx/sites-enabled` and `/etc/nginx/nginx.conf`
+
+<br/>
+<br/>
+
+Within directory `stac-fastapi`, there are files `docker-compose.nginx.yml` and `nginx.conf`. This files are NOT in use. 
+
 
 <br/>
 <br/>
