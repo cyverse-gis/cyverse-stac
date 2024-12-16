@@ -175,9 +175,6 @@ The general directory structure on `stac-api` vm is:
 
 Within the directory `stac-fastapi`, the file `docker-compose.yml` is the config file to orchestrate the launching of 3 containers. These containers run the API. 
 
-
-The `stac-fastapi` Docker-Compose will start up multiple containers, including a database which relies on the sample data.
-
 Note: the GitHub repository for `stac-fastapi` expects containers from GitHub Container Registry, not from DockerHub - update the `docker-compose.yml` to use the specific containers and tag version 
 
 
