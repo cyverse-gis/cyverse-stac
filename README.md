@@ -223,12 +223,9 @@ Start Docker-Compose in detached mode. The `-d` flag will start Docker Compose i
 
 
 
-On the `stac-api` vm, the github repo [https://github.com/cyverse-gis/cyverse-stac](https://github.com/cyverse-gis/cyverse-stac){target=_blank} has been cloned to the vm directory `/home/ubuntu/cyverse-stac`. Editing or adding new content to the API is done through this repo in Github.
+On the `stac-api` vm, the github repo [https://github.com/cyverse-gis/cyverse-stac](https://github.com/cyverse-gis/cyverse-stac) has been cloned to the vm directory `/home/ubuntu/cyverse-stac`. Editing or adding new content to the API is done through this repo in Github.
 
-<figure markdown>
-  ![Image title](assets/cyverse-stac_repo.png){ width="400" }
-  <figcaption> </figcaption>
-</figure>
+
 
 To add new collections to the API, you would add a new directory under `/catalogs`. Within this new directory you would add a
 `collection.json` file and `index.geojson` file that were created by the `STAC_creation_latest.ipynb`. 
@@ -273,8 +270,7 @@ cd /home/ubuntu/stac-fastapi/
 docker-compose down
 docker-compose up -d
 ```
-docker-compose up -d 
-```
+
 <br/>
 
 
