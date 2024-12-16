@@ -1,5 +1,5 @@
 # STAC API
-## OpenStack Virtual Machines
+## OpenStack Virtual Machines on Tombstone
 
 We are currently running two virtual machines (vm) on CyVerse OpenStack Cloud 
 
