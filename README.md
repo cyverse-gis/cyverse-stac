@@ -14,6 +14,9 @@ This documentation will cover:
 5. STAC browser 
 6. TiTiler
 
+<br/>
+<br/>
+
 
 ## Important Resources
 [StacSpec](https://stacspec.org/en) is the official documentation for the STAC standard.
@@ -26,6 +29,8 @@ The [STACIndex](https://stacindex.org/) is a community driven index of STAC cata
 
 The [Radiant Earth Stac Browser](https://radiantearth.github.io/stac-browser/#/) a tool that allows you to graphically browse through static and API STAC catalogs. 
 
+<br/>
+<br/>
 
 ## Cyverse STAC API
 
@@ -48,6 +53,7 @@ This vm is called `titiler` and is served at [**https://titiler.cyverse.org**](h
 For this we are running a `xl` instance (16-cores, 64 GB RAM, 200 GiB Disk ) with Ubuntu 22.04 and Docker
 
 <br/>
+<br/>
 
 ### Launch using OpenStack
 
@@ -56,6 +62,8 @@ Log into OpenStack and provision each instance
 After the instance is active, assign a floating IP address
 
 Make sure that the `default` Security Group includes egress and ingress settings to connect the VM over :443
+
+<br/>
 
 ### create and add `ssh` keys
 
@@ -100,7 +108,10 @@ sudo chmod +x /usr/local/bin/docker-compose
 ```
 <br/>
 
-### :octicons-lock-24: Nginx
+<br/>
+<br/>
+
+### :Nginx
 
 To secure both instances over `https://` we are runninng [Nginx](https://nginx.org/) with a reverse proxy to the public IP addresses. Currently, the ssl certicates have expired and need to be updated. I have asked Jeremy Frady to do this. 
 
@@ -132,9 +143,9 @@ Some nginx configuration files are located in:
 <br/>
 <br/>
 
-### Run :simple-docker: STAC API
+### Run STAC API
 
-[:simple-github: stac-utils/stac-fastapi](https://github.com/stac-utils/stac-fastapi){target=_blank}
+[:simple-github: stac-utils/stac-fastapi](https://github.com/stac-utils/stac-fastapi)
 
 ```bash
 git clone https://github.com/stac-utils/stac-fastapi.git
@@ -153,6 +164,10 @@ There is one sample STAC catalog directory which can be removed or used for test
 
 `/stac_fastapi/testdata/joplin` - is the test dataset which is deployed by default. 
 <br/>
+
+<br/>
+<br/>
+
 
 #### Edit `docker-compose.yml` 
 
@@ -184,7 +199,7 @@ The `docker-compose.yml` is also modified to include the relative path to the `c
 <br/>
 <br/>
 
-#### Start :simple-docker: Docker-Compose
+#### Start Docker-Compose
 
 ```bash
 cd ~/stac-fastapi
