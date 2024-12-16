@@ -1,21 +1,19 @@
 # STAC API
 ## OpenStack Virtual Machines
 
-We are currently running two instances on CyVerse OpenStack Cloud 
+We are currently running two virtual machines (vm) on CyVerse OpenStack Cloud 
 
 [https://tombstone-cloud.cyverse.org/](https://tombstone-cloud.cyverse.org/){target=_blank}
 
 <br/>
 
-One instance is running a Radiant Earth `stac-fastapi` [STAC API](https://stac-utils.github.io/stac-fastapi/){target=_blank} 
-
-This vm is called `stac-api` and is served to [**https://stac.cyverse.org**](https://stac.cyverse.org){target=_blank}
+One vm is called `stac-api` and is served to the domain [**https://stac.cyverse.org**](https://stac.cyverse.org). This vm is running a Radiant Earth `stac-fastapi` [STAC API](https://stac-utils.github.io/stac-fastapi/). It is currently running through docker-compose.
 
 It is a `small` instance (2 virtual CPUs, 16 GB RAM) with Ubuntu 22.04, Docker, and Docker-Compose.
 
 <br/>
 
-The other instance is running [DevSeed TiTiler](https://developmentseed.org/titiler/){target=_blank} 
+The other vm is running [DevSeed TiTiler](https://developmentseed.org/titiler/){target=_blank} 
 
 This vm is called `titiler` and is served at [**https://titiler.cyverse.org**](https://titiler.cyverse.org){target=_blank} 
 
@@ -74,35 +72,36 @@ sudo chmod +x /usr/local/bin/docker-compose
 ```
 <br/>
 
-### Install :octicons-lock-24: CaddyServer
+### :octicons-lock-24: Nginx
 
-To secure both instances over `https://` we are runninng [CaddyServer](https://caddyserver.com/) with a reverse proxy to the public IP addresses.
+To secure both instances over `https://` we are runninng [Nginx](https://nginx.org/) with a reverse proxy to the public IP addresses. Currently, the ssl certicates have expired and need to be updated. I have asked Jeremy Frady to do this. 
 
-```bash
-sudo apt install -y debian-keyring debian-archive-keyring apt-transport-https
-curl -1sLf 'https://dl.cloudsmith.io/public/caddy/stable/gpg.key' | sudo gpg --dearmor -o /usr/share/keyrings/caddy-stable-archive-keyring.gpg
-curl -1sLf 'https://dl.cloudsmith.io/public/caddy/stable/debian.deb.txt' | sudo tee /etc/apt/sources.list.d/caddy-stable.list
-sudo apt update
-sudo apt install caddy
+Check the expiration date of the certificate
+
 ```
+openssl s_client -connect stac.cyverse.org:443 -servername stac.cyverse.org < /dev/null | openssl x509 -noout -dates
+```
+<br/>
+<br/>
 
-Suggest using a `tmux` session for terminal.
+Is nginx active and running?
 
-| usage  | Apple Keyboard | Linux keyboard |
-|--------|----------------|----------------|
-| start tmux | `tmux` | `tmux` |
-| detach terminal | hold `^ control` + `B`, then `D` | hold `Ctrl` + `B`, then `D` |
-| find session | `tmux ls` | same |
-| re-attach session | `tmux attach -t <session #>` | same |
-| split-screen vertical | hold `^ control` + `B`, then hold `shift` + `%` | hold `Ctrl` + `B`, then hold `shift` + `%` |
-| split-screen horizontal | hold `^ control` + `B`, then hold `shift` + `"` | hold `Ctrl` + `B`, then hold `shift` + `"` |
-| Switch pane | hold `^ control` + `B`, then arrow key (left or right, up or down) | hold `Ctrl` + `B`, then arrow key (left or right, up or down) |
-| Close the session | hold `^ control` + `B`, then `X` | hold `Ctrl` + `B`, then `X` |
+`sudo systemctl status nginx`
 
-Ctrl + b + % to split the current pane vertically.
-Ctrl + b + " to split the current pane horizontally.
-Ctrl + b + x to close the current pane.
+<br/>
 
+Is nginx listening on port 80 (standard http port)?
+
+`sudo lsof -i :80`
+
+<br/>
+<br/>
+
+Some nginx configuration files are located in:
+
+ `/etc/nginx/sites-available` and `/etc/nginx/sites-enabled` and `/etc/nginx/nginx.conf`
+
+<br/>
 <br/>
 
 ### Run :simple-docker: STAC API
@@ -412,18 +411,4 @@ docker-compose up -d
 ```
 <br/>
 
-#### Start CaddyServer
 
-Caddy privileges will need to be escalated before it can use port `:443`
-
-```bash
-sudo setcap CAP_NET_BIND_SERVICE=+eip $(which caddy)
-```
-
-Start a fresh `tmux` session
-
-```bash
-caddy reverse-proxy --from stac.cyverse.org --to localhost:8080 --change-host-header &
-```
-
-Detach the session
