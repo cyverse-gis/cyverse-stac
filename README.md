@@ -36,7 +36,7 @@ The [Radiant Earth Stac Browser](https://radiantearth.github.io/stac-browser/#/)
 
 We are currently running two virtual machines (vm) on CyVerse OpenStack Cloud 
 
-[https://tombstone-cloud.cyverse.org/](https://tombstone-cloud.cyverse.org/){target=_blank}
+[https://tombstone-cloud.cyverse.org/](https://tombstone-cloud.cyverse.org/)
 
 <br/>
 
@@ -46,9 +46,9 @@ It is a `small` instance (2 virtual CPUs, 16 GB RAM) with Ubuntu 22.04, Docker, 
 
 <br/>
 
-The other vm is running [DevSeed TiTiler](https://developmentseed.org/titiler/){target=_blank} 
+The other vm is running [DevSeed TiTiler](https://developmentseed.org/titiler/)
 
-This vm is called `titiler` and is served at [**https://titiler.cyverse.org**](https://titiler.cyverse.org){target=_blank} 
+This vm is called `titiler` and is served at [**https://titiler.cyverse.org**](https://titiler.cyverse.org)
 
 For this we are running a `xl` instance (16-cores, 64 GB RAM, 200 GiB Disk ) with Ubuntu 22.04 and Docker
 
@@ -81,7 +81,7 @@ nano ~/.ssh/known_hosts
 
 ## Deployments
 
-### Install :simple-docker: Docker
+### Install Docker
 
 If the image does not have Docker, install it.
 
