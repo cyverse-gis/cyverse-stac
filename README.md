@@ -167,9 +167,13 @@ The general directory structure on `stac-api` vm is:
 
 ## Run stac-fastapi with Docker-compose
 
+The `stac-fastapi` Docker-Compose will start up multiple containers, including a database which relies on the sample data.
+
+Note: the GitHub repository for `stac-fastapi` expects containers from GitHub Container Registry, not from DockerHub - update the `docker-compose.yml` to use the specific containers and tag version 
 
 
-
+<br/>
+<br/>
 
 There are two configuration files which need to be updated:
 
@@ -188,17 +192,7 @@ There is one sample STAC catalog directory which can be removed or used for test
 
 #### Edit `docker-compose.yml` 
 
-The `stac-fastapi` Docker-Compose will start up multiple containers, including a database which relies on the sample data.
 
-Note: the GitHub repository for `stac-fastapi` expects containers from GitHub Container Registry, not from DockerHub - update the `docker-compose.yml` to use the specific containers and tag version 
-
-
-
-Clone the `cyverse-stac` repository to the home directory where you cloned `stac-fastapi`
-
-```bash
-git clone https://github.com/cyverse-gis/cyverse-stac
-```
 
 Inside the `/cyverse-stac` repo is a directory called `catalogs` - this is where we are maintaining the list of public STAC Collections in CyVerse.
 
