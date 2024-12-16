@@ -55,7 +55,7 @@ For this we are running a `xl` instance (16-cores, 64 GB RAM, 200 GiB Disk ) wit
 <br/>
 <br/>
 
-### Launch using OpenStack
+### Launch VMs in OpenStack
 
 Log into OpenStack and provision each instance 
 
@@ -79,7 +79,7 @@ nano ~/.ssh/known_hosts
 <br/>
 <br/>
 
-## Deployments
+
 
 ### Install Docker
 
@@ -111,7 +111,7 @@ sudo chmod +x /usr/local/bin/docker-compose
 <br/>
 <br/>
 
-### :Nginx
+## Nginx
 
 To secure both instances over `https://` we are runninng [Nginx](https://nginx.org/) with a reverse proxy to the public IP addresses. Currently, the ssl certicates have expired and need to be updated. I have asked Jeremy Frady to do this. 
 
@@ -143,7 +143,7 @@ Some nginx configuration files are located in:
 <br/>
 <br/>
 
-### Run STAC API
+## Run STAC API
 
 [:simple-github: stac-utils/stac-fastapi](https://github.com/stac-utils/stac-fastapi)
 
@@ -176,8 +176,6 @@ The `stac-fastapi` Docker-Compose will start up multiple containers, including a
 Note: the GitHub repository for `stac-fastapi` expects containers from GitHub Container Registry, not from DockerHub - update the `docker-compose.yml` to use the specific containers and tag version 
 
 
-
-[:simple-github: cyverse-gis/cyverse-stac](https://github.com/cyverse-gis/cyverse-stac){target=_blank}
 
 Clone the `cyverse-stac` repository to the home directory where you cloned `stac-fastapi`
 
