@@ -211,7 +211,6 @@ Note: if you do not modify the `docker-compose.yml` the sample dataset will be s
 
 Start Docker-Compose in detached mode. The `-d` flag will start Docker Compose in the background
 
-```bash
 
 
 
