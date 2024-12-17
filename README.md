@@ -261,7 +261,7 @@ Additionally, you will need to edit `api_collections.txt` file found at `/cyvers
 
 <br/>
 
-Changes that you make to the github repo will be pulled into the vm automatically. This is accomplished by using a cronjob on the vm. There is shell script called `update_and_restart.sh` in the repo that specifies: 1. Look for differences between github repo and repo on vm. 2. If there are differences, then pull the changes from github. 3. Restart the docker-compose that creates the STAC API. On the vm, the shell script has been programmed to run every 5 minutes using the crontab. 
+Changes that you make to the github repo will be pulled into the vm automatically. This is accomplished by using a cronjob on the vm. There is shell script called `update_and_restart.sh` in the repo that specifies: 1. Look for differences between github repo and repo on vm. 2. If there are differences, then pull the changes from github. 3. Restart the docker-compose that creates the STAC API. On the vm, the shell script has been programmed to run every 5 minutes using the crontab. The cronjob is logged to the file `/home/ubuntu/cyverse-stac/cron_log_file.log`. 
 
 While logged into the `stac-api` vm:
 ```
@@ -294,6 +294,12 @@ docker-compose down
 docker-compose up -d
 ```
 
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 <br/>
 
 Within this repo there is a directory called `scripts`. Within it is a jupyter notebook `STAC_creation_latest.ipynb` that has python code for creating STAC json and geojson files from crawling over imagery assets. The code primarily uses the [pystac](https://pystac.readthedocs.io/en/stable/) library to create the STAC metadata. The STAC creation code is in active development.
