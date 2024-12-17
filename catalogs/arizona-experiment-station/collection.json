@@ -6,7 +6,7 @@
   "assets": {
     "thumbnail": {
       "href": "https://data.cyverse.org/dav-anon/iplant/commons/cyverse_curated/Gillan_Ecosphere_2021/raw_images/Sept_2019/1a_u6/100_0314_0256.JPG",
-      "type": "image/jpg",
+      "type": "image/jpeg",
       "roles": [
         "thumbnail"
       ],
