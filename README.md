@@ -302,6 +302,8 @@ docker-compose up -d
 <br/>
 <br/>
 
+## Creating STAC json & geojson files
+
 Within this repo there is a directory called `scripts`. Within it is a jupyter notebook `STAC_creation_latest.ipynb` that has python code for creating STAC json and geojson files from crawling over imagery assets. The code primarily uses the [pystac](https://pystac.readthedocs.io/en/stable/) library to create the STAC metadata. The STAC creation code is in active development.
 
 ### Here is what the code currently does:
@@ -328,13 +330,7 @@ Within this repo there is a directory called `scripts`. Within it is a jupyter n
 * Link out to [COPC Viewer](https://viewer.copc.io/){target=_blank} for point cloud visualization
 
 
-### STAC json and geojson examples
 
-`collection.json` - contains the relevant metadata which you want to be visible in a STAC Browser
-
-
-
-`index.geojson` - list of `Features` in a `FeatureCollection` that corresponds to the `Collection`
 
 
 
