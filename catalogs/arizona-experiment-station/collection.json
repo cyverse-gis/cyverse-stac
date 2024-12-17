@@ -5,8 +5,8 @@
   "description": "The imagery was part of the Ecostate Mapping project of 2019 at Santa Rita Experimental Range",
   "assets": {
     "thumbnail": {
-      "href": "https://data.cyverse.org/dav-anon/iplant/commons/cyverse_curated/Gillan_Ecosphere_2021/raw_images/Sept_2019/1a_u6/100_0314_0256.JPG",
-      "type": "image/jpeg",
+      "href": "https://github.com/cyverse-gis/cyverse-stac/blob/main/data/srer_drone_thumnail.png",
+      "type": "image/png",
       "roles": [
         "thumbnail"
       ],
