@@ -1,4 +1,4 @@
-# CyVerse STAC 
+# CyVerse SpatioTemporal Asset Catalog (STAC) 
 
 **SpatioTemporal Asset Catalog (STAC)** is a json-based metadata standard to describe geospatial data. It's goal is 
 to make geospatial data more easily worked with, indexed, and discovered. 
