@@ -2,7 +2,17 @@
   "type": "Collection",
   "id": "Santa Rita Ecostate Mapping - May 2019",
   "stac_version": "1.0.0",
-  "description": "The imagery was part of the Ecostate Mapping project of 2019 at Santa Rita Experimental Range",  
+  "description": "The imagery was part of the Ecostate Mapping project of 2019 at Santa Rita Experimental Range",
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/cyverse-gis/cyverse-stac/refs/heads/main/data/srer_drone_thumnail.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ],
+      "title": "SRER Drone"
+    }
+  },     
   "links": [
     {
       "rel": "root",
