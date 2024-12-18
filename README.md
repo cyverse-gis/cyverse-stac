@@ -115,9 +115,13 @@ sudo chmod +x /usr/local/bin/docker-compose
 
 ## Nginx
 
-To secure both instances over `https://` we are runninng [Nginx](https://nginx.org/) with a reverse proxy to the public IP addresses. Nginx is installed on the vm (not containerized). 
+To secure both instances over `https://` we are runninng [Nginx](https://nginx.org/) with a reverse proxy to the public IP addresses. Nginx is installed on the vm (not containerized). A reverse proxy acts as gatekeeper or middleman to handle web requests. A request will come into to port 80 (default http port) or 443 (encrypted port). Nginx listens to these ports for requests and then sends the request on to a back-end server to meet the request. For this system, Nginx is set to send request to localhost:8081 where a containerized Sql Alchemy is waiting to receive. 
 
-Check the expiration date of the certificate
+Secure Sockets Layer (SSL) Certificate is a file that encrypts data transfer between a browser and a server. stac.cyverse.org has SSL certificates from GoDaddy (managed by Jeremy Frady). 
+
+
+
+#### Useful Info
 
 ```
 openssl s_client -connect stac.cyverse.org:443 -servername stac.cyverse.org < /dev/null | openssl x509 -noout -dates
