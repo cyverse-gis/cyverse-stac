@@ -117,7 +117,7 @@ sudo chmod +x /usr/local/bin/docker-compose
 
 To secure both instances over `https://` we are runninng [Nginx](https://nginx.org/) with a reverse proxy to the public IP addresses. Nginx is installed on the vm (not containerized). A reverse proxy acts as gatekeeper or middleman to handle web requests. A request will come into to port 80 (default http port) or 443 (encrypted port). Nginx listens to these ports for requests and then sends the request on to a back-end server to meet the request. For this system, Nginx is set to send request to localhost:8081 where a containerized Sql Alchemy is waiting to receive. 
 
-Secure Sockets Layer (SSL) Certificate is a file that encrypts data transfer between a browser and a server. stac.cyverse.org has SSL certificates from GoDaddy (managed by Jeremy Frady). 
+Secure Sockets Layer (SSL) Certificate is a file that encrypts data transfer between a browser and a server. stac.cyverse.org has SSL certificates from GoDaddy (managed by Jeremy Frady). An SSL certificate makes your http site secure as https.
 
 
 
@@ -156,6 +156,8 @@ Within directory `stac-fastapi`, there are files `docker-compose.nginx.yml` and 
 <br/>
 <br/>
 <br/>
+<br/>
+<br/>
 
 ## `stac-api` vm
 
@@ -187,18 +189,28 @@ Note: the GitHub repository for `stac-fastapi` expects containers from GitHub Co
 <br/>
 <br/>
 
+### docker-compose.yml
+
+Docker-compose.yml launches a series of containerized services.
+
+
+Docker image: `ghcr.io/stac-utils/pgstac:v0.6.12`. This container provides a PostgreSQL database with the PGStac extension. Purpose: Stores the spatiotemporal data for both app-sqlalchemy and app-pgstac.
+Key Features: Preconfigured for geospatial data processing (using postgis and PGStac). Exposes the database on port 5439 (mapped to the host's port).
+
+Docker image: `ghcr.io/stac-utils/stac-fastapi:main-sqlalchemy`. This container runs the stac-fastapi (rest api) and uses [SQL Alchemy](https://www.sqlalchemy.org/), a Python SQL toolkit and object relational mapper mapped to a STAC `.json` Collection and `.geojson` Feature Collection.  This container waits for the postgresql database to start before launching. It uses a `wait-for-it.sh` script to wait for the postgresql database at port 5432. It exposes to port 8081 where is receives requests from nginx reverse proxy.
+
+Docker image: `ghcr.io/stac-utils/stac-fastapi:main-pgstac`. This container is similar to the 'sql alchecmy' container. It currently does not launch (exit code 127 which means there is problem with `COMMAND`) and is not set up to communcate with the nginx reverse proxy. Perhaps it is redundant or not useful for our purposes????
+
+Docker image: 
 There are two configuration files which need to be updated:
 
-`docker-compose.yaml` - provisions the deployment of a [PostgreSQL](https://www.postgresql.org/docs/) database and [SQL lchemy](https://www.sqlalchemy.org/) Python SQL toolkit and object relational mapper mapped to a STAC `.json` Collection and `.geojson` Feature Collection.
+`docker-compose.yaml` - provisions the deployment of a [PostgreSQL](https://www.postgresql.org/docs/) database and 
 
 
 <br/>
-
 <br/>
 <br/>
 
-
-#### Edit `docker-compose.yml` 
 
 
 
