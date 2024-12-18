@@ -179,7 +179,7 @@ The general directory structure on `stac-api` vm is:
 <br/>
 
 
-## Run stac-fastapi with Docker-compose
+## stac-fastapi with Docker-compose
 
 Within the directory `stac-fastapi`, the file `docker-compose.yml` is the config file to orchestrate the launching of multiple containers. These containers run the API. 
 
@@ -194,59 +194,34 @@ Note: the GitHub repository for `stac-fastapi` expects containers from GitHub Co
 Docker-compose.yml launches a series of containerized services.
 
 
-Container name: `stac-db`. This container provides a PostgreSQL database with the PGStac extension. Purpose: Stores the spatiotemporal data for both app-sqlalchemy and app-pgstac.
+Container name: **`stac-db`**. This container provides a PostgreSQL database with the PGStac extension. Purpose: Stores the spatiotemporal data for both app-sqlalchemy and app-pgstac.
 Key Features: Preconfigured for geospatial data processing (using postgis and PGStac). Exposes the database on port 5439 (mapped to the host's port).
 
-Container name: `stac-fastapi-sqlalchemy`. This container runs the stac-fastapi (rest api) and uses [SQL Alchemy](https://www.sqlalchemy.org/), a Python SQL toolkit and object relational mapper mapped to a STAC `.json` Collection and `.geojson` Feature Collection.  This container waits for the postgresql database to start before launching. It uses a `wait-for-it.sh` script to wait for the postgresql database at port 5432. It exposes to port 8081 where is receives requests from nginx reverse proxy.
+Container name: **`stac-fastapi-sqlalchemy`**. This container runs the stac-fastapi (rest api) and uses [SQL Alchemy](https://www.sqlalchemy.org/), a Python SQL toolkit and object relational mapper mapped to a STAC `.json` Collection and `.geojson` Feature Collection.  This container waits for the postgresql database to start before launching. It uses a `wait-for-it.sh` script to wait for the postgresql database at port 5432. It exposes to port 8081 where is receives requests from nginx reverse proxy.
 
-Container name: `stac-fastapi-pgstac`. This container is similar to the 'sql alchecmy' container. It currently does not launch (exit code 127 which means there is problem with `COMMAND`) and is not set up to communcate with the nginx reverse proxy. Perhaps it is redundant or not useful for our purposes????
+Container name: **`stac-fastapi-pgstac`**. This container is similar to the 'sql alchecmy' container. It currently does not launch (exit code 127 which means there is problem with `COMMAND`) and is not set up to communcate with the nginx reverse proxy. Perhaps it is redundant or not useful for our purposes????
 
-Container name: `loadcyverse-sqlalchemy`. This container's whole purpose to load STAC metadata (`collection.json` & `index.geojson`) into the postgresql database. It runs the `ingest_cyverse.py` script to put the data into the database. The `ingest_cyverse.py` script uses the file `api_collections.txt` as part of the ingest. 
+Container name: **`loadcyverse-sqlalchemy`**. This container's whole purpose to load STAC metadata (`collection.json` & `index.geojson`) into the postgresql database. It runs the `ingest_cyverse.py` script to put the data into the database. The `ingest_cyverse.py` script uses the file `api_collections.txt` as part of the ingest. If successful, the container should run for a short period of time and then exit with code 0. 
 
-
-
-
-
-
-There are two configuration files which need to be updated:
-
-`docker-compose.yaml` - provisions the deployment of a [PostgreSQL](https://www.postgresql.org/docs/) database and 
-
-
-<br/>
-<br/>
-<br/>
-
-
-
-
-Inside the `/cyverse-stac` repo is a directory called `catalogs` - this is where we are maintaining the list of public STAC Collections in CyVerse.
-
-The `catalogs` directory is ingested by the `ingest_cyverse.py` file in the `stac-fastapi/scripts` directory. 
-
-The `docker-compose.yml` is also modified to include the relative path to the `cyverse-stac` directory
-
-<br/><br/>
-
-#### Edit `ingest_cyverse.py`
-
+Container name: **`loadcyverse-pgstac`**: For loading data using the fastapi-pgstac service. This currently does not work. 
 
 <br/>
 <br/>
 
-#### Start Docker-Compose
+### Start Docker-Compose
 
 ```bash
 cd ~/stac-fastapi
 ```
+Start the API
 
-In the `/stac-fastapi` directory there is a `docker-compose.yml` which is set to point at a demo dataset called `joplin` you will need to modify the `docker-compose.yml` and point it at a new `collection.json` and `index.geojson` 
+`docker-compose up -d`
 
-Note: if you do not modify the `docker-compose.yml` the sample dataset will be shown.
+Stop the API
 
-<br/>
+`docker-compose down`
 
-Start Docker-Compose in detached mode. The `-d` flag will start Docker Compose in the background
+
 
 
 
