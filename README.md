@@ -83,7 +83,7 @@ nano ~/.ssh/known_hosts
 
 
 
-### Install Docker
+### Install Docker on VM
 
 If the image does not have Docker, install it.
 
@@ -181,7 +181,7 @@ The general directory structure on `stac-api` vm is:
 
 ## Run stac-fastapi with Docker-compose
 
-Within the directory `stac-fastapi`, the file `docker-compose.yml` is the config file to orchestrate the launching of 3 containers. These containers run the API. 
+Within the directory `stac-fastapi`, the file `docker-compose.yml` is the config file to orchestrate the launching of multiple containers. These containers run the API. 
 
 Note: the GitHub repository for `stac-fastapi` expects containers from GitHub Container Registry, not from DockerHub - update the `docker-compose.yml` to use the specific containers and tag version 
 
@@ -194,14 +194,20 @@ Note: the GitHub repository for `stac-fastapi` expects containers from GitHub Co
 Docker-compose.yml launches a series of containerized services.
 
 
-Docker image: `ghcr.io/stac-utils/pgstac:v0.6.12`. This container provides a PostgreSQL database with the PGStac extension. Purpose: Stores the spatiotemporal data for both app-sqlalchemy and app-pgstac.
+Container name: `stac-db`. This container provides a PostgreSQL database with the PGStac extension. Purpose: Stores the spatiotemporal data for both app-sqlalchemy and app-pgstac.
 Key Features: Preconfigured for geospatial data processing (using postgis and PGStac). Exposes the database on port 5439 (mapped to the host's port).
 
-Docker image: `ghcr.io/stac-utils/stac-fastapi:main-sqlalchemy`. This container runs the stac-fastapi (rest api) and uses [SQL Alchemy](https://www.sqlalchemy.org/), a Python SQL toolkit and object relational mapper mapped to a STAC `.json` Collection and `.geojson` Feature Collection.  This container waits for the postgresql database to start before launching. It uses a `wait-for-it.sh` script to wait for the postgresql database at port 5432. It exposes to port 8081 where is receives requests from nginx reverse proxy.
+Container name: `stac-fastapi-sqlalchemy`. This container runs the stac-fastapi (rest api) and uses [SQL Alchemy](https://www.sqlalchemy.org/), a Python SQL toolkit and object relational mapper mapped to a STAC `.json` Collection and `.geojson` Feature Collection.  This container waits for the postgresql database to start before launching. It uses a `wait-for-it.sh` script to wait for the postgresql database at port 5432. It exposes to port 8081 where is receives requests from nginx reverse proxy.
 
-Docker image: `ghcr.io/stac-utils/stac-fastapi:main-pgstac`. This container is similar to the 'sql alchecmy' container. It currently does not launch (exit code 127 which means there is problem with `COMMAND`) and is not set up to communcate with the nginx reverse proxy. Perhaps it is redundant or not useful for our purposes????
+Container name: `stac-fastapi-pgstac`. This container is similar to the 'sql alchecmy' container. It currently does not launch (exit code 127 which means there is problem with `COMMAND`) and is not set up to communcate with the nginx reverse proxy. Perhaps it is redundant or not useful for our purposes????
 
-Docker image: 
+Container name: `loadcyverse-sqlalchemy`. This container's whole purpose to load STAC metadata (`collection.json` & `index.geojson`) into the postgresql database. It runs the `ingest_cyverse.py` script to put the data into the database. The `ingest_cyverse.py` script uses the file `api_collections.txt` as part of the ingest. 
+
+
+
+
+
+
 There are two configuration files which need to be updated:
 
 `docker-compose.yaml` - provisions the deployment of a [PostgreSQL](https://www.postgresql.org/docs/) database and 
