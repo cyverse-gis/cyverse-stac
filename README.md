@@ -169,7 +169,7 @@ The general directory structure on `stac-api` vm is:
   -stac-fastapi 
 ```
 
-`cyverse-stac` is the cloned version of [THIS repository](https://github.com/cyverse-gis/cyverse-stac) It contains the json & geojson metadata the descibes the geospatial collections, items, and assets.
+`cyverse-stac` is the cloned version of [THIS repository](https://github.com/cyverse-gis/cyverse-stac) It contains the json & geojson metadata the descibes the geospatial collections, items, and assets. The repo on Github and the VM should be synced at all time. 
 
 <br/>
 
