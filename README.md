@@ -162,6 +162,8 @@ Some nginx configuration files are located in:
 
 Within directory `stac-fastapi`, there are files `docker-compose.nginx.yml` and `nginx.conf`. This files are NOT in use. 
 
+<br/>
+
 Add SSl Certificates
 
     Add `.key` and `.crt` to:
@@ -226,7 +228,7 @@ Container name: **`loadcyverse-pgstac`**: For loading data using the fastapi-pgs
 <br/>
 <br/>
 
-### Start Docker-Compose
+#### Docker-Compose Commands
 
 ```bash
 cd ~/stac-fastapi
