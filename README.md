@@ -321,7 +321,7 @@ docker-compose up -d
 
 ## Creating STAC json & geojson files
 
-Within this repo there is a directory called `scripts`. Within it is a jupyter notebook `STAC_creation_latest.ipynb` that has python code for creating STAC json and geojson files from crawling over imagery assets. The code primarily uses the [pystac](https://pystac.readthedocs.io/en/stable/) library to create the STAC metadata. The STAC creation code is in active development.
+Within this repo there is a directory called `scripts`. Within it is a jupyter notebook `STAC_creation_latest.ipynb` that has python code for creating STAC json and geojson files from crawling over imagery assets. The script is designed to run in Cyverse Discovery Environment using the 'jupyter-lab geospatial' app. The code primarily uses the [pystac](https://pystac.readthedocs.io/en/stable/) library to create the STAC metadata. The STAC creation code is in active development.
 
 ### Here is what the code currently does:
 
