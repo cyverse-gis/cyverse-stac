@@ -1,28 +1,28 @@
 {
   "type": "Collection",
-  "id": "Drone Missions Collection",
   "stac_version": "1.0.0",
+  "id": "Drone Missions Collection",
   "description": "STAC collection for drone missions polygons.",
+  "license": "CC-BY-SA-4.0",
   "links": [],
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -120.21186757104148,
-          39.0656416093274,
-          -120.20324808962243,
-          39.07684317879846
+          -123.8714733508188,
+          33.80756574236823,
+          -116.76420962514216,
+          40.779931609912275
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2019-06-04T11:59:40+00:00",
-          "2023-10-17T12:15:20+00:00"
+          "2020-02-11T14:35:32",
+          "2024-05-17T20:03:07"
         ]
       ]
     }
-  },
-  "license": "proprietary"
+  }
 }
