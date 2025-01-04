@@ -12,7 +12,7 @@
       "id": "000547",
       "properties": {
         "datetime": "2020-05-12T13:40:27",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -134,7 +134,7 @@
       "id": "000548",
       "properties": {
         "datetime": "2020-05-20T11:03:35",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -256,7 +256,7 @@
       "id": "000549",
       "properties": {
         "datetime": "2020-05-21T12:13:01",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -378,7 +378,7 @@
       "id": "000550",
       "properties": {
         "datetime": "2020-05-21T13:23:34",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -500,7 +500,7 @@
       "id": "000551",
       "properties": {
         "datetime": "2020-05-12T14:28:20",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -622,7 +622,7 @@
       "id": "000552",
       "properties": {
         "datetime": "2020-05-21T13:23:34",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -744,7 +744,7 @@
       "id": "000553",
       "properties": {
         "datetime": "2020-05-25T13:43:30",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -866,7 +866,7 @@
       "id": "000554",
       "properties": {
         "datetime": "2020-06-02T13:21:01",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -988,7 +988,7 @@
       "id": "000555",
       "properties": {
         "datetime": "2020-06-05T13:27:40",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -1110,7 +1110,7 @@
       "id": "000556",
       "properties": {
         "datetime": "2020-06-05T14:23:29",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -1232,7 +1232,7 @@
       "id": "000557",
       "properties": {
         "datetime": "2020-09-22T12:22:20",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -1354,7 +1354,7 @@
       "id": "000558",
       "properties": {
         "datetime": "2020-09-23T05:11:26",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -1476,7 +1476,7 @@
       "id": "000559",
       "properties": {
         "datetime": "2020-10-26T21:06:22",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -1598,7 +1598,7 @@
       "id": "000560",
       "properties": {
         "datetime": "2020-10-27T16:54:48",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -1720,7 +1720,7 @@
       "id": "000561",
       "properties": {
         "datetime": "2020-10-27T19:07:22",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -1842,7 +1842,7 @@
       "id": "000562",
       "properties": {
         "datetime": "2020-10-28T17:57:56",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -1964,7 +1964,7 @@
       "id": "000563",
       "properties": {
         "datetime": "2020-10-30T03:12:50",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -2086,7 +2086,7 @@
       "id": "000564",
       "properties": {
         "datetime": "2020-11-01T00:31:35",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -2208,7 +2208,7 @@
       "id": "000565",
       "properties": {
         "datetime": "2020-11-01T02:29:45",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -2330,7 +2330,7 @@
       "id": "000566",
       "properties": {
         "datetime": "2020-11-01T07:15:43",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -2452,7 +2452,7 @@
       "id": "000567",
       "properties": {
         "datetime": "2020-11-01T06:42:40",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -2574,7 +2574,7 @@
       "id": "000568",
       "properties": {
         "datetime": "2020-11-01T06:13:32",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -2696,7 +2696,7 @@
       "id": "000570",
       "properties": {
         "datetime": "2020-11-01T04:26:51",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -2818,7 +2818,7 @@
       "id": "000573",
       "properties": {
         "datetime": "2020-11-01T03:31:31",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -2940,7 +2940,7 @@
       "id": "000575",
       "properties": {
         "datetime": "2020-09-26T03:49:14",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -3062,7 +3062,7 @@
       "id": "000576",
       "properties": {
         "datetime": "2020-09-27T00:58:52",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -3184,7 +3184,7 @@
       "id": "000577",
       "properties": {
         "datetime": "2020-09-27T07:08:41",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -3306,7 +3306,7 @@
       "id": "000578",
       "properties": {
         "datetime": "2020-09-28T00:58:15",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -3428,7 +3428,7 @@
       "id": "000579",
       "properties": {
         "datetime": "2020-02-11T14:35:32",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -3550,7 +3550,7 @@
       "id": "000580",
       "properties": {
         "datetime": "2020-02-12T12:09:33",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -3672,7 +3672,7 @@
       "id": "000581",
       "properties": {
         "datetime": "2020-02-12T15:15:21",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -3794,7 +3794,7 @@
       "id": "000024",
       "properties": {
         "datetime": "2022-06-19T10:54:43",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -3916,7 +3916,7 @@
       "id": "000025",
       "properties": {
         "datetime": "2022-06-19T12:25:48",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -4038,7 +4038,7 @@
       "id": "000021",
       "properties": {
         "datetime": "2022-06-20T10:28:27",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -4160,7 +4160,7 @@
       "id": "000020",
       "properties": {
         "datetime": "2022-06-20T11:58:29",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -4282,7 +4282,7 @@
       "id": "000028",
       "properties": {
         "datetime": "2022-06-22T12:55:01",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -4404,7 +4404,7 @@
       "id": "000029",
       "properties": {
         "datetime": "2022-06-22T13:47:18",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -4526,7 +4526,7 @@
       "id": "000022",
       "properties": {
         "datetime": "2022-06-23T09:55:40",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -4648,7 +4648,7 @@
       "id": "000023",
       "properties": {
         "datetime": "2022-06-23T11:59:15",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -4770,7 +4770,7 @@
       "id": "000030",
       "properties": {
         "datetime": "2022-06-30T10:37:13",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -4892,7 +4892,7 @@
       "id": "000031",
       "properties": {
         "datetime": "2022-06-30T13:15:06",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -5014,7 +5014,7 @@
       "id": "000032",
       "properties": {
         "datetime": "2022-07-01T09:59:16",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -5136,7 +5136,7 @@
       "id": "000033",
       "properties": {
         "datetime": "2022-07-01T13:20:37",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -5258,7 +5258,7 @@
       "id": "000034",
       "properties": {
         "datetime": "2022-07-02T11:53:22",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -5380,7 +5380,7 @@
       "id": "000035",
       "properties": {
         "datetime": "2022-07-02T14:17:57",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -5502,7 +5502,7 @@
       "id": "000041",
       "properties": {
         "datetime": "2022-07-03T14:09:29",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -5624,7 +5624,7 @@
       "id": "000044",
       "properties": {
         "datetime": "2022-07-05T09:59:48",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -5746,7 +5746,7 @@
       "id": "000045",
       "properties": {
         "datetime": "2022-07-14T09:58:19",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -5868,7 +5868,7 @@
       "id": "000046",
       "properties": {
         "datetime": "2022-07-14T11:52:43",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -5990,7 +5990,7 @@
       "id": "000048",
       "properties": {
         "datetime": "2022-07-14T14:15:15",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -6112,7 +6112,7 @@
       "id": "000047",
       "properties": {
         "datetime": "2022-07-15T11:30:36",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -6234,7 +6234,7 @@
       "id": "000050",
       "properties": {
         "datetime": "2022-07-15T14:04:29",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -6356,7 +6356,7 @@
       "id": "000052",
       "properties": {
         "datetime": "2022-07-16T10:14:53",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -6478,7 +6478,7 @@
       "id": "000055",
       "properties": {
         "datetime": "2022-07-17T13:33:08",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -6600,7 +6600,7 @@
       "id": "000056",
       "properties": {
         "datetime": "2022-07-17T13:33:08",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -6722,7 +6722,7 @@
       "id": "000058",
       "properties": {
         "datetime": "2022-07-18T10:06:20",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -6844,7 +6844,7 @@
       "id": "000059",
       "properties": {
         "datetime": "2022-07-18T11:52:28",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -6966,7 +6966,7 @@
       "id": "000060",
       "properties": {
         "datetime": "2022-07-19T10:02:34",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -7088,7 +7088,7 @@
       "id": "000061",
       "properties": {
         "datetime": "2022-07-29T10:03:29",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -7210,7 +7210,7 @@
       "id": "000062",
       "properties": {
         "datetime": "2022-07-29T11:15:44",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -7332,7 +7332,7 @@
       "id": "000067",
       "properties": {
         "datetime": "2022-07-29T13:12:37",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -7454,7 +7454,7 @@
       "id": "000065",
       "properties": {
         "datetime": "2022-07-29T13:34:00",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -7576,7 +7576,7 @@
       "id": "000069",
       "properties": {
         "datetime": "2022-07-30T09:59:19",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -7698,7 +7698,7 @@
       "id": "000070",
       "properties": {
         "datetime": "2022-07-30T11:11:13",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -7820,7 +7820,7 @@
       "id": "000071",
       "properties": {
         "datetime": "2022-07-31T09:58:35",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -7942,7 +7942,7 @@
       "id": "000072",
       "properties": {
         "datetime": "2022-08-01T11:53:18",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -8064,7 +8064,7 @@
       "id": "000073",
       "properties": {
         "datetime": "2022-08-01T14:34:44",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -8186,7 +8186,7 @@
       "id": "000074",
       "properties": {
         "datetime": "2022-08-02T09:59:26",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -8308,7 +8308,7 @@
       "id": "000075",
       "properties": {
         "datetime": "2022-08-02T12:13:21",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -8430,7 +8430,7 @@
       "id": "000036",
       "properties": {
         "datetime": "2022-08-02T14:05:58",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -8552,7 +8552,7 @@
       "id": "000076",
       "properties": {
         "datetime": "2022-08-02T14:44:49",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -8674,7 +8674,7 @@
       "id": "000078",
       "properties": {
         "datetime": "2022-09-01T10:23:10",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -8796,7 +8796,7 @@
       "id": "000079",
       "properties": {
         "datetime": "2022-09-09T13:38:08",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -8918,7 +8918,7 @@
       "id": "000081",
       "properties": {
         "datetime": "2022-09-09T14:29:15",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -9040,7 +9040,7 @@
       "id": "000082",
       "properties": {
         "datetime": "2022-09-10T10:26:33",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -9162,7 +9162,7 @@
       "id": "000083",
       "properties": {
         "datetime": "2022-09-10T11:44:27",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -9284,7 +9284,7 @@
       "id": "000084",
       "properties": {
         "datetime": "2022-09-10T14:18:13",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -9406,7 +9406,7 @@
       "id": "000085",
       "properties": {
         "datetime": "2022-09-11T10:16:40",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -9528,7 +9528,7 @@
       "id": "000086",
       "properties": {
         "datetime": "2022-09-11T11:17:44",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -9650,7 +9650,7 @@
       "id": "000004",
       "properties": {
         "datetime": "2023-05-28T11:35:34",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -9772,7 +9772,7 @@
       "id": "000005",
       "properties": {
         "datetime": "2023-05-28T12:43:07",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -9894,7 +9894,7 @@
       "id": "000008",
       "properties": {
         "datetime": "2023-06-08T09:58:55",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -10016,7 +10016,7 @@
       "id": "000007",
       "properties": {
         "datetime": "2023-06-08T10:08:10",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -10138,7 +10138,7 @@
       "id": "000011",
       "properties": {
         "datetime": "2023-06-08T11:41:51",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -10260,7 +10260,7 @@
       "id": "000010",
       "properties": {
         "datetime": "2023-06-08T11:45:57",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -10382,7 +10382,7 @@
       "id": "000015",
       "properties": {
         "datetime": "2023-06-09T10:01:31",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -10504,7 +10504,7 @@
       "id": "000013",
       "properties": {
         "datetime": "2023-06-09T10:29:33",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -10626,7 +10626,7 @@
       "id": "000016",
       "properties": {
         "datetime": "2023-06-09T14:02:18",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -10748,7 +10748,7 @@
       "id": "000018",
       "properties": {
         "datetime": "2023-06-09T14:04:58",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -10870,7 +10870,7 @@
       "id": "000089",
       "properties": {
         "datetime": "2023-06-13T10:07:25",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -10992,7 +10992,7 @@
       "id": "000019",
       "properties": {
         "datetime": "2023-06-13T10:14:03",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -11114,7 +11114,7 @@
       "id": "000324",
       "properties": {
         "datetime": "2023-06-13T11:46:30",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -11236,7 +11236,7 @@
       "id": "000323",
       "properties": {
         "datetime": "2023-06-13T11:56:34",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -11358,7 +11358,7 @@
       "id": "000090",
       "properties": {
         "datetime": "2023-06-13T12:52:50",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -11480,7 +11480,7 @@
       "id": "000116",
       "properties": {
         "datetime": "2023-06-22T11:37:17",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -11602,7 +11602,7 @@
       "id": "000093",
       "properties": {
         "datetime": "2023-06-22T13:39:47",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -11724,7 +11724,7 @@
       "id": "000118",
       "properties": {
         "datetime": "2023-06-22T14:55:54",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -11846,7 +11846,7 @@
       "id": "000119",
       "properties": {
         "datetime": "2023-06-23T09:31:17",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -11968,7 +11968,7 @@
       "id": "000092",
       "properties": {
         "datetime": "2023-06-23T10:04:50",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -12090,7 +12090,7 @@
       "id": "000121",
       "properties": {
         "datetime": "2023-06-23T10:36:18",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -12212,7 +12212,7 @@
       "id": "000091",
       "properties": {
         "datetime": "2023-06-23T10:46:14",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -12334,7 +12334,7 @@
       "id": "000096",
       "properties": {
         "datetime": "2023-06-23T11:31:55",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -12456,7 +12456,7 @@
       "id": "000124",
       "properties": {
         "datetime": "2023-06-23T11:53:31",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -12578,7 +12578,7 @@
       "id": "000097",
       "properties": {
         "datetime": "2023-06-23T14:19:40",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -12700,7 +12700,7 @@
       "id": "000123",
       "properties": {
         "datetime": "2023-06-23T14:24:39",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -12822,7 +12822,7 @@
       "id": "000098",
       "properties": {
         "datetime": "2023-06-23T14:54:37",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -12944,7 +12944,7 @@
       "id": "000126",
       "properties": {
         "datetime": "2023-06-23T14:58:11",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -13066,7 +13066,7 @@
       "id": "000125",
       "properties": {
         "datetime": "2023-06-23T15:29:26",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -13188,7 +13188,7 @@
       "id": "000128",
       "properties": {
         "datetime": "2023-06-24T09:31:21",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -13310,7 +13310,7 @@
       "id": "000100",
       "properties": {
         "datetime": "2023-06-24T10:03:20",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -13432,7 +13432,7 @@
       "id": "000101",
       "properties": {
         "datetime": "2023-06-24T10:41:58",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -13554,7 +13554,7 @@
       "id": "000127",
       "properties": {
         "datetime": "2023-06-24T10:49:18",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -13676,7 +13676,7 @@
       "id": "000129",
       "properties": {
         "datetime": "2023-06-24T13:44:48",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -13798,7 +13798,7 @@
       "id": "000131",
       "properties": {
         "datetime": "2023-06-24T15:40:06",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -13920,7 +13920,7 @@
       "id": "000103",
       "properties": {
         "datetime": "2023-06-25T09:39:40",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -14042,7 +14042,7 @@
       "id": "000133",
       "properties": {
         "datetime": "2023-06-25T10:06:21",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -14164,7 +14164,7 @@
       "id": "000104",
       "properties": {
         "datetime": "2023-06-25T10:22:42",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -14286,7 +14286,7 @@
       "id": "000136",
       "properties": {
         "datetime": "2023-06-25T11:11:59",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -14408,7 +14408,7 @@
       "id": "000135",
       "properties": {
         "datetime": "2023-06-25T13:11:51",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -14530,7 +14530,7 @@
       "id": "000106",
       "properties": {
         "datetime": "2023-06-25T13:32:49",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -14652,7 +14652,7 @@
       "id": "000138",
       "properties": {
         "datetime": "2023-06-25T13:33:19",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -14774,7 +14774,7 @@
       "id": "000107",
       "properties": {
         "datetime": "2023-06-25T14:20:48",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -14896,7 +14896,7 @@
       "id": "000137",
       "properties": {
         "datetime": "2023-06-27T10:03:29",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -15018,7 +15018,7 @@
       "id": "000139",
       "properties": {
         "datetime": "2023-06-27T11:03:30",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -15140,7 +15140,7 @@
       "id": "000109",
       "properties": {
         "datetime": "2023-06-27T11:07:31",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -15262,7 +15262,7 @@
       "id": "000110",
       "properties": {
         "datetime": "2023-06-27T11:41:13",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -15384,7 +15384,7 @@
       "id": "000113",
       "properties": {
         "datetime": "2023-06-27T13:55:23",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -15506,7 +15506,7 @@
       "id": "000114",
       "properties": {
         "datetime": "2023-06-27T14:32:03",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -15628,7 +15628,7 @@
       "id": "000142",
       "properties": {
         "datetime": "2023-07-06T09:47:22",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -15750,7 +15750,7 @@
       "id": "000141",
       "properties": {
         "datetime": "2023-07-06T10:08:05",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -15872,7 +15872,7 @@
       "id": "000144",
       "properties": {
         "datetime": "2023-07-06T11:06:55",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -15994,7 +15994,7 @@
       "id": "000177",
       "properties": {
         "datetime": "2023-07-06T11:37:45",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -16116,7 +16116,7 @@
       "id": "000143",
       "properties": {
         "datetime": "2023-07-06T11:41:22",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -16238,7 +16238,7 @@
       "id": "000179",
       "properties": {
         "datetime": "2023-07-06T13:39:21",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -16360,7 +16360,7 @@
       "id": "000182",
       "properties": {
         "datetime": "2023-07-06T14:43:39",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -16482,7 +16482,7 @@
       "id": "000147",
       "properties": {
         "datetime": "2023-07-06T14:48:43",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -16604,7 +16604,7 @@
       "id": "000145",
       "properties": {
         "datetime": "2023-07-06T15:43:30",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -16726,7 +16726,7 @@
       "id": "000184",
       "properties": {
         "datetime": "2023-07-07T10:24:21",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -16848,7 +16848,7 @@
       "id": "000148",
       "properties": {
         "datetime": "2023-07-07T10:47:28",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -16970,7 +16970,7 @@
       "id": "000149",
       "properties": {
         "datetime": "2023-07-07T12:07:37",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -17092,7 +17092,7 @@
       "id": "000186",
       "properties": {
         "datetime": "2023-07-07T12:09:37",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -17214,7 +17214,7 @@
       "id": "000185",
       "properties": {
         "datetime": "2023-07-07T13:29:38",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -17336,7 +17336,7 @@
       "id": "000151",
       "properties": {
         "datetime": "2023-07-07T14:28:44",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -17458,7 +17458,7 @@
       "id": "000152",
       "properties": {
         "datetime": "2023-07-07T15:10:20",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -17580,7 +17580,7 @@
       "id": "000153",
       "properties": {
         "datetime": "2023-07-08T09:43:20",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -17702,7 +17702,7 @@
       "id": "000187",
       "properties": {
         "datetime": "2023-07-08T10:37:18",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -17824,7 +17824,7 @@
       "id": "000155",
       "properties": {
         "datetime": "2023-07-08T10:40:22",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -17946,7 +17946,7 @@
       "id": "000191",
       "properties": {
         "datetime": "2023-07-08T11:16:02",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -18068,7 +18068,7 @@
       "id": "000188",
       "properties": {
         "datetime": "2023-07-08T13:38:06",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -18190,7 +18190,7 @@
       "id": "000157",
       "properties": {
         "datetime": "2023-07-08T14:02:03",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -18312,7 +18312,7 @@
       "id": "000158",
       "properties": {
         "datetime": "2023-07-08T14:56:00",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -18434,7 +18434,7 @@
       "id": "000161",
       "properties": {
         "datetime": "2023-07-09T10:22:47",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -18556,7 +18556,7 @@
       "id": "000193",
       "properties": {
         "datetime": "2023-07-09T10:37:11",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -18678,7 +18678,7 @@
       "id": "000160",
       "properties": {
         "datetime": "2023-07-09T11:10:44",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -18800,7 +18800,7 @@
       "id": "000190",
       "properties": {
         "datetime": "2023-07-09T11:13:15",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -18922,7 +18922,7 @@
       "id": "000195",
       "properties": {
         "datetime": "2023-07-09T11:44:10",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -19044,7 +19044,7 @@
       "id": "000164",
       "properties": {
         "datetime": "2023-07-09T12:03:41",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -19166,7 +19166,7 @@
       "id": "000192",
       "properties": {
         "datetime": "2023-07-09T13:31:47",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -19288,7 +19288,7 @@
       "id": "000162",
       "properties": {
         "datetime": "2023-07-09T13:51:41",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -19410,7 +19410,7 @@
       "id": "000197",
       "properties": {
         "datetime": "2023-07-09T13:56:27",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -19532,7 +19532,7 @@
       "id": "000165",
       "properties": {
         "datetime": "2023-07-10T09:44:28",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -19654,7 +19654,7 @@
       "id": "000194",
       "properties": {
         "datetime": "2023-07-10T09:56:07",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -19776,7 +19776,7 @@
       "id": "000168",
       "properties": {
         "datetime": "2023-07-10T10:31:31",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -19898,7 +19898,7 @@
       "id": "000196",
       "properties": {
         "datetime": "2023-07-10T11:05:52",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -20020,7 +20020,7 @@
       "id": "000200",
       "properties": {
         "datetime": "2023-07-10T11:25:36",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -20142,7 +20142,7 @@
       "id": "000169",
       "properties": {
         "datetime": "2023-07-10T11:40:23",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -20264,7 +20264,7 @@
       "id": "000198",
       "properties": {
         "datetime": "2023-07-10T12:11:27",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -20386,7 +20386,7 @@
       "id": "000167",
       "properties": {
         "datetime": "2023-07-10T13:33:49",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -20508,7 +20508,7 @@
       "id": "000202",
       "properties": {
         "datetime": "2023-07-10T13:42:00",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -20630,7 +20630,7 @@
       "id": "000174",
       "properties": {
         "datetime": "2023-07-11T09:47:41",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -20752,7 +20752,7 @@
       "id": "000199",
       "properties": {
         "datetime": "2023-07-11T10:13:42",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -20874,7 +20874,7 @@
       "id": "000171",
       "properties": {
         "datetime": "2023-07-11T10:36:07",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -20996,7 +20996,7 @@
       "id": "000201",
       "properties": {
         "datetime": "2023-07-11T10:47:51",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -21118,7 +21118,7 @@
       "id": "000173",
       "properties": {
         "datetime": "2023-07-11T11:22:55",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -21240,7 +21240,7 @@
       "id": "000207",
       "properties": {
         "datetime": "2023-07-11T11:32:48",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -21362,7 +21362,7 @@
       "id": "000203",
       "properties": {
         "datetime": "2023-07-11T13:43:35",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -21484,7 +21484,7 @@
       "id": "000175",
       "properties": {
         "datetime": "2023-07-11T13:52:07",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -21606,7 +21606,7 @@
       "id": "000220",
       "properties": {
         "datetime": "2023-07-20T11:15:46",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -21728,7 +21728,7 @@
       "id": "000211",
       "properties": {
         "datetime": "2023-07-20T13:33:12",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -21850,7 +21850,7 @@
       "id": "000204",
       "properties": {
         "datetime": "2023-07-20T14:31:33",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -21972,7 +21972,7 @@
       "id": "000205",
       "properties": {
         "datetime": "2023-07-20T15:21:25",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -22094,7 +22094,7 @@
       "id": "000222",
       "properties": {
         "datetime": "2023-07-21T09:43:17",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -22216,7 +22216,7 @@
       "id": "000214",
       "properties": {
         "datetime": "2023-07-21T09:44:41",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -22338,7 +22338,7 @@
       "id": "000213",
       "properties": {
         "datetime": "2023-07-21T10:17:00",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -22460,7 +22460,7 @@
       "id": "000206",
       "properties": {
         "datetime": "2023-07-21T10:42:18",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -22582,7 +22582,7 @@
       "id": "000224",
       "properties": {
         "datetime": "2023-07-21T10:46:48",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -22704,7 +22704,7 @@
       "id": "000215",
       "properties": {
         "datetime": "2023-07-21T11:06:26",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -22826,7 +22826,7 @@
       "id": "000217",
       "properties": {
         "datetime": "2023-07-21T11:07:30",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -22948,7 +22948,7 @@
       "id": "000226",
       "properties": {
         "datetime": "2023-07-21T11:27:26",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -23070,7 +23070,7 @@
       "id": "000216",
       "properties": {
         "datetime": "2023-07-21T12:02:45",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -23192,7 +23192,7 @@
       "id": "000228",
       "properties": {
         "datetime": "2023-07-21T13:30:49",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -23314,7 +23314,7 @@
       "id": "000218",
       "properties": {
         "datetime": "2023-07-21T13:51:29",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -23436,7 +23436,7 @@
       "id": "000208",
       "properties": {
         "datetime": "2023-07-22T09:51:29",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -23558,7 +23558,7 @@
       "id": "000229",
       "properties": {
         "datetime": "2023-07-22T09:53:46",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -23680,7 +23680,7 @@
       "id": "000221",
       "properties": {
         "datetime": "2023-07-22T11:00:14",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -23802,7 +23802,7 @@
       "id": "000210",
       "properties": {
         "datetime": "2023-07-22T11:03:53",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -23924,7 +23924,7 @@
       "id": "000227",
       "properties": {
         "datetime": "2023-07-24T09:40:40",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -24046,7 +24046,7 @@
       "id": "000223",
       "properties": {
         "datetime": "2023-07-24T09:41:56",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -24168,7 +24168,7 @@
       "id": "000233",
       "properties": {
         "datetime": "2023-07-24T10:54:44",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -24290,7 +24290,7 @@
       "id": "000230",
       "properties": {
         "datetime": "2023-07-24T11:04:27",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -24412,7 +24412,7 @@
       "id": "000225",
       "properties": {
         "datetime": "2023-07-24T13:31:12",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -24534,7 +24534,7 @@
       "id": "000234",
       "properties": {
         "datetime": "2023-07-24T14:18:45",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -24656,7 +24656,7 @@
       "id": "000232",
       "properties": {
         "datetime": "2023-07-24T14:53:26",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -24778,7 +24778,7 @@
       "id": "000231",
       "properties": {
         "datetime": "2023-07-24T15:16:58",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -24900,7 +24900,7 @@
       "id": "000237",
       "properties": {
         "datetime": "2023-07-30T10:39:37",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -25022,7 +25022,7 @@
       "id": "000236",
       "properties": {
         "datetime": "2023-07-30T10:55:46",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -25144,7 +25144,7 @@
       "id": "000239",
       "properties": {
         "datetime": "2023-07-30T12:05:08",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -25266,7 +25266,7 @@
       "id": "000238",
       "properties": {
         "datetime": "2023-07-31T10:17:36",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -25388,7 +25388,7 @@
       "id": "000240",
       "properties": {
         "datetime": "2023-07-31T10:56:04",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -25510,7 +25510,7 @@
       "id": "000242",
       "properties": {
         "datetime": "2023-07-31T14:03:15",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -25632,7 +25632,7 @@
       "id": "000245",
       "properties": {
         "datetime": "2023-07-31T14:44:58",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -25754,7 +25754,7 @@
       "id": "000244",
       "properties": {
         "datetime": "2023-08-03T09:46:53",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -25876,7 +25876,7 @@
       "id": "000279",
       "properties": {
         "datetime": "2023-08-03T09:53:34",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -25998,7 +25998,7 @@
       "id": "000246",
       "properties": {
         "datetime": "2023-08-03T10:22:16",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -26120,7 +26120,7 @@
       "id": "000278",
       "properties": {
         "datetime": "2023-08-03T10:28:46",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -26242,7 +26242,7 @@
       "id": "000280",
       "properties": {
         "datetime": "2023-08-03T10:52:28",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -26364,7 +26364,7 @@
       "id": "000248",
       "properties": {
         "datetime": "2023-08-03T11:30:20",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -26486,7 +26486,7 @@
       "id": "000284",
       "properties": {
         "datetime": "2023-08-03T11:32:58",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -26608,7 +26608,7 @@
       "id": "000251",
       "properties": {
         "datetime": "2023-08-03T13:34:59",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -26730,7 +26730,7 @@
       "id": "000281",
       "properties": {
         "datetime": "2023-08-03T14:02:14",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -26852,7 +26852,7 @@
       "id": "000252",
       "properties": {
         "datetime": "2023-08-04T09:42:47",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -26974,7 +26974,7 @@
       "id": "000286",
       "properties": {
         "datetime": "2023-08-04T09:49:51",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -27096,7 +27096,7 @@
       "id": "000282",
       "properties": {
         "datetime": "2023-08-04T10:25:33",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -27218,7 +27218,7 @@
       "id": "000250",
       "properties": {
         "datetime": "2023-08-04T10:26:19",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -27340,7 +27340,7 @@
       "id": "000256",
       "properties": {
         "datetime": "2023-08-04T11:03:27",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -27462,7 +27462,7 @@
       "id": "000288",
       "properties": {
         "datetime": "2023-08-04T11:24:24",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -27584,7 +27584,7 @@
       "id": "000254",
       "properties": {
         "datetime": "2023-08-04T11:44:01",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -27706,7 +27706,7 @@
       "id": "000283",
       "properties": {
         "datetime": "2023-08-04T11:57:36",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -27828,7 +27828,7 @@
       "id": "000291",
       "properties": {
         "datetime": "2023-08-04T14:37:49",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -27950,7 +27950,7 @@
       "id": "000257",
       "properties": {
         "datetime": "2023-08-05T09:42:58",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -28072,7 +28072,7 @@
       "id": "000293",
       "properties": {
         "datetime": "2023-08-05T10:23:34",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -28194,7 +28194,7 @@
       "id": "000262",
       "properties": {
         "datetime": "2023-08-05T10:26:07",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -28316,7 +28316,7 @@
       "id": "000285",
       "properties": {
         "datetime": "2023-08-05T10:51:51",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -28438,7 +28438,7 @@
       "id": "000294",
       "properties": {
         "datetime": "2023-08-05T11:28:38",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -28560,7 +28560,7 @@
       "id": "000287",
       "properties": {
         "datetime": "2023-08-05T12:02:34",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -28682,7 +28682,7 @@
       "id": "000296",
       "properties": {
         "datetime": "2023-08-05T13:06:23",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -28804,7 +28804,7 @@
       "id": "000289",
       "properties": {
         "datetime": "2023-08-05T13:41:26",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -28926,7 +28926,7 @@
       "id": "000298",
       "properties": {
         "datetime": "2023-08-06T09:44:09",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -29048,7 +29048,7 @@
       "id": "000259",
       "properties": {
         "datetime": "2023-08-06T10:01:30",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -29170,7 +29170,7 @@
       "id": "000290",
       "properties": {
         "datetime": "2023-08-06T10:20:27",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -29292,7 +29292,7 @@
       "id": "000260",
       "properties": {
         "datetime": "2023-08-06T10:39:09",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -29414,7 +29414,7 @@
       "id": "000300",
       "properties": {
         "datetime": "2023-08-06T11:20:59",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -29536,7 +29536,7 @@
       "id": "000261",
       "properties": {
         "datetime": "2023-08-06T11:24:58",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -29658,7 +29658,7 @@
       "id": "000292",
       "properties": {
         "datetime": "2023-08-06T11:50:57",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -29780,7 +29780,7 @@
       "id": "000267",
       "properties": {
         "datetime": "2023-08-06T13:33:02",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -29902,7 +29902,7 @@
       "id": "000301",
       "properties": {
         "datetime": "2023-08-06T13:46:41",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -30024,7 +30024,7 @@
       "id": "000295",
       "properties": {
         "datetime": "2023-08-06T14:23:37",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -30146,7 +30146,7 @@
       "id": "000263",
       "properties": {
         "datetime": "2023-08-07T09:41:36",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -30268,7 +30268,7 @@
       "id": "000302",
       "properties": {
         "datetime": "2023-08-07T10:17:47",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -30390,7 +30390,7 @@
       "id": "000266",
       "properties": {
         "datetime": "2023-08-07T10:19:38",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -30512,7 +30512,7 @@
       "id": "000297",
       "properties": {
         "datetime": "2023-08-07T10:50:31",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -30634,7 +30634,7 @@
       "id": "000303",
       "properties": {
         "datetime": "2023-08-07T11:11:41",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -30756,7 +30756,7 @@
       "id": "000299",
       "properties": {
         "datetime": "2023-08-07T11:40:44",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -30878,7 +30878,7 @@
       "id": "000268",
       "properties": {
         "datetime": "2023-08-07T11:55:40",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -31000,7 +31000,7 @@
       "id": "000305",
       "properties": {
         "datetime": "2023-08-07T11:58:02",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -31122,7 +31122,7 @@
       "id": "000304",
       "properties": {
         "datetime": "2023-08-07T13:29:14",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -31244,7 +31244,7 @@
       "id": "000272",
       "properties": {
         "datetime": "2023-08-07T13:35:56",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -31366,7 +31366,7 @@
       "id": "000271",
       "properties": {
         "datetime": "2023-08-08T09:45:20",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -31488,7 +31488,7 @@
       "id": "000306",
       "properties": {
         "datetime": "2023-08-08T09:55:48",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -31610,7 +31610,7 @@
       "id": "000307",
       "properties": {
         "datetime": "2023-08-08T10:37:22",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -31732,7 +31732,7 @@
       "id": "000273",
       "properties": {
         "datetime": "2023-08-08T10:38:15",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -31854,7 +31854,7 @@
       "id": "000308",
       "properties": {
         "datetime": "2023-08-08T11:07:12",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -31976,7 +31976,7 @@
       "id": "000309",
       "properties": {
         "datetime": "2023-08-08T11:42:27",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -32098,7 +32098,7 @@
       "id": "000275",
       "properties": {
         "datetime": "2023-08-08T11:52:09",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -32220,7 +32220,7 @@
       "id": "000277",
       "properties": {
         "datetime": "2023-08-08T13:35:21",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -32342,7 +32342,7 @@
       "id": "000312",
       "properties": {
         "datetime": "2023-08-17T10:08:25",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -32464,7 +32464,7 @@
       "id": "000313",
       "properties": {
         "datetime": "2023-08-17T10:32:53",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -32586,7 +32586,7 @@
       "id": "000310",
       "properties": {
         "datetime": "2023-08-17T12:07:12",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -32708,7 +32708,7 @@
       "id": "000112",
       "properties": {
         "datetime": "2023-08-17T12:44:13",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -32830,7 +32830,7 @@
       "id": "000320",
       "properties": {
         "datetime": "2023-08-17T14:03:53",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -32952,7 +32952,7 @@
       "id": "000321",
       "properties": {
         "datetime": "2023-08-17T14:40:57",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -33074,7 +33074,7 @@
       "id": "000322",
       "properties": {
         "datetime": "2023-08-18T10:03:39",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -33196,7 +33196,7 @@
       "id": "000311",
       "properties": {
         "datetime": "2023-08-18T10:27:19",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -33318,7 +33318,7 @@
       "id": "000314",
       "properties": {
         "datetime": "2023-08-18T10:58:51",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -33440,7 +33440,7 @@
       "id": "000315",
       "properties": {
         "datetime": "2023-08-18T11:49:39",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -33562,7 +33562,7 @@
       "id": "000316",
       "properties": {
         "datetime": "2023-08-18T12:17:38",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -33684,7 +33684,7 @@
       "id": "000317",
       "properties": {
         "datetime": "2023-08-18T12:49:18",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -33806,7 +33806,7 @@
       "id": "000318",
       "properties": {
         "datetime": "2023-08-19T13:50:25",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -33928,7 +33928,7 @@
       "id": "000319",
       "properties": {
         "datetime": "2023-08-19T14:24:29",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -34050,7 +34050,7 @@
       "id": "000614",
       "properties": {
         "datetime": "2023-08-15T21:27:16",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -34172,7 +34172,7 @@
       "id": "000615",
       "properties": {
         "datetime": "2023-08-15T23:36:24",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -34294,7 +34294,7 @@
       "id": "000616",
       "properties": {
         "datetime": "2023-08-16T17:18:54",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -34416,7 +34416,7 @@
       "id": "000617",
       "properties": {
         "datetime": "2023-08-16T18:27:32",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -34538,7 +34538,7 @@
       "id": "000618",
       "properties": {
         "datetime": "2023-08-16T19:21:10",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -34660,7 +34660,7 @@
       "id": "000619",
       "properties": {
         "datetime": "2023-08-23T16:27:25",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -34782,7 +34782,7 @@
       "id": "000620",
       "properties": {
         "datetime": "2023-08-23T16:59:29",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -34904,7 +34904,7 @@
       "id": "000621",
       "properties": {
         "datetime": "2023-08-23T18:09:22",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -35026,7 +35026,7 @@
       "id": "000622",
       "properties": {
         "datetime": "2023-08-23T18:42:27",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -35148,7 +35148,7 @@
       "id": "000623",
       "properties": {
         "datetime": "2023-08-23T13:40:26",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -35270,7 +35270,7 @@
       "id": "000624",
       "properties": {
         "datetime": "2023-08-30T12:59:50",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -35392,7 +35392,7 @@
       "id": "000625",
       "properties": {
         "datetime": "2023-08-30T13:10:26",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -35514,7 +35514,7 @@
       "id": "000626",
       "properties": {
         "datetime": "2023-08-30T13:31:01",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -35636,7 +35636,7 @@
       "id": "000627",
       "properties": {
         "datetime": "2023-08-30T14:17:48",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -35758,7 +35758,7 @@
       "id": "000628",
       "properties": {
         "datetime": "2023-08-30T14:36:37",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -35880,7 +35880,7 @@
       "id": "000629",
       "properties": {
         "datetime": "2023-08-30T14:49:54",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -36002,7 +36002,7 @@
       "id": "000630",
       "properties": {
         "datetime": "2023-08-30T23:03:59",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -36124,7 +36124,7 @@
       "id": "000841",
       "properties": {
         "datetime": "2023-08-30T12:39:07",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -36246,7 +36246,7 @@
       "id": "000908",
       "properties": {
         "datetime": "2024-03-13T18:05:12",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -36368,7 +36368,7 @@
       "id": "000909",
       "properties": {
         "datetime": "2024-03-13T18:58:04",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -36490,7 +36490,7 @@
       "id": "000910",
       "properties": {
         "datetime": "2024-03-13T20:14:10",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -36612,7 +36612,7 @@
       "id": "000911",
       "properties": {
         "datetime": "2024-03-13T21:32:36",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -36734,7 +36734,7 @@
       "id": "000912",
       "properties": {
         "datetime": "2024-03-13T22:40:48",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -36856,7 +36856,7 @@
       "id": "000913",
       "properties": {
         "datetime": "2024-05-16T22:11:41",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -36978,7 +36978,7 @@
       "id": "000914",
       "properties": {
         "datetime": "2024-05-16T22:54:31",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -37100,7 +37100,7 @@
       "id": "000915",
       "properties": {
         "datetime": "2024-05-17T17:26:16",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -37222,7 +37222,7 @@
       "id": "000916",
       "properties": {
         "datetime": "2024-05-17T18:21:58",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -37344,7 +37344,7 @@
       "id": "000917",
       "properties": {
         "datetime": "2024-05-17T19:12:32",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -37466,7 +37466,7 @@
       "id": "000918",
       "properties": {
         "datetime": "2024-05-17T20:03:07",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -37588,7 +37588,7 @@
       "id": "000919",
       "properties": {
         "datetime": "2024-04-02T13:21:40",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -37710,7 +37710,7 @@
       "id": "000920",
       "properties": {
         "datetime": "2024-04-02T13:41:26",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -37832,7 +37832,7 @@
       "id": "000921",
       "properties": {
         "datetime": "2024-04-02T13:48:55",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -37954,7 +37954,7 @@
       "id": "000922",
       "properties": {
         "datetime": "2024-04-02T14:08:38",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -38076,7 +38076,7 @@
       "id": "000923",
       "properties": {
         "datetime": "2024-04-02T14:19:01",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -38198,7 +38198,7 @@
       "id": "000924",
       "properties": {
         "datetime": "2024-04-02T14:32:45",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -38320,7 +38320,7 @@
       "id": "000925",
       "properties": {
         "datetime": "2024-04-02T16:34:02",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -38442,7 +38442,7 @@
       "id": "000926",
       "properties": {
         "datetime": "2024-04-02T16:58:40",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -38564,7 +38564,7 @@
       "id": "000927",
       "properties": {
         "datetime": "2024-04-02T17:16:15",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -38686,7 +38686,7 @@
       "id": "000928",
       "properties": {
         "datetime": "2024-04-02T17:22:03",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -38808,7 +38808,7 @@
       "id": "000929",
       "properties": {
         "datetime": "2024-04-02T17:28:25",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -38930,7 +38930,7 @@
       "id": "000930",
       "properties": {
         "datetime": "2024-04-02T17:37:00",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
@@ -39052,7 +39052,7 @@
       "id": "000931",
       "properties": {
         "datetime": "2024-04-02T22:29:32",
-        "license": "CC BY 4.0"
+        "license": "CC-BY-SA-4.0"
       },
       "geometry": {
         "type": "Polygon",
