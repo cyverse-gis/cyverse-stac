@@ -3,7 +3,7 @@
   "stac_version": "1.0.0",
   "id": "Drone Missions Collection",
   "description": "STAC collection for drone missions polygons.",
-  "license": "CC BY 4.0",
+  "license": "CC-BY-SA-4.0",
   "links": [],
   "extent": {
     "spatial": {
