@@ -4,6 +4,7 @@
     {
       "type": "Feature",
       "stac_version": "1.0.0",
+      "collection": "Drone Missions Collection",
       "id": "000547",
       "properties": {
         "datetime": "2020-05-12T13:40:27",
