@@ -1,5 +1,6 @@
 /app/cyverse-stac/catalogs/arizona-experiment-station
 /app/cyverse-stac/catalogs/joplin
+/app/cyverse-stac/catalogs/open_forest_observatory
 /app/cyverse-stac/catalogs/ofo
 
 
