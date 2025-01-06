@@ -3,7 +3,7 @@
   "features": [
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -125,7 +125,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -247,7 +247,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -369,7 +369,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -491,7 +491,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -613,7 +613,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -735,7 +735,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -857,7 +857,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -979,7 +979,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -1101,7 +1101,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -1223,7 +1223,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -1345,7 +1345,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -1467,7 +1467,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -1589,7 +1589,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -1711,7 +1711,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -1833,7 +1833,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -1955,7 +1955,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -2077,7 +2077,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -2199,7 +2199,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -2321,7 +2321,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -2443,7 +2443,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -2565,7 +2565,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -2687,7 +2687,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -2809,7 +2809,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -2931,7 +2931,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -3053,7 +3053,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -3175,7 +3175,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -3297,7 +3297,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -3419,7 +3419,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -3541,7 +3541,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -3663,7 +3663,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -3785,7 +3785,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -3907,7 +3907,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -4029,7 +4029,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -4151,7 +4151,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -4273,7 +4273,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -4395,7 +4395,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -4517,7 +4517,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -4639,7 +4639,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -4761,7 +4761,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -4883,7 +4883,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -5005,7 +5005,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -5127,7 +5127,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -5249,7 +5249,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -5371,7 +5371,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -5493,7 +5493,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -5615,7 +5615,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -5737,7 +5737,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -5859,7 +5859,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -5981,7 +5981,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -6103,7 +6103,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -6225,7 +6225,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -6347,7 +6347,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -6469,7 +6469,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -6591,7 +6591,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -6713,7 +6713,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -6835,7 +6835,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -6957,7 +6957,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -7079,7 +7079,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -7201,7 +7201,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -7323,7 +7323,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -7445,7 +7445,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -7567,7 +7567,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -7689,7 +7689,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -7811,7 +7811,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -7933,7 +7933,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -8055,7 +8055,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -8177,7 +8177,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -8299,7 +8299,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -8421,7 +8421,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -8543,7 +8543,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -8665,7 +8665,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -8787,7 +8787,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -8909,7 +8909,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -9031,7 +9031,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -9153,7 +9153,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -9275,7 +9275,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -9397,7 +9397,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -9519,7 +9519,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -9641,7 +9641,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -9763,7 +9763,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -9885,7 +9885,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -10007,7 +10007,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -10129,7 +10129,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -10251,7 +10251,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -10373,7 +10373,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -10495,7 +10495,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -10617,7 +10617,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -10739,7 +10739,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -10861,7 +10861,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -10983,7 +10983,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -11105,7 +11105,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -11227,7 +11227,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -11349,7 +11349,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -11471,7 +11471,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -11593,7 +11593,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -11715,7 +11715,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -11837,7 +11837,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -11959,7 +11959,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -12081,7 +12081,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -12203,7 +12203,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -12325,7 +12325,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -12447,7 +12447,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -12569,7 +12569,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -12691,7 +12691,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -12813,7 +12813,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -12935,7 +12935,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -13057,7 +13057,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -13179,7 +13179,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -13301,7 +13301,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -13423,7 +13423,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -13545,7 +13545,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -13667,7 +13667,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -13789,7 +13789,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -13911,7 +13911,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -14033,7 +14033,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -14155,7 +14155,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -14277,7 +14277,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -14399,7 +14399,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -14521,7 +14521,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -14643,7 +14643,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -14765,7 +14765,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -14887,7 +14887,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -15009,7 +15009,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -15131,7 +15131,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -15253,7 +15253,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -15375,7 +15375,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -15497,7 +15497,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -15619,7 +15619,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -15741,7 +15741,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -15863,7 +15863,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -15985,7 +15985,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -16107,7 +16107,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -16229,7 +16229,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -16351,7 +16351,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -16473,7 +16473,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -16595,7 +16595,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -16717,7 +16717,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -16839,7 +16839,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -16961,7 +16961,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -17083,7 +17083,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -17205,7 +17205,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -17327,7 +17327,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -17449,7 +17449,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -17571,7 +17571,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -17693,7 +17693,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -17815,7 +17815,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -17937,7 +17937,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -18059,7 +18059,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -18181,7 +18181,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -18303,7 +18303,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -18425,7 +18425,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -18547,7 +18547,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -18669,7 +18669,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -18791,7 +18791,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -18913,7 +18913,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -19035,7 +19035,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -19157,7 +19157,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -19279,7 +19279,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -19401,7 +19401,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -19523,7 +19523,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -19645,7 +19645,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -19767,7 +19767,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -19889,7 +19889,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -20011,7 +20011,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -20133,7 +20133,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -20255,7 +20255,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -20377,7 +20377,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -20499,7 +20499,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -20621,7 +20621,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -20743,7 +20743,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -20865,7 +20865,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -20987,7 +20987,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -21109,7 +21109,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -21231,7 +21231,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -21353,7 +21353,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -21475,7 +21475,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -21597,7 +21597,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -21719,7 +21719,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -21841,7 +21841,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -21963,7 +21963,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -22085,7 +22085,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -22207,7 +22207,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -22329,7 +22329,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -22451,7 +22451,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -22573,7 +22573,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -22695,7 +22695,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -22817,7 +22817,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -22939,7 +22939,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -23061,7 +23061,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -23183,7 +23183,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -23305,7 +23305,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -23427,7 +23427,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -23549,7 +23549,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -23671,7 +23671,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -23793,7 +23793,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -23915,7 +23915,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -24037,7 +24037,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -24159,7 +24159,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -24281,7 +24281,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -24403,7 +24403,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -24525,7 +24525,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -24647,7 +24647,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -24769,7 +24769,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -24891,7 +24891,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -25013,7 +25013,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -25135,7 +25135,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -25257,7 +25257,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -25379,7 +25379,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -25501,7 +25501,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -25623,7 +25623,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -25745,7 +25745,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -25867,7 +25867,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -25989,7 +25989,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -26111,7 +26111,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -26233,7 +26233,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -26355,7 +26355,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -26477,7 +26477,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -26599,7 +26599,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -26721,7 +26721,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -26843,7 +26843,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -26965,7 +26965,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -27087,7 +27087,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -27209,7 +27209,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -27331,7 +27331,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -27453,7 +27453,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -27575,7 +27575,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -27697,7 +27697,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -27819,7 +27819,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -27941,7 +27941,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -28063,7 +28063,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -28185,7 +28185,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -28307,7 +28307,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -28429,7 +28429,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -28551,7 +28551,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -28673,7 +28673,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -28795,7 +28795,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -28917,7 +28917,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -29039,7 +29039,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -29161,7 +29161,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -29283,7 +29283,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -29405,7 +29405,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -29527,7 +29527,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -29649,7 +29649,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -29771,7 +29771,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -29893,7 +29893,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -30015,7 +30015,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -30137,7 +30137,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -30259,7 +30259,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -30381,7 +30381,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -30503,7 +30503,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -30625,7 +30625,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -30747,7 +30747,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -30869,7 +30869,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -30991,7 +30991,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -31113,7 +31113,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -31235,7 +31235,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -31357,7 +31357,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -31479,7 +31479,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -31601,7 +31601,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -31723,7 +31723,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -31845,7 +31845,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -31967,7 +31967,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -32089,7 +32089,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -32211,7 +32211,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -32333,7 +32333,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -32455,7 +32455,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -32577,7 +32577,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -32699,7 +32699,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -32821,7 +32821,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -32943,7 +32943,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -33065,7 +33065,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -33187,7 +33187,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -33309,7 +33309,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -33431,7 +33431,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -33553,7 +33553,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -33675,7 +33675,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -33797,7 +33797,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -33919,7 +33919,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -34041,7 +34041,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -34163,7 +34163,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -34285,7 +34285,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -34407,7 +34407,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -34529,7 +34529,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -34651,7 +34651,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -34773,7 +34773,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -34895,7 +34895,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -35017,7 +35017,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -35139,7 +35139,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -35261,7 +35261,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -35383,7 +35383,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -35505,7 +35505,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -35627,7 +35627,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -35749,7 +35749,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -35871,7 +35871,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -35993,7 +35993,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -36115,7 +36115,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -36237,7 +36237,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -36359,7 +36359,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -36481,7 +36481,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -36603,7 +36603,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -36725,7 +36725,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -36847,7 +36847,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -36969,7 +36969,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -37091,7 +37091,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -37213,7 +37213,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -37335,7 +37335,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -37457,7 +37457,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -37579,7 +37579,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -37701,7 +37701,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -37823,7 +37823,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -37945,7 +37945,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -38067,7 +38067,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -38189,7 +38189,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -38311,7 +38311,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -38433,7 +38433,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -38555,7 +38555,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -38677,7 +38677,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -38799,7 +38799,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -38921,7 +38921,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
@@ -39043,7 +39043,7 @@
     },
     {
       "type": "Feature",
-      "collection": "Drone Missions Collection",
+      "collection": "Open Forest Observatory",
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
         "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
