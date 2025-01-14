@@ -1,0 +1,281 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "collection": "Open Forest Observatory",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
+        "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+      ],
+      "stac_version": "1.0.0",
+      "id": "000084",
+      "properties": {
+        "datetime": "2022-09-10T14:18:13Z",
+        "license": "CC-BY-SA-4.0",
+        "platform": "Phantom 4 RTK"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -121.03323686296764,
+              40.39141002497805
+            ],
+            [
+              -121.03323686296764,
+              40.39526998860075
+            ],
+            [
+              -121.02584958529181,
+              40.39526998860075
+            ],
+            [
+              -121.02584958529181,
+              40.39141002497805
+            ],
+            [
+              -121.03323686296764,
+              40.39141002497805
+            ]
+          ]
+        ]
+      },
+      "bbox": [
+        -121.03323686296764,
+        40.39141002497805,
+        -121.02584958529181,
+        40.39526998860075
+      ],
+      "links": [
+        {
+          "rel": "preview",
+          "href": "https://raw.githubusercontent.com/cyverse-gis/cyverse-stac/refs/heads/main/data/forest.png",
+          "type": "image/png",
+          "title": "Item Thumbnail"
+        }
+      ],
+      "assets": {
+        "orthomosaic": {
+          "href": "https://data.cyverse.org/dav-anon/iplant/home/jgillan/ofo_mini/missions/000084/processed-20240506T2342/full/orthomosaic.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "proj:epsg": 3310,
+          "gsd": [
+            0.069,
+            0.069
+          ]
+        },
+        "chm-mesh": {
+          "href": "https://data.cyverse.org/dav-anon/iplant/home/jgillan/ofo_mini/missions/000084/processed-20240506T2342/full/chm-mesh.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "proj:epsg": 3310,
+          "gsd": [
+            0.25,
+            0.25
+          ]
+        },
+        "chm-ptcloud": {
+          "href": "https://data.cyverse.org/dav-anon/iplant/home/jgillan/ofo_mini/missions/000084/processed-20240506T2342/full/chm-ptcloud.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "proj:epsg": 3310,
+          "gsd": [
+            0.25,
+            0.25
+          ]
+        },
+        "dsm-mesh": {
+          "href": "https://data.cyverse.org/dav-anon/iplant/home/jgillan/ofo_mini/missions/000084/processed-20240506T2342/full/dsm-mesh.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "proj:epsg": 3310,
+          "gsd": [
+            0.279,
+            0.279
+          ]
+        },
+        "dsm-ptcloud": {
+          "href": "https://data.cyverse.org/dav-anon/iplant/home/jgillan/ofo_mini/missions/000084/processed-20240506T2342/full/dsm-ptcloud.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "proj:epsg": 3310,
+          "gsd": [
+            0.083,
+            0.083
+          ]
+        },
+        "dtm-ptcloud": {
+          "href": "https://data.cyverse.org/dav-anon/iplant/home/jgillan/ofo_mini/missions/000084/processed-20240506T2342/full/dtm-ptcloud.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "proj:epsg": 3310,
+          "gsd": [
+            0.083,
+            0.083
+          ]
+        },
+        "points": {
+          "href": "https://data.cyverse.org/dav-anon/iplant/home/jgillan/ofo_mini/missions/000084/processed-20240506T2342/full/points.laz",
+          "type": "application/octet-stream",
+          "roles": [
+            "data"
+          ],
+          "proj:epsg": 3310
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "collection": "Open Forest Observatory",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
+        "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+      ],
+      "stac_version": "1.0.0",
+      "id": "000004",
+      "properties": {
+        "datetime": "2023-05-28T11:35:34Z",
+        "license": "CC-BY-SA-4.0",
+        "platform": "Phantom 4 RTK"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -120.89897847427922,
+              39.19468729002543
+            ],
+            [
+              -120.89897847427922,
+              39.1964399478126
+            ],
+            [
+              -120.89663370545205,
+              39.1964399478126
+            ],
+            [
+              -120.89663370545205,
+              39.19468729002543
+            ],
+            [
+              -120.89897847427922,
+              39.19468729002543
+            ]
+          ]
+        ]
+      },
+      "bbox": [
+        -120.89897847427922,
+        39.19468729002543,
+        -120.89663370545205,
+        39.1964399478126
+      ],
+      "links": [
+        {
+          "rel": "preview",
+          "href": "https://raw.githubusercontent.com/cyverse-gis/cyverse-stac/refs/heads/main/data/forest.png",
+          "type": "image/png",
+          "title": "Item Thumbnail"
+        }
+      ],
+      "assets": {
+        "orthomosaic": {
+          "href": "https://data.cyverse.org/dav-anon/iplant/home/jgillan/ofo_mini/missions/000004/processed-20240502T1919/full/orthomosaic.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "proj:epsg": 3310,
+          "gsd": [
+            0.088,
+            0.088
+          ]
+        },
+        "chm-mesh": {
+          "href": "https://data.cyverse.org/dav-anon/iplant/home/jgillan/ofo_mini/missions/000004/processed-20240502T1919/full/chm-mesh.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "proj:epsg": 3310,
+          "gsd": [
+            0.25,
+            0.25
+          ]
+        },
+        "chm-ptcloud": {
+          "href": "https://data.cyverse.org/dav-anon/iplant/home/jgillan/ofo_mini/missions/000004/processed-20240502T1919/full/chm-ptcloud.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "proj:epsg": 3310,
+          "gsd": [
+            0.25,
+            0.25
+          ]
+        },
+        "dsm-mesh": {
+          "href": "https://data.cyverse.org/dav-anon/iplant/home/jgillan/ofo_mini/missions/000004/processed-20240502T1919/full/dsm-mesh.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "proj:epsg": 3310,
+          "gsd": [
+            0.355,
+            0.355
+          ]
+        },
+        "dsm-ptcloud": {
+          "href": "https://data.cyverse.org/dav-anon/iplant/home/jgillan/ofo_mini/missions/000004/processed-20240502T1919/full/dsm-ptcloud.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "proj:epsg": 3310,
+          "gsd": [
+            0.135,
+            0.135
+          ]
+        },
+        "dtm-ptcloud": {
+          "href": "https://data.cyverse.org/dav-anon/iplant/home/jgillan/ofo_mini/missions/000004/processed-20240502T1919/full/dtm-ptcloud.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "proj:epsg": 3310,
+          "gsd": [
+            0.135,
+            0.135
+          ]
+        },
+        "points": {
+          "href": "https://data.cyverse.org/dav-anon/iplant/home/jgillan/ofo_mini/missions/000004/processed-20240502T1919/full/points.laz",
+          "type": "application/octet-stream",
+          "roles": [
+            "data"
+          ],
+          "proj:epsg": 3310
+        }
+      }
+    }
+  ]
+}
