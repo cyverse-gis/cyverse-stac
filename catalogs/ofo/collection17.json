@@ -1,0 +1,35 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "Open Forest Observatory",
+  "description": "Drone Based Forest Mapping for Forest Ecology & Management",
+  "license": "CC-BY-SA-4.0",
+  "links": [
+    {
+      "rel": "preview",
+      "href": "https://raw.githubusercontent.com/cyverse-gis/cyverse-stac/refs/heads/main/data/forest.png",
+      "type": "image/png",
+      "title": "Collection Thumbnail"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -123.8714733508188,
+          33.80756574236823,
+          -116.76420962514216,
+          40.779931609912275
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-02-11T14:35:32Z",
+          "2024-05-17T20:03:07Z"
+        ]
+      ]
+    }
+  }
+}
