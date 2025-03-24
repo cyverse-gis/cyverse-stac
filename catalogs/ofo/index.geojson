@@ -7,14 +7,17 @@
       "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
       ],
+      "providers": [
+        {
+          "name": "UC Davis Forest Change Analysis Lab",
+          "roles": ["producer", "processor"]
+        }
+      ],
       "stac_version": "1.0.0",
       "id": "Dixie_S02",
       "properties": {
         "datetime": "2022-09-10T14:18:13Z",
         "license": "CC-BY 4.0",
-        "providers": {
-          "name": "UC Davis Forest Change Analysis Lab"
-        },
         "description": "Imagery for individual tree detection and species identification collected for modeling post-fire conifer seed input for a study of post-fire regeneration",
         "platform": "Phantom 4 RTK"
       },
