@@ -2,6 +2,14 @@
 
 This repository contains STAC (SpatioTemporal Asset Catalog) collections that are automatically ingested into the CyVerse STAC API at [https://stac.cyverse.org](https://stac.cyverse.org).
 
+**Key Features:**
+- ✅ Automatic synchronization every 5 minutes via cronjob
+- ✅ Full CRUD support (Create, Update, Delete)
+- ✅ Validates collections and items before ingestion
+- ✅ Comprehensive logging of all operations
+- ✅ Safe and idempotent (can run multiple times)
+
+
 <br/>
 <br/>
 
@@ -33,19 +41,19 @@ new-stac-api/
 
 ## Add STAC Records
 
-1. Create a new directory in `/catalogs`
-2. Add a `collection.json` and `index.geojson`
-3. Commit and push changes
+Each collection MUST be in its own subdirectory under `catalogs/` and MUST contain:
 
-   
+1. **`collection.json`** - STAC Collection metadata
+2. **`index.geojson`** - GeoJSON FeatureCollection containing STAC Items
+
+**Example:**
+```bash
+catalogs/my-new-dataset/
+├── collection.json
+└── index.geojson
+```
 
 
-**Key Features:**
-- ✅ Automatic synchronization every 5 minutes via cronjob
-- ✅ Full CRUD support (Create, Update, Delete)
-- ✅ Validates collections and items before ingestion
-- ✅ Comprehensive logging of all operations
-- ✅ Safe and idempotent (can run multiple times)
 
 ---
 
@@ -217,19 +225,7 @@ new-stac-api/
 
 
 
-### **Required Files per Collection**
 
-Each collection MUST be in its own subdirectory under `catalogs/` and MUST contain:
-
-1. **`collection.json`** - STAC Collection metadata
-2. **`index.geojson`** - GeoJSON FeatureCollection containing STAC Items
-
-**Example:**
-```bash
-catalogs/my-new-dataset/
-├── collection.json
-└── index.geojson
-```
 
 ---
 
