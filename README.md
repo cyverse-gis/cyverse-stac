@@ -2,6 +2,19 @@
 
 This repository contains STAC (SpatioTemporal Asset Catalog) collections that are automatically ingested into the CyVerse STAC API at [https://stac.cyverse.org](https://stac.cyverse.org).
 
+## Administration
+The STAC-API is being served on a VM machine called stac.cyverse.org. It may also be called `aeoulus-stack-api.cyverse.org` (128.196.254.84). 
+
+`ssh ubuntu@stac.cyverse.org` requires public ssh from local computer to access
+
+```
+Host stac.cyverse.org
+    HostName stac.cyverse.org
+    User ubuntu
+    Port 22
+    IdentityFile ~/.ssh/id_rsa
+```
+
 ## 📋 Table of Contents
 
 - [Overview](#overview)
@@ -13,7 +26,6 @@ This repository contains STAC (SpatioTemporal Asset Catalog) collections that ar
 - [Monitoring and Logs](#monitoring-and-logs)
 - [Troubleshooting](#troubleshooting)
 - [API Access](#api-access)
-- [Contributing](#contributing)
 
 ---
 
@@ -541,63 +553,7 @@ Errors:               3
 
 ---
 
-## 🔧 Troubleshooting
 
-### **Common Issues**
-
-#### **Issue: Collection not showing up in API**
-
-**Possible Causes:**
-1. Git push didn't complete successfully
-2. Cronjob hasn't run yet (wait 5 minutes)
-3. Invalid JSON syntax
-4. Missing required fields
-
-**Solutions:**
-```bash
-# Check if changes are on GitHub
-git log --oneline -5
-
-# Manually trigger ingestion
-/home/ubuntu/new-stac-api/cyverse-stac/update_and_restart.sh
-
-# Check logs for errors
-tail -100 /home/ubuntu/new-stac-api/cyverse-stac/ingestion.log | grep ERROR
-```
-
-#### **Issue: Items failing with "ID cannot contain" error**
-
-**Cause:** Item IDs contain invalid characters (`: / ? # [ ] @ ! $ & ' ( ) * + , ; =`)
-
-**Solution:**
-```bash
-# Fix item IDs in index.geojson
-# Replace commas and special characters with hyphens or underscores
-# Example: "item-001, item-002" → "item-001-item-002"
-```
-
-#### **Issue: "Resource already exists (409)" errors**
-
-**Cause:** Item already exists in API with same ID
-
-**Solutions:**
-- This is expected if re-running ingestion (idempotent behavior)
-- If you want to update, ensure the item actually changed
-- Check for duplicate IDs in your `index.geojson`
-
-#### **Issue: Git pull fails**
-
-**Possible Causes:**
-1. Local changes conflict with remote
-2. Git credentials expired
-3. Network connectivity
-
-**Solutions:**
-```bash
-cd /home/ubuntu/new-stac-api/cyverse-stac
-git status
-git pull origin main
-```
 
 ### **Manual Ingestion**
 
@@ -683,52 +639,7 @@ Explore collections visually:
 
 ---
 
-## 🤝 Contributing
 
-### **Guidelines**
-
-1. **Validate JSON** before committing:
-   ```bash
-   # Validate collection.json
-   cat catalogs/my-collection/collection.json | jq '.'
-
-   # Validate index.geojson
-   cat catalogs/my-collection/index.geojson | jq '.'
-   ```
-
-2. **Follow STAC Specification**:
-   - Collection Spec: https://github.com/radiantearth/stac-spec/tree/master/collection-spec
-   - Item Spec: https://github.com/radiantearth/stac-spec/tree/master/item-spec
-
-3. **Use Descriptive Commit Messages**:
-   ```bash
-   git commit -m "Add Landsat 8 collection for Arizona"
-   git commit -m "Update joplin collection metadata"
-   git commit -m "Fix item IDs in OFO collection"
-   ```
-
-4. **Test Locally** (if possible):
-   - Validate JSON syntax
-   - Check required fields
-   - Ensure item IDs don't contain special characters
-
-5. **Monitor Logs** after pushing:
-   - Wait 5 minutes for cronjob
-   - Check ingestion logs for errors
-   - Verify data in API
-
-### **Best Practices**
-
-- ✅ Use clear, unique collection IDs
-- ✅ Provide descriptive titles and descriptions
-- ✅ Include accurate spatial and temporal extents
-- ✅ Use Cloud-Optimized GeoTIFFs (COGs) for raster data
-- ✅ Keep asset URLs publicly accessible
-- ✅ Add keywords for discoverability
-- ✅ Document data sources and licenses
-- ❌ Don't use special characters in IDs
-- ❌ Don't commit large binary files (images, etc.)
-- ❌ Don't commit sensitive information
 
 ---
 
@@ -739,18 +650,6 @@ Explore collections visually:
 - **STAC Browser:** https://radiantearth.github.io/stac-browser
 - **PySTAC:** https://pystac.readthedocs.io (Python library)
 - **STAC Best Practices:** https://github.com/radiantearth/stac-spec/blob/master/best-practices.md
-- **CyVerse:** https://cyverse.org
-- **TiTiler:** https://titiler.cyverse.org
-
----
-
-## 📞 Support
-
-For issues or questions:
-1. Check the [Troubleshooting](#troubleshooting) section
-2. Review the logs for error messages
-3. Open an issue on GitHub
-4. Contact the CyVerse STAC team
 
 ---
 
