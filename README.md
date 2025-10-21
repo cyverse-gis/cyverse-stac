@@ -284,7 +284,6 @@ curl -X POST https://stac.cyverse.org/search \
 
 ## Nginx 
 
-## Cronjob
 
 
 
