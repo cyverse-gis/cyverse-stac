@@ -23,9 +23,12 @@ Host stac.cyverse.org
 
 On the VM, work in the directory `/home/ubuntu/new-stac-api' 
 
+```
 new-stac-api/
 ├── cyverse-stac/           # This repo holds the STAC catalog file                     
 └── stac-fastapi-pgstac/    # contains ingestion py script, dockerfiles, and dockercompose yml to build containerized Stac-fastapi with PG DB
+```
+
 ---
 
 ## 🔍 Overview
