@@ -1,414 +1,759 @@
-# CyVerse SpatioTemporal Asset Catalog (STAC) 
+# CyVerse STAC Catalog
 
-**SpatioTemporal Asset Catalog (STAC)** is a json-based metadata standard to describe geospatial data. It's goal is 
-to make geospatial data more easily worked with, indexed, and discovered. 
+This repository contains STAC (SpatioTemporal Asset Catalog) collections that are automatically ingested into the CyVerse STAC API at [https://stac.cyverse.org](https://stac.cyverse.org).
 
-[Cyverse](https://cyverse.org) is developing STAC capabilities to share out remotely sensed imagery that is stored in the [Cyverse Datastore](https://cyverse.org/data-store)
+## 📋 Table of Contents
 
-This documentation will cover: 
+- [Overview](#overview)
+- [System Architecture](#system-architecture)
+- [Directory Structure](#directory-structure)
+- [Adding New Collections](#adding-new-collections)
+- [File Format Requirements](#file-format-requirements)
+- [How the Automation Works](#how-the-automation-works)
+- [Monitoring and Logs](#monitoring-and-logs)
+- [Troubleshooting](#troubleshooting)
+- [API Access](#api-access)
+- [Contributing](#contributing)
 
-1. Creating STAC compliant json/geojson files
-2. Differences between static and dynamic STAC catalogs
-3. Instructions for how Cyverse is deploying a STAC API
-4. How to add new collections to the API
-5. STAC browser 
-6. TiTiler
+---
 
-<br/>
-<br/>
+## 🔍 Overview
 
+This repository serves as the source of truth for STAC collections ingested into the CyVerse STAC API. When you add or update collections here and push to GitHub, they are automatically synchronized with the production STAC API within 5 minutes.
 
-## Important Resources
-[StacSpec](https://stacspec.org/en) is the official documentation for the STAC standard.
+**Key Features:**
+- ✅ Automatic synchronization every 5 minutes via cronjob
+- ✅ Full CRUD support (Create, Update, Delete)
+- ✅ Validates collections and items before ingestion
+- ✅ Comprehensive logging of all operations
+- ✅ Safe and idempotent (can run multiple times)
 
-[pystac](https://pystac.readthedocs.io/en/stable/) is a python library for creating STAC compliant json/geojson files  
+---
 
-[pystac-client](https://pystac-client.readthedocs.io/en/stable/index.html) is a python library for accessing and querying STAC catalogs
+## 🏗️ System Architecture
 
-The [STACIndex](https://stacindex.org/) is a community driven index of STAC catalogs, learning resources, and tools.
-
-The [Radiant Earth Stac Browser](https://radiantearth.github.io/stac-browser/#/) a tool that allows you to graphically browse through static and API STAC catalogs. 
-
-[Browse Cyverse STAC Catalog](https://radiantearth.github.io/stac-browser/#/external/stac.cyverse.org/?.language=en)
-
-<br/>
-<br/>
-
-## Cyverse STAC API
-
-We are currently running two virtual machines (vm) on CyVerse OpenStack Cloud 
-
-[https://tombstone-cloud.cyverse.org/](https://tombstone-cloud.cyverse.org/)
-
-<br/>
-
-One vm is called `stac-api` and is served to the domain [**https://stac.cyverse.org**](https://stac.cyverse.org). This vm is running a Radiant Earth `stac-fastapi` [STAC API](https://stac-utils.github.io/stac-fastapi/). It is currently running through docker-compose.
-
-It is a `small` instance (2 virtual CPUs, 16 GB RAM) with Ubuntu 22.04, Docker, and Docker-Compose.
-
-<br/>
-
-The other vm is running [DevSeed TiTiler](https://developmentseed.org/titiler/)
-
-This vm is called `titiler` and is served at [**https://titiler.cyverse.org**](https://titiler.cyverse.org)
-
-For this we are running a `xl` instance (16-cores, 64 GB RAM, 200 GiB Disk ) with Ubuntu 22.04 and Docker
-
-<br/>
-<br/>
-
-### Launch VMs in OpenStack
-
-Log into OpenStack and provision each instance 
-
-After the instance is active, assign a floating IP address
-
-Make sure that the `default` Security Group includes egress and ingress settings to connect the VM over :443
-
-<br/>
-
-### create and add `ssh` keys
-
-Make sure that the VMs are using your public `ssh` key
-
-Add your other admin keys by `ssh` to the VM
-
-copy their `id_rsa.pub` keys to `~/.ssh/known_hosts`
+### **High-Level Architecture**
 
 ```
-nano ~/.ssh/known_hosts
+┌─────────────────────────────────────────────────────────────────┐
+│                         GitHub Repository                        │
+│                   github.com/cyverse-gis/cyverse-stac           │
+│                                                                  │
+│  catalogs/                                                      │
+│  ├── collection-1/                                             │
+│  │   ├── collection.json                                       │
+│  │   └── index.geojson                                         │
+│  ├── collection-2/                                             │
+│  │   ├── collection.json                                       │
+│  │   └── index.geojson                                         │
+│  └── ...                                                        │
+└───────────────────────┬─────────────────────────────────────────┘
+                        │
+                        │ Git Push
+                        ▼
+┌─────────────────────────────────────────────────────────────────┐
+│                      VM Server (Ubuntu)                          │
+│                                                                  │
+│  ┌────────────────────────────────────────────────────────┐   │
+│  │  Cronjob (runs every 5 minutes)                        │   │
+│  │  */5 * * * * /path/to/update_and_restart.sh           │   │
+│  └────────────────┬───────────────────────────────────────┘   │
+│                   │                                            │
+│                   ▼                                            │
+│  ┌────────────────────────────────────────────────────────┐   │
+│  │  update_and_restart.sh                                 │   │
+│  │  1. git fetch                                          │   │
+│  │  2. Check for changes                                  │   │
+│  │  3. git pull (if changes detected)                     │   │
+│  │  4. Run sync_and_ingest.py                             │   │
+│  └────────────────┬───────────────────────────────────────┘   │
+│                   │                                            │
+│                   ▼                                            │
+│  ┌────────────────────────────────────────────────────────┐   │
+│  │  sync_and_ingest.py                                    │   │
+│  │  - Scans catalogs/ directory                           │   │
+│  │  - Compares with API state                             │   │
+│  │  - Creates/Updates/Deletes collections & items         │   │
+│  └────────────────┬───────────────────────────────────────┘   │
+│                   │                                            │
+│                   │ HTTPS API Calls                            │
+│                   ▼                                            │
+└─────────────────────────────────────────────────────────────────┘
+                    │
+                    ▼
+┌─────────────────────────────────────────────────────────────────┐
+│                    STAC API (Docker)                             │
+│                  https://stac.cyverse.org                        │
+│                                                                  │
+│  ┌────────────────────────────────────────────────────────┐   │
+│  │  FastAPI Application                                   │   │
+│  │  - Validates requests                                  │   │
+│  │  - Processes collections & items                       │   │
+│  │  - Stores in PostgreSQL database                       │   │
+│  └────────────────┬───────────────────────────────────────┘   │
+│                   │                                            │
+│                   ▼                                            │
+│  ┌────────────────────────────────────────────────────────┐   │
+│  │  PostgreSQL + PgSTAC Database                          │   │
+│  │  - Stores STAC collections                             │   │
+│  │  - Stores STAC items                                   │   │
+│  │  - Provides spatial queries                            │   │
+│  └────────────────────────────────────────────────────────┘   │
+└─────────────────────────────────────────────────────────────────┘
 ```
-<br/>
-<br/>
 
+### **Ingestion Process Flow**
 
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                    Ingestion Workflow                            │
+└─────────────────────────────────────────────────────────────────┘
 
-### Install Docker on VM
+1. TRIGGER (every 5 minutes)
+   │
+   ├─ Cronjob executes update_and_restart.sh
+   │
+   ▼
 
-If the image does not have Docker, install it.
+2. CHECK FOR UPDATES
+   │
+   ├─ git fetch origin
+   ├─ Compare local vs remote
+   │
+   ├─ No changes? ──────> EXIT (log "No changes detected")
+   │
+   ├─ Changes detected? ──> Continue
+   │
+   ▼
+
+3. PULL CHANGES
+   │
+   ├─ git pull origin main
+   ├─ Update local repository
+   │
+   ▼
+
+4. SCAN CATALOGS
+   │
+   ├─ Read catalogs/ directory
+   ├─ For each subdirectory:
+   │   ├─ Load collection.json
+   │   └─ Load index.geojson
+   │
+   ▼
+
+5. COMPARE WITH API
+   │
+   ├─ GET https://stac.cyverse.org/collections
+   ├─ GET https://stac.cyverse.org/collections/{id}/items
+   │
+   ├─ Determine operations needed:
+   │   ├─ Collections to CREATE
+   │   ├─ Collections to UPDATE
+   │   ├─ Collections to DELETE
+   │   ├─ Items to CREATE
+   │   ├─ Items to UPDATE
+   │   └─ Items to DELETE
+   │
+   ▼
+
+6. EXECUTE OPERATIONS
+   │
+   ├─ CREATE new collections
+   │   └─ POST /collections
+   │
+   ├─ UPDATE existing collections
+   │   └─ PUT /collections/{id}
+   │
+   ├─ CREATE new items
+   │   └─ POST /collections/{id}/items
+   │
+   ├─ UPDATE existing items
+   │   └─ PUT /collections/{id}/items/{item_id}
+   │
+   ├─ DELETE removed collections (if enabled)
+   │   └─ DELETE /collections/{id}
+   │
+   └─ DELETE removed items (if enabled)
+       └─ DELETE /collections/{id}/items/{item_id}
+   │
+   ▼
+
+7. LOG RESULTS
+   │
+   ├─ Write to ingestion.log
+   ├─ Write to cron_log_file.log
+   │
+   └─ Summary:
+       ├─ Collections created: X
+       ├─ Collections updated: Y
+       ├─ Items created: Z
+       ├─ Items updated: W
+       └─ Errors: N
+```
+
+---
+
+## 📁 Directory Structure
+
+```
+cyverse-stac/
+├── README.md                          # This file
+├── catalogs/                          # STAC collections directory
+│   ├── joplin/                       # Example: Joplin tornado imagery
+│   │   ├── collection.json          # Collection metadata
+│   │   └── index.geojson            # Collection items (features)
+│   ├── ofo/                          # Example: Open Forest Observatory
+│   │   ├── collection.json
+│   │   └── index.geojson
+│   └── arizona-experiment-station/   # Example: Santa Rita mapping
+│       ├── collection.json
+│       └── index.geojson
+├── update_and_restart.sh             # Main automation script
+├── cron_log_file.log                 # Cronjob execution log
+└── ingestion.log                     # Detailed ingestion log
+```
+
+### **Required Files per Collection**
+
+Each collection MUST be in its own subdirectory under `catalogs/` and MUST contain:
+
+1. **`collection.json`** - STAC Collection metadata
+2. **`index.geojson`** - GeoJSON FeatureCollection containing STAC Items
+
+**Example:**
+```bash
+catalogs/my-new-dataset/
+├── collection.json
+└── index.geojson
+```
+
+---
+
+## ➕ Adding New Collections
+
+### **Step-by-Step Guide**
+
+#### **1. Create Collection Directory**
 
 ```bash
-sudo apt update
-sudo apt install docker.io
+cd catalogs/
+mkdir my-new-dataset
+cd my-new-dataset
 ```
 
-Add the `ubuntu` user or your `username` to the Docker group
+#### **2. Create `collection.json`**
+
+This file contains metadata about your collection. Follow the [STAC Collection specification](https://github.com/radiantearth/stac-spec/tree/master/collection-spec).
+
+**Minimal Example:**
+
+```json
+{
+  "id": "my-new-dataset",
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "description": "Description of your dataset",
+  "license": "CC-BY-4.0",
+  "extent": {
+    "spatial": {
+      "bbox": [[-180, -90, 180, 90]]
+    },
+    "temporal": {
+      "interval": [["2020-01-01T00:00:00Z", "2020-12-31T23:59:59Z"]]
+    }
+  },
+  "links": []
+}
+```
+
+**Required Fields:**
+- `id` - Unique identifier (alphanumeric, hyphens, underscores only)
+- `type` - Must be "Collection"
+- `stac_version` - STAC version (use "1.0.0")
+- `description` - Human-readable description
+- `license` - License identifier or "proprietary"
+- `extent` - Spatial and temporal extent
+
+**Optional but Recommended:**
+- `title` - Display name
+- `keywords` - Array of keywords
+- `providers` - Organizations involved
+- `summaries` - Property summaries
+- `links` - Related resources
+
+#### **3. Create `index.geojson`**
+
+This file contains the STAC Items (individual assets) in your collection.
+
+**Structure:**
+
+```json
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "stac_version": "1.0.0",
+      "id": "item-001",
+      "collection": "my-new-dataset",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-94.6, 37.0], [-94.5, 37.0], [-94.5, 37.1], [-94.6, 37.1], [-94.6, 37.0]]]
+      },
+      "bbox": [-94.6, 37.0, -94.5, 37.1],
+      "properties": {
+        "datetime": "2020-06-15T12:00:00Z"
+      },
+      "assets": {
+        "image": {
+          "href": "https://example.com/path/to/image.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "title": "COG Image"
+        }
+      },
+      "links": []
+    }
+  ]
+}
+```
+
+**Required Fields per Item:**
+- `type` - Must be "Feature"
+- `stac_version` - STAC version
+- `id` - Unique item identifier (CANNOT contain: `: / ? # [ ] @ ! $ & ' ( ) * + , ; =`)
+- `collection` - Must match collection `id`
+- `geometry` - GeoJSON geometry (or `null`)
+- `bbox` - Bounding box [min_lon, min_lat, max_lon, max_lat]
+- `properties.datetime` - ISO 8601 datetime or `null`
+- `assets` - At least one asset with `href`
+
+#### **4. Commit and Push**
 
 ```bash
-sudo groupadd docker
-sudo usermod -aG docker $USER
+git add catalogs/my-new-dataset/
+git commit -m "Add my-new-dataset collection"
+git push origin main
 ```
 
-Close your connection and reboot the instance. 
+#### **5. Wait for Ingestion**
 
-Install `docker-compose`
+Within 5 minutes, the cronjob will:
+1. Detect your changes
+2. Pull from GitHub
+3. Ingest your collection into the STAC API
+4. Log the results
+
+#### **6. Verify Ingestion**
+
+Check that your collection is available:
 
 ```bash
-sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+# Via curl
+curl https://stac.cyverse.org/collections/my-new-dataset
 
-sudo chmod +x /usr/local/bin/docker-compose
-```
-<br/>
-
-<br/>
-<br/>
-
-## Nginx
-
-To secure both instances over `https://` we are runninng [Nginx](https://nginx.org/) with a reverse proxy to the public IP addresses. Nginx is installed on the vm (not containerized). A reverse proxy acts as gatekeeper or middleman to handle web requests. A request will come into to port 80 (default http port) or 443 (encrypted port). Nginx listens to these ports for requests and then sends the request on to a back-end server to meet the request. For this system, Nginx is set to send request to localhost:8081 where a containerized Sql Alchemy is waiting to receive. 
-
-Secure Sockets Layer (SSL) Certificate is a file that encrypts data transfer between a browser and a server. stac.cyverse.org has SSL certificates from GoDaddy (managed by Jeremy Frady). An SSL certificate makes your http site secure as https.
-
-
-
-#### Useful Info
-
-```
-openssl s_client -connect stac.cyverse.org:443 -servername stac.cyverse.org < /dev/null | openssl x509 -noout -dates
-```
-<br/>
-<br/>
-
-
-Install `nginx`
-
-```
-sudo apt install apache2-utils nginx
+# Via browser
+# Open: https://stac.cyverse.org/collections/my-new-dataset
 ```
 
-Is nginx active and running?
-
-`sudo systemctl status nginx`
-
-Restart Nginx
-
-`sudo systemctl restart nginx`
-
-<br/>
-
-Is nginx listening on port 80 (standard http port)?
-
-`sudo lsof -i :80`
-
-<br/>
-<br/>
-
-Some nginx configuration files are located in:
-
- `/etc/nginx/sites-available/default` and `/etc/nginx/sites-enabled/default` and `/etc/nginx/nginx.conf`
-
-<br/>
-<br/>
-
-Within directory `stac-fastapi`, there are files `docker-compose.nginx.yml` and `nginx.conf`. This files are NOT in use. 
-
-<br/>
-
-Add SSl Certificates
-
-    Add `.key` and `.crt` to:
-    
-    ```{bash}
-    $ /etc/ssl/private/
-    $ /etc/ssl/certs/
-    ```
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-
-## `stac-api` vm
-
-The general directory structure on `stac-api` vm is:
-
-```
--ubuntu
-  -cyverse-stac
-  -stac-fastapi 
-```
-
-`cyverse-stac` is the cloned version of [THIS repository](https://github.com/cyverse-gis/cyverse-stac) It contains the json & geojson metadata the descibes the geospatial collections, items, and assets. The repo on Github and the VM should be synced at all time. 
-
-<br/>
-
-`stac-fastapi` is a [repo](https://github.com/stac-utils/stac-fastapi) that contains the files needed to run the API. This version is from 2023 and quite a bit behind the latest development. 
-
-<br/>
-<br/>
-
-
-## stac-fastapi with Docker-compose
-
-Within the directory `stac-fastapi`, the file `docker-compose.yml` is the config file to orchestrate the launching of multiple containers. These containers run the API. 
-
-Note: the GitHub repository for `stac-fastapi` expects containers from GitHub Container Registry, not from DockerHub - update the `docker-compose.yml` to use the specific containers and tag version 
-
-
-<br/>
-<br/>
-
-### docker-compose.yml
-
-Docker-compose.yml launches a series of containerized services.
-
-
-Container name: **`stac-db`**. This container provides a PostgreSQL database with the PGStac extension. Purpose: Stores the spatiotemporal data for both app-sqlalchemy and app-pgstac.
-Key Features: Preconfigured for geospatial data processing (using postgis and PGStac). Exposes the database on port 5439 (mapped to the host's port).
-
-Container name: **`stac-fastapi-sqlalchemy`**. This container runs the stac-fastapi (rest api) and uses [SQL Alchemy](https://www.sqlalchemy.org/), a Python SQL toolkit and object relational mapper mapped to a STAC `.json` Collection and `.geojson` Feature Collection.  This container waits for the postgresql database to start before launching. It uses a `wait-for-it.sh` script to wait for the postgresql database at port 5432. It exposes to port 8081 where is receives requests from nginx reverse proxy.
-
-Container name: **`stac-fastapi-pgstac`**. This container is similar to the 'sql alchecmy' container. It currently does not launch (exit code 127 which means there is problem with `COMMAND`) and is not set up to communcate with the nginx reverse proxy. Perhaps it is redundant or not useful for our purposes????
-
-Container name: **`loadcyverse-sqlalchemy`**. This container's whole purpose to load STAC metadata (`collection.json` & `index.geojson`) into the postgresql database. It runs the `ingest_cyverse.py` script to put the data into the database. The `ingest_cyverse.py` script uses the file `api_collections.txt` as part of the ingest. If successful, the container should run for a short period of time and then exit with code 0. 
-
-Container name: **`loadcyverse-pgstac`**: For loading data using the fastapi-pgstac service. This currently does not work. 
-
-<br/>
-<br/>
-
-#### Docker-Compose Commands
+Check the logs:
 
 ```bash
-cd ~/stac-fastapi
-```
-Start the API
-
-`docker-compose up -d`
-
-Stop the API
-
-`docker-compose down`
-
-
-
-
-
-
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-
-
-### Editing the API title and description
-`/home/ubuntu/stac-fastapi/stac_fastapi/api/stac_fastapi/api/app.py`
-
-
-
-
-<br/>
-<br/>
-<br/>
-<br/>
-
-
-### Adding or Editing Catalogs
-
-Adding or editing STAC catalogs (json & geojson files) is generally best to do directly in this github repo. 
-
-
-To add new collections to the API, you would add a new directory under `/catalogs`. Within this new directory you would add a
-`collection.json` file and `index.geojson` file that were created by the `STAC_creation_latest.ipynb`. 
-
-Additionally, you will need to edit `api_collections.txt` file found at `/cyverse-stac` within the repo. Add a single line the mimics the previous lines, but has the name of the directory you created in `/catalogs` 
-
-
-<br/>
-
-Changes that you make to the github repo will be pulled into the vm automatically. This is accomplished by using a cronjob on the vm. There is shell script called `update_and_restart.sh` in the repo that specifies: 1. Look for differences between github repo and repo on vm. 2. If there are differences, then pull the changes from github. 3. Restart the docker-compose that creates the STAC API. On the vm, the shell script has been programmed to run every 5 minutes using the crontab. The cronjob is logged to the file `/home/ubuntu/cyverse-stac/cron_log_file.log`. 
-
-While logged into the `stac-api` vm:
-```
-# To edit the crontab
-crontab -e
-
-#The command to run the shell script every 5 minutes and output results to log file
-*/5 * * * * /home/ubuntu/stac-fastapi/update_and_restart.sh 
-```
-<br/><br/>
-
-If the cronjob is not working, then you can log into the `stac-api` vm and do things manually
-```
-cd /home/ubuntu/cyverse-stac
-git pull
-```
-<br/>
-
-```
-cd /home/ubuntu/stac-fastapi/
-docker-compose restart
+# On the server
+tail -f /home/ubuntu/new-stac-api/cyverse-stac/ingestion.log
 ```
 
-<br/>
+---
 
-If the restart doesn't work, then you can try to stop and start the docker-compose
-``` 
-cd /home/ubuntu/stac-fastapi/
-docker-compose down
-docker-compose up -d
+## 📝 File Format Requirements
+
+### **Collection.json Requirements**
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `id` | string | ✅ | Unique identifier (letters, numbers, hyphens, underscores) |
+| `type` | string | ✅ | Must be "Collection" |
+| `stac_version` | string | ✅ | STAC specification version (e.g., "1.0.0") |
+| `description` | string | ✅ | Detailed description of the collection |
+| `license` | string | ✅ | License ID (SPDX) or "proprietary" |
+| `extent` | object | ✅ | Spatial and temporal extent |
+| `extent.spatial.bbox` | array | ✅ | Array of bounding boxes [[min_lon, min_lat, max_lon, max_lat]] |
+| `extent.temporal.interval` | array | ✅ | Array of time intervals [[start, end]] (ISO 8601) |
+| `links` | array | ✅ | Array of link objects (can be empty) |
+| `title` | string | ⬜ | Human-readable title |
+| `keywords` | array | ⬜ | Array of keyword strings |
+| `providers` | array | ⬜ | Organizations involved |
+
+### **Index.geojson Requirements**
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `type` | string | ✅ | Must be "FeatureCollection" |
+| `features` | array | ✅ | Array of STAC Item objects |
+
+**Per Item:**
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `type` | string | ✅ | Must be "Feature" |
+| `stac_version` | string | ✅ | STAC version (e.g., "1.0.0") |
+| `id` | string | ✅ | Unique item ID (no special chars: `, : / ? # [ ] @ ! $ & ' ( ) * + ; =`) |
+| `collection` | string | ✅ | Must match parent collection `id` |
+| `geometry` | object/null | ✅ | GeoJSON geometry or null |
+| `bbox` | array | ✅ | Bounding box [min_lon, min_lat, max_lon, max_lat] |
+| `properties` | object | ✅ | Item properties |
+| `properties.datetime` | string/null | ✅ | ISO 8601 datetime or null |
+| `assets` | object | ✅ | At least one asset with `href` and `type` |
+| `links` | array | ✅ | Array of link objects (can be empty) |
+
+### **Asset Format**
+
+```json
+{
+  "asset-key": {
+    "href": "https://example.com/path/to/file.tif",
+    "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+    "title": "Human-readable title",
+    "roles": ["data"]
+  }
+}
 ```
 
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+**Common Asset Types:**
+- Cloud-Optimized GeoTIFF: `image/tiff; application=geotiff; profile=cloud-optimized`
+- GeoTIFF: `image/tiff; application=geotiff`
+- JPEG: `image/jpeg`
+- PNG: `image/png`
+- GeoJSON: `application/geo+json`
+- JSON: `application/json`
 
-## Creating STAC json & geojson files
+---
 
-Within this repo there is a directory called `scripts`. Within it is a jupyter notebook `STAC_creation_latest.ipynb` that has python code for creating STAC json and geojson files from crawling over imagery assets. The script is designed to run in Cyverse Discovery Environment using the 'jupyter-lab geospatial' app. The code primarily uses the [pystac](https://pystac.readthedocs.io/en/stable/) library to create the STAC metadata. The STAC creation code is in active development.
+## ⚙️ How the Automation Works
 
-### Here is what the code currently does:
+### **Cronjob Schedule**
 
-* Users manually input metadata about the geospatial imagery products. These include: Title of the collection, description of collection and items, provider name and info.
-
-* Users can specify the collection date with a single entry or they can provide a csv file that lists each of the assets and their date of collection. 
-
-* The script crawls over a user defined directory (e.g., in Cyverse DataStore) and looks for geotiff and cloud optimized geotiff (COG) files. 
-
-* It pulls out the projection, ground sampling distance (gsd) and footprint of the imagery asset. If an asset does not have a projection, the gsd will return 0.00 meters. 
-
-* It will assign multiple assets to a single item. This is also based on a user provided csv file that lists which assets should belong to which item. 
-
-* It can output a static STAC with the structure catalog>>collection>>items. These will have relative links. A static catalog can be browsed by the STAC browser but it has limited ability to be queried. 
-
-* It can output a dynamic STAC that can be ingesting into a STAC API. The structure is: collection>>index.geojson. It has absolute links. The STAC API is a lot more powerful compared with the static catalog. STAC APIs can be queried by space or time within the STAC Browser. 
-
-
-### Additional Functionality that is Needed
-
-* Find point clouds in a directory (laz, copc) and index them in STAC. There is a 'pointcloud' extension in pystac that should make it possible. 
-
-* Link out to [COPC Viewer](https://viewer.copc.io/){target=_blank} for point cloud visualization
-
-
-
-
-
-
-### STAC Assets in Cyverse Datastore
-
-CyVerse features a set of public datasets that are curated in the CyVerse DataStore. The assets are primarily available from the DataStore over the public WebDAV.
-
-https://data.cyverse.org/dav-anon/
-
-All assets must be shared as `read-only` with the `anonymous` user in the iRODS environment (accessed via the Discovery Environment, Share Data feature) in order for them to be visible and downloadable.
-
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-
-## TiTiler
-
-We are running [DevSeed TiTiler](https://developmentseed.org/titiler/){target=_blank} on the Cyverse OpenStack Cloud
-
-
-[**https://titiler.cyverse.org**](https://titiler.cyverse.org){target=_blank} 
-
-For this we are running a `xl` instance (16-cores, 64 GB RAM, 200 GiB Disk ) with Ubuntu 22.04 and Docker
-
-## Instructions for :simple-docker: DevSeed TiTiler
-
-[TiTiler Documentation](https://developmentseed.org/titiler/)
-
-https://titiler.cyverse.org/
-
-### Start Docker
-
-We are running TiTiler with Docker:
+The system runs every 5 minutes:
 
 ```bash
-docker run \
---name titiler \
---env FORWARDED_ALLOW_IPS=*
---env REDIRECT_URL=https://titiler.cyverse.org \
--p 8000:8000 \
---env PORT=8000 \
---env WORKERS_PER_CORE=1 \
---restart always \
--d  \
--it \
-ghcr.io/developmentseed/titiler:latest
+*/5 * * * * /home/ubuntu/new-stac-api/cyverse-stac/update_and_restart.sh
 ```
 
-To ensure that the container is always alive and is healthy, we are running a `cron` job every 5 minutes to test it and restart it as necessary 
+### **What Happens During Each Run**
+
+1. **Git Fetch** - Check if remote repository has new commits
+2. **Compare** - If no changes, exit early (efficient!)
+3. **Git Pull** - If changes detected, pull latest code
+4. **Scan Catalogs** - Read all `collection.json` and `index.geojson` files
+5. **Query API** - Get current state from https://stac.cyverse.org
+6. **Determine Operations** - Compare local vs API state
+7. **Execute CRUD Operations**:
+   - **CREATE** - New collections/items → `POST` to API
+   - **UPDATE** - Modified collections/items → `PUT` to API
+   - **DELETE** - Removed collections/items → `DELETE` from API (if enabled)
+8. **Log Results** - Write detailed logs to files
+
+### **Configuration**
+
+Edit `/home/ubuntu/new-stac-api/stac-fastapi-pgstac/config/ingestion_config.yaml`:
+
+```yaml
+# STAC API endpoint
+stac_api_url: "https://stac.cyverse.org"
+
+# Path to catalogs directory
+catalogs_path: "/home/ubuntu/new-stac-api/cyverse-stac/catalogs"
+
+# Log file location
+log_file: "/home/ubuntu/new-stac-api/cyverse-stac/ingestion.log"
+
+# Enable deletion of collections/items not in GitHub
+enable_deletes: true
+
+# Number of times to retry failed API requests
+retry_attempts: 3
+
+# Delay between retries (seconds)
+retry_delay_seconds: 5
+```
+
+### **Important Notes**
+
+- **Idempotent** - Safe to run multiple times; won't duplicate data
+- **Change Detection** - Only processes when GitHub has new commits
+- **Atomic Operations** - Each collection/item processed independently
+- **Error Handling** - Continues processing even if some items fail
+- **Logging** - All operations logged for audit trail
+
+---
+
+## 📊 Monitoring and Logs
+
+### **Log Files**
+
+| Log File | Purpose | Location |
+|----------|---------|----------|
+| `ingestion.log` | Detailed ingestion operations | `/home/ubuntu/new-stac-api/cyverse-stac/ingestion.log` |
+| `cron_log_file.log` | Cronjob execution log | `/home/ubuntu/new-stac-api/cyverse-stac/cron_log_file.log` |
+
+### **Checking Logs**
 
 ```bash
-*/5 * * * * docker ps -f health=unhealthy --format "docker restart {{.ID}}" | sh
+# View most recent ingestion
+tail -100 /home/ubuntu/new-stac-api/cyverse-stac/ingestion.log
+
+# Follow log in real-time
+tail -f /home/ubuntu/new-stac-api/cyverse-stac/ingestion.log
+
+# Check cronjob execution
+tail -50 /home/ubuntu/new-stac-api/cyverse-stac/cron_log_file.log
+
+# Search for errors
+grep ERROR /home/ubuntu/new-stac-api/cyverse-stac/ingestion.log
 ```
 
+### **Log Format**
 
+```
+2025-10-21 21:42:05,637 - INFO - Starting STAC collection sync
+2025-10-21 21:42:05,900 - INFO - ✓ Successfully created collection 'my-collection'
+2025-10-21 21:42:06,393 - INFO -   ✓ Successfully created item 'item-001'
+2025-10-21 21:42:06,586 - ERROR -   ✗ Failed to create item 'item-002': HTTP 400: Invalid ID
+```
 
+### **Summary Output**
 
+At the end of each run, you'll see:
 
+```
+======================================================================
+SYNC SUMMARY
+======================================================================
+Collections created:  2
+Collections updated:  1
+Collections deleted:  0
+Items created:        219
+Items updated:        10
+Items deleted:        0
+Errors:               3
+======================================================================
+```
 
+---
 
+## 🔧 Troubleshooting
 
+### **Common Issues**
 
+#### **Issue: Collection not showing up in API**
+
+**Possible Causes:**
+1. Git push didn't complete successfully
+2. Cronjob hasn't run yet (wait 5 minutes)
+3. Invalid JSON syntax
+4. Missing required fields
+
+**Solutions:**
+```bash
+# Check if changes are on GitHub
+git log --oneline -5
+
+# Manually trigger ingestion
+/home/ubuntu/new-stac-api/cyverse-stac/update_and_restart.sh
+
+# Check logs for errors
+tail -100 /home/ubuntu/new-stac-api/cyverse-stac/ingestion.log | grep ERROR
+```
+
+#### **Issue: Items failing with "ID cannot contain" error**
+
+**Cause:** Item IDs contain invalid characters (`: / ? # [ ] @ ! $ & ' ( ) * + , ; =`)
+
+**Solution:**
+```bash
+# Fix item IDs in index.geojson
+# Replace commas and special characters with hyphens or underscores
+# Example: "item-001, item-002" → "item-001-item-002"
+```
+
+#### **Issue: "Resource already exists (409)" errors**
+
+**Cause:** Item already exists in API with same ID
+
+**Solutions:**
+- This is expected if re-running ingestion (idempotent behavior)
+- If you want to update, ensure the item actually changed
+- Check for duplicate IDs in your `index.geojson`
+
+#### **Issue: Git pull fails**
+
+**Possible Causes:**
+1. Local changes conflict with remote
+2. Git credentials expired
+3. Network connectivity
+
+**Solutions:**
+```bash
+cd /home/ubuntu/new-stac-api/cyverse-stac
+git status
+git pull origin main
+```
+
+### **Manual Ingestion**
+
+To manually trigger ingestion outside the cronjob:
+
+```bash
+# Run the bash script
+/home/ubuntu/new-stac-api/cyverse-stac/update_and_restart.sh
+
+# Or run Python script directly
+python3 /home/ubuntu/new-stac-api/stac-fastapi-pgstac/scripts/sync_and_ingest.py \
+  /home/ubuntu/new-stac-api/stac-fastapi-pgstac/config/ingestion_config.yaml
+```
+
+### **Verifying Data in API**
+
+```bash
+# List all collections
+curl https://stac.cyverse.org/collections | jq '.collections[].id'
+
+# Get specific collection
+curl https://stac.cyverse.org/collections/my-collection | jq '.'
+
+# List items in collection
+curl https://stac.cyverse.org/collections/my-collection/items | jq '.features[].id'
+
+# Get specific item
+curl https://stac.cyverse.org/collections/my-collection/items/item-001 | jq '.'
+```
+
+### **Checking Cronjob Status**
+
+```bash
+# View crontab
+crontab -l
+
+# Check if cron service is running
+systemctl status cron
+
+# View recent cron execution logs
+grep CRON /var/log/syslog | tail -20
+```
+
+---
+
+## 🌐 API Access
+
+### **Endpoints**
+
+| Endpoint | Description |
+|----------|-------------|
+| `GET /` | API landing page |
+| `GET /collections` | List all collections |
+| `GET /collections/{id}` | Get specific collection |
+| `GET /collections/{id}/items` | List items in collection |
+| `GET /collections/{id}/items/{item_id}` | Get specific item |
+| `GET /search` | Search across all collections |
+
+### **Example Queries**
+
+```bash
+# List all collections
+curl https://stac.cyverse.org/collections
+
+# Get collection details
+curl https://stac.cyverse.org/collections/joplin
+
+# Search for items
+curl -X POST https://stac.cyverse.org/search \
+  -H "Content-Type: application/json" \
+  -d '{
+    "collections": ["joplin"],
+    "bbox": [-95, 36, -94, 38],
+    "limit": 10
+  }'
+```
+
+### **STAC Browser**
+
+Explore collections visually:
+- **Production:** https://stac.cyverse.org
+- **Radiant Earth STAC Browser:** https://radiantearth.github.io/stac-browser/#/external/stac.cyverse.org
+
+---
+
+## 🤝 Contributing
+
+### **Guidelines**
+
+1. **Validate JSON** before committing:
+   ```bash
+   # Validate collection.json
+   cat catalogs/my-collection/collection.json | jq '.'
+
+   # Validate index.geojson
+   cat catalogs/my-collection/index.geojson | jq '.'
+   ```
+
+2. **Follow STAC Specification**:
+   - Collection Spec: https://github.com/radiantearth/stac-spec/tree/master/collection-spec
+   - Item Spec: https://github.com/radiantearth/stac-spec/tree/master/item-spec
+
+3. **Use Descriptive Commit Messages**:
+   ```bash
+   git commit -m "Add Landsat 8 collection for Arizona"
+   git commit -m "Update joplin collection metadata"
+   git commit -m "Fix item IDs in OFO collection"
+   ```
+
+4. **Test Locally** (if possible):
+   - Validate JSON syntax
+   - Check required fields
+   - Ensure item IDs don't contain special characters
+
+5. **Monitor Logs** after pushing:
+   - Wait 5 minutes for cronjob
+   - Check ingestion logs for errors
+   - Verify data in API
+
+### **Best Practices**
+
+- ✅ Use clear, unique collection IDs
+- ✅ Provide descriptive titles and descriptions
+- ✅ Include accurate spatial and temporal extents
+- ✅ Use Cloud-Optimized GeoTIFFs (COGs) for raster data
+- ✅ Keep asset URLs publicly accessible
+- ✅ Add keywords for discoverability
+- ✅ Document data sources and licenses
+- ❌ Don't use special characters in IDs
+- ❌ Don't commit large binary files (images, etc.)
+- ❌ Don't commit sensitive information
+
+---
+
+## 📚 Additional Resources
+
+- **STAC Specification:** https://stacspec.org
+- **STAC Extensions:** https://stac-extensions.github.io
+- **STAC Browser:** https://radiantearth.github.io/stac-browser
+- **PySTAC:** https://pystac.readthedocs.io (Python library)
+- **STAC Best Practices:** https://github.com/radiantearth/stac-spec/blob/master/best-practices.md
+- **CyVerse:** https://cyverse.org
+- **TiTiler:** https://titiler.cyverse.org
+
+---
+
+## 📞 Support
+
+For issues or questions:
+1. Check the [Troubleshooting](#troubleshooting) section
+2. Review the logs for error messages
+3. Open an issue on GitHub
+4. Contact the CyVerse STAC team
+
+---
+
+**Last Updated:** October 21, 2025
+**STAC Version:** 1.0.0
+**API URL:** https://stac.cyverse.org
