@@ -15,17 +15,6 @@ Host stac.cyverse.org
     IdentityFile ~/.ssh/id_rsa
 ```
 
-## 📋 Table of Contents
-
-- [Overview](#overview)
-- [System Architecture](#system-architecture)
-- [Directory Structure](#directory-structure)
-- [Adding New Collections](#adding-new-collections)
-- [File Format Requirements](#file-format-requirements)
-- [How the Automation Works](#how-the-automation-works)
-- [Monitoring and Logs](#monitoring-and-logs)
-- [Troubleshooting](#troubleshooting)
-- [API Access](#api-access)
 
 ---
 
