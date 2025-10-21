@@ -280,13 +280,9 @@ curl -X POST https://stac.cyverse.org/search \
   }'
 ```
 
-### **STAC Browser**
+## Docker Images and Docker Compose
 
-Explore collections visually:
-- **Production:** https://stac.cyverse.org
-
-
----
+## 
 
 
 
