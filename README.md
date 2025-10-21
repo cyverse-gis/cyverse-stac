@@ -9,6 +9,14 @@ This repository contains STAC (SpatioTemporal Asset Catalog) collections that ar
 - ✅ Comprehensive logging of all operations
 - ✅ Safe and idempotent (can run multiple times)
 
+### 📚 Additional Resources
+
+- **Radiant Earth STAC Browser:** https://radiantearth.github.io/stac-browser/#/external/stac.cyverse.org
+- **STAC Specification:** https://stacspec.org
+- **STAC Extensions:** https://stac-extensions.github.io
+- **STAC Browser:** https://radiantearth.github.io/stac-browser
+- **PySTAC:** https://pystac.readthedocs.io (Python library)
+- **STAC Best Practices:** https://github.com/radiantearth/stac-spec/blob/master/best-practices.md
 
 <br/>
 <br/>
@@ -39,6 +47,9 @@ new-stac-api/
 
 ---
 
+<br/>
+<br/>
+
 ## Add STAC Records
 
 Each collection MUST be in its own subdirectory under `catalogs/` and MUST contain:
@@ -53,13 +64,14 @@ catalogs/my-new-dataset/
 └── index.geojson
 ```
 
-
+<br/>
+<br/>
 
 ---
 
+<br/>
 
-
-### **Architecture**
+### **General Workflow**
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -88,19 +100,21 @@ catalogs/my-new-dataset/
 │                   │                                             │
 │                   ▼                                             │
 │  ┌────────────────────────────────────────────────────────┐     │
-│  │  update_and_restart.sh                                 │     │
+│  │  cyverse-stac/update_and_restart.sh                    │     │
 │  │  1. git fetch                                          │     │
 │  │  2. Check for changes                                  │     │
 │  │  3. git pull (if changes detected)                     │     │
 │  │  4. Run sync_and_ingest.py                             │     │
+|  |  5. Logs to cron_log_file.log
 │  └────────────────┬───────────────────────────────────────┘     │
 │                   │                                             │
 │                   ▼                                             │
 │  ┌────────────────────────────────────────────────────────┐     │
-│  │  sync_and_ingest.py                                    │     │
-│  │  - Scans catalogs/ directory                           │     │
+│  │  stac-fastapi-pgstac/scripts/sync_and_ingest.py        │     │
+│  │  - Scans cyverse-stac/catalogs/ directory              │     │
 │  │  - Compares with API state                             │     │
 │  │  - Creates/Updates/Deletes collections & items         │     │
+|  |  - Logs to ingestion.log
 │  └────────────────┬───────────────────────────────────────┘     │
 │                   │                                             │
 │                   │ HTTPS API Calls                             │
@@ -129,110 +143,8 @@ catalogs/my-new-dataset/
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-### **Ingestion Process Flow**
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                    Ingestion Workflow                            │
-└─────────────────────────────────────────────────────────────────┘
-
-1. TRIGGER (every 5 minutes)
-   │
-   ├─ Cronjob executes update_and_restart.sh
-   │
-   ▼
-
-2. CHECK FOR UPDATES
-   │
-   ├─ git fetch origin
-   ├─ Compare local vs remote
-   │
-   ├─ No changes? ──────> EXIT (log "No changes detected")
-   │
-   ├─ Changes detected? ──> Continue
-   │
-   ▼
-
-3. PULL CHANGES
-   │
-   ├─ git pull origin main
-   ├─ Update local repository
-   │
-   ▼
-
-4. SCAN CATALOGS
-   │
-   ├─ Read catalogs/ directory
-   ├─ For each subdirectory:
-   │   ├─ Load collection.json
-   │   └─ Load index.geojson
-   │
-   ▼
-
-5. COMPARE WITH API
-   │
-   ├─ GET https://stac.cyverse.org/collections
-   ├─ GET https://stac.cyverse.org/collections/{id}/items
-   │
-   ├─ Determine operations needed:
-   │   ├─ Collections to CREATE
-   │   ├─ Collections to UPDATE
-   │   ├─ Collections to DELETE
-   │   ├─ Items to CREATE
-   │   ├─ Items to UPDATE
-   │   └─ Items to DELETE
-   │
-   ▼
-
-6. EXECUTE OPERATIONS
-   │
-   ├─ CREATE new collections
-   │   └─ POST /collections
-   │
-   ├─ UPDATE existing collections
-   │   └─ PUT /collections/{id}
-   │
-   ├─ CREATE new items
-   │   └─ POST /collections/{id}/items
-   │
-   ├─ UPDATE existing items
-   │   └─ PUT /collections/{id}/items/{item_id}
-   │
-   ├─ DELETE removed collections (if enabled)
-   │   └─ DELETE /collections/{id}
-   │
-   └─ DELETE removed items (if enabled)
-       └─ DELETE /collections/{id}/items/{item_id}
-   │
-   ▼
-
-7. LOG RESULTS
-   │
-   ├─ Write to ingestion.log
-   ├─ Write to cron_log_file.log
-   │
-   └─ Summary:
-       ├─ Collections created: X
-       ├─ Collections updated: Y
-       ├─ Items created: Z
-       ├─ Items updated: W
-       └─ Errors: N
-```
-
----
-
-## 📁 Directory Structure
-
-
-
-
-
----
-
-
-
-
-
+<br/>
+<br/>
 
 ---
 
@@ -372,24 +284,16 @@ curl -X POST https://stac.cyverse.org/search \
 
 Explore collections visually:
 - **Production:** https://stac.cyverse.org
-- **Radiant Earth STAC Browser:** https://radiantearth.github.io/stac-browser/#/external/stac.cyverse.org
+
+
+---
+
+
 
 ---
 
 
 
----
 
-## 📚 Additional Resources
 
-- **STAC Specification:** https://stacspec.org
-- **STAC Extensions:** https://stac-extensions.github.io
-- **STAC Browser:** https://radiantearth.github.io/stac-browser
-- **PySTAC:** https://pystac.readthedocs.io (Python library)
-- **STAC Best Practices:** https://github.com/radiantearth/stac-spec/blob/master/best-practices.md
 
----
-
-**Last Updated:** October 21, 2025
-**STAC Version:** 1.0.0
-**API URL:** https://stac.cyverse.org
