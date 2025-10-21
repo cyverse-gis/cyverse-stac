@@ -2,6 +2,9 @@
 
 This repository contains STAC (SpatioTemporal Asset Catalog) collections that are automatically ingested into the CyVerse STAC API at [https://stac.cyverse.org](https://stac.cyverse.org).
 
+<br/>
+<br/>
+
 ## Administration
 The STAC-API is being served on a VM machine called stac.cyverse.org. It may also be called `aeoulus-stack-api.cyverse.org` (128.196.254.84). 
 
@@ -15,7 +18,14 @@ Host stac.cyverse.org
     IdentityFile ~/.ssh/id_rsa
 ```
 
+<br/>
+<br/>
 
+On the VM, work in the directory `/home/ubuntu/new-stac-api' 
+
+new-stac-api/
+├── cyverse-stac/           # This repo holds the STAC catalog file                     
+└── stac-fastapi-pgstac/    # contains ingestion py script, dockerfiles, and dockercompose yml to build containerized Stac-fastapi with PG DB
 ---
 
 ## 🔍 Overview
