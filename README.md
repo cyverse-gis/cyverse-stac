@@ -282,6 +282,15 @@ curl -X POST https://stac.cyverse.org/search \
 
 ## Docker Images and Docker Compose
 
+The STAC API (stac-utils/stac-fastapi-pgstac:latest) and the Postgres DB (ghcr.io/stac-utils/pgstac:v0.0.2) are docker images. They are orchestrated together using docker compose. The orchestration file is `/stac-fastapi-pgstac/docker-compose.yml`. It has a persistent volume that means the stac json and geojson files will be preserved even if the docker compose is restarted of shutdown. 
+
+Check status of docker compose `docker compose ps`
+
+Start docker compose `docker compose up -d`
+
+
+
+
 ## Nginx 
 
 
