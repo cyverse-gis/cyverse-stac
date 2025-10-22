@@ -289,6 +289,13 @@ Check status of docker compose `docker compose ps`
 Start docker compose `docker compose up -d`
 
 
+#### Change STAC API title and description
+
+STAC API title and description are an environmental variable within the `docker-compose.yml`. The compose network may need to be brought down and then back up to take the changes. 
+
+- STAC_FASTAPI_TITLE=CyVerse STAC API
+- STAC_FASTAPI_DESCRIPTION=CyVerse SpatioTemporal Asset Catalog API for geospatial data discovery
+- STAC_FASTAPI_VERSION=1.0.0
 
 
 ## Nginx 
