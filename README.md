@@ -1,6 +1,6 @@
 # CyVerse STAC Catalog
 
-This repository contains STAC (SpatioTemporal Asset Catalog) collections that are automatically ingested into the CyVerse STAC API at [https://stac.cyverse.org](https://stac.cyverse.org).
+This repository contains STAC (SpatioTemporal Asset Catalog) collections that are automatically ingested into the CyVerse STAC API at [https://stac.cyverse.org](https://stac.cyverse.org)
 
 **Key Features:**
 - ✅ Automatic synchronization every 5 minutes via cronjob
