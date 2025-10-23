@@ -24,7 +24,7 @@ This repository contains STAC (SpatioTemporal Asset Catalog) collections that ar
 ## Administration
 The STAC-API is being served on a VM machine called stac.cyverse.org. It may also be called `aeoulus-stack-api.cyverse.org` (128.196.254.84). 
 
-`ssh ubuntu@stac.cyverse.org` requires public ssh from local computer to access
+`ssh ubuntu@stac.cyverse.org` requires public ssh keys from local computer to access
 
 ```
 Host stac.cyverse.org
