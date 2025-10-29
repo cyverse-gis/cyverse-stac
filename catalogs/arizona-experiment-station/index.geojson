@@ -3,7 +3,7 @@
     "features": [
         {
             "type": "Feature",
-            "collection": "Santa Rita Ecostate Mapping - May 2019",
+            "collection": "Santa-Rita-Ecostate-Mapping",
             "stac_version": "1.0.0",
             "stac_extensions": [
                 "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
@@ -126,7 +126,7 @@
         },
         {
             "type": "Feature",
-            "collection": "Santa Rita Ecostate Mapping - May 2019",
+            "collection": "Santa-Rita-Ecostate-Mapping",
             "stac_version": "1.0.0",
             "stac_extensions": [
                 "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
@@ -249,7 +249,7 @@
         },
         {
             "type": "Feature",
-            "collection": "Santa Rita Ecostate Mapping - May 2019",
+            "collection": "Santa-Rita-Ecostate-Mapping",
             "stac_version": "1.0.0",
             "stac_extensions": [
                 "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
@@ -372,7 +372,7 @@
         },
         {
             "type": "Feature",
-            "collection": "Santa Rita Ecostate Mapping - May 2019",
+            "collection": "Santa-Rita-Ecostate-Mapping",
             "stac_version": "1.0.0",
             "stac_extensions": [
                 "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
@@ -495,7 +495,7 @@
         },
         {
             "type": "Feature",
-            "collection": "Santa Rita Ecostate Mapping - May 2019",
+            "collection": "Santa-Rita-Ecostate-Mapping",
             "stac_version": "1.0.0",
             "stac_extensions": [
                 "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
@@ -618,7 +618,7 @@
         },
         {
             "type": "Feature",
-            "collection": "Santa Rita Ecostate Mapping - May 2019",
+            "collection": "Santa-Rita-Ecostate-Mapping",
             "stac_version": "1.0.0",
             "stac_extensions": [
                 "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
@@ -741,7 +741,7 @@
         },
         {
             "type": "Feature",
-            "collection": "Santa Rita Ecostate Mapping - May 2019",
+            "collection": "Santa-Rita-Ecostate-Mapping",
             "stac_version": "1.0.0",
             "stac_extensions": [
                 "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
@@ -864,7 +864,7 @@
         },
         {
             "type": "Feature",
-            "collection": "Santa Rita Ecostate Mapping - May 2019",
+            "collection": "Santa-Rita-Ecostate-Mapping",
             "stac_version": "1.0.0",
             "stac_extensions": [
                 "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
@@ -987,7 +987,7 @@
         },
         {
             "type": "Feature",
-            "collection": "Santa Rita Ecostate Mapping - May 2019",
+            "collection": "Santa-Rita-Ecostate-Mapping",
             "stac_version": "1.0.0",
             "stac_extensions": [
                 "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
@@ -1110,7 +1110,7 @@
         },
         {
             "type": "Feature",
-            "collection": "Santa Rita Ecostate Mapping - May 2019",
+            "collection": "Santa-Rita-Ecostate-Mapping",
             "stac_version": "1.0.0",
             "stac_extensions": [
                 "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
@@ -1233,7 +1233,7 @@
         },
         {
             "type": "Feature",
-            "collection": "Santa Rita Ecostate Mapping - May 2019",
+            "collection": "Santa-Rita-Ecostate-Mapping",
             "stac_version": "1.0.0",
             "stac_extensions": [
                 "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
@@ -1356,7 +1356,7 @@
         },
         {
             "type": "Feature",
-            "collection": "Santa Rita Ecostate Mapping - May 2019",
+            "collection": "Santa-Rita-Ecostate-Mapping",
             "stac_version": "1.0.0",
             "stac_extensions": [
                 "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
@@ -1479,7 +1479,7 @@
         },
         {
             "type": "Feature",
-            "collection": "Santa Rita Ecostate Mapping - May 2019",
+            "collection": "Santa-Rita-Ecostate-Mapping",
             "stac_version": "1.0.0",
             "stac_extensions": [
                 "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
@@ -1602,7 +1602,7 @@
         },
         {
             "type": "Feature",
-            "collection": "Santa Rita Ecostate Mapping - May 2019",
+            "collection": "Santa-Rita-Ecostate-Mapping",
             "stac_version": "1.0.0",
             "stac_extensions": [
                 "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
@@ -1725,7 +1725,7 @@
         },
         {
             "type": "Feature",
-            "collection": "Santa Rita Ecostate Mapping - May 2019",
+            "collection": "Santa-Rita-Ecostate-Mapping",
             "stac_version": "1.0.0",
             "stac_extensions": [
                 "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
@@ -1848,7 +1848,7 @@
         },
         {
             "type": "Feature",
-            "collection": "Santa Rita Ecostate Mapping - May 2019",
+            "collection": "Santa-Rita-Ecostate-Mapping",
             "stac_version": "1.0.0",
             "stac_extensions": [
                 "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
@@ -1971,7 +1971,7 @@
         },
         {
             "type": "Feature",
-            "collection": "Santa Rita Ecostate Mapping - May 2019",
+            "collection": "Santa-Rita-Ecostate-Mapping",
             "stac_version": "1.0.0",
             "stac_extensions": [
                 "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
@@ -2094,7 +2094,7 @@
         },
         {
             "type": "Feature",
-            "collection": "Santa Rita Ecostate Mapping - May 2019",
+            "collection": "Santa-Rita-Ecostate-Mapping",
             "stac_version": "1.0.0",
             "stac_extensions": [
                 "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
@@ -2217,7 +2217,7 @@
         },
         {
             "type": "Feature",
-            "collection": "Santa Rita Ecostate Mapping - May 2019",
+            "collection": "Santa-Rita-Ecostate-Mapping",
             "stac_version": "1.0.0",
             "stac_extensions": [
                 "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
@@ -2340,7 +2340,7 @@
         },
         {
             "type": "Feature",
-            "collection": "Santa Rita Ecostate Mapping - May 2019",
+            "collection": "Santa-Rita-Ecostate-Mapping",
             "stac_version": "1.0.0",
             "stac_extensions": [
                 "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
@@ -2463,7 +2463,7 @@
         },
         {
             "type": "Feature",
-            "collection": "Santa Rita Ecostate Mapping - May 2019",
+            "collection": "Santa-Rita-Ecostate-Mapping",
             "stac_version": "1.0.0",
             "stac_extensions": [
                 "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
@@ -2586,7 +2586,7 @@
         },
         {
             "type": "Feature",
-            "collection": "Santa Rita Ecostate Mapping - May 2019",
+            "collection": "Santa-Rita-Ecostate-Mapping",
             "stac_version": "1.0.0",
             "stac_extensions": [
                 "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
@@ -2709,7 +2709,7 @@
         },
         {
             "type": "Feature",
-            "collection": "Santa Rita Ecostate Mapping - May 2019",
+            "collection": "Santa-Rita-Ecostate-Mapping",
             "stac_version": "1.0.0",
             "stac_extensions": [
                 "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
@@ -2832,7 +2832,7 @@
         },
         {
             "type": "Feature",
-            "collection": "Santa Rita Ecostate Mapping - May 2019",
+            "collection": "Santa-Rita-Ecostate-Mapping",
             "stac_version": "1.0.0",
             "stac_extensions": [
                 "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
@@ -2955,7 +2955,7 @@
         },
         {
             "type": "Feature",
-            "collection": "Santa Rita Ecostate Mapping - May 2019",
+            "collection": "Santa-Rita-Ecostate-Mapping",
             "stac_version": "1.0.0",
             "stac_extensions": [
                 "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
@@ -3078,7 +3078,7 @@
         },
         {
             "type": "Feature",
-            "collection": "Santa Rita Ecostate Mapping - May 2019",
+            "collection": "Santa-Rita-Ecostate-Mapping",
             "stac_version": "1.0.0",
             "stac_extensions": [
                 "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
@@ -3201,7 +3201,7 @@
         },
         {
             "type": "Feature",
-            "collection": "Santa Rita Ecostate Mapping - May 2019",
+            "collection": "Santa-Rita-Ecostate-Mapping",
             "stac_version": "1.0.0",
             "stac_extensions": [
                 "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
@@ -3324,7 +3324,7 @@
         },
         {
             "type": "Feature",
-            "collection": "Santa Rita Ecostate Mapping - May 2019",
+            "collection": "Santa-Rita-Ecostate-Mapping",
             "stac_version": "1.0.0",
             "stac_extensions": [
                 "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
@@ -3448,7 +3448,7 @@
         },
         {
             "type": "Feature",
-            "collection": "Santa Rita Ecostate Mapping - May 2019",
+            "collection": "Santa-Rita-Ecostate-Mapping",
             "stac_version": "1.0.0",
             "stac_extensions": [
                 "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
@@ -3571,7 +3571,7 @@
         },
         {
             "type": "Feature",
-            "collection": "Santa Rita Ecostate Mapping - May 2019",
+            "collection": "Santa-Rita-Ecostate-Mapping",
             "stac_version": "1.0.0",
             "stac_extensions": [
                 "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
@@ -3694,7 +3694,7 @@
         },
         {
             "type": "Feature",
-            "collection": "Santa Rita Ecostate Mapping - May 2019",
+            "collection": "Santa-Rita-Ecostate-Mapping",
             "stac_version": "1.0.0",
             "stac_extensions": [
                 "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
@@ -3817,7 +3817,7 @@
         },
         {
             "type": "Feature",
-            "collection": "Santa Rita Ecostate Mapping - May 2019",
+            "collection": "Santa-Rita-Ecostate-Mapping",
             "stac_version": "1.0.0",
             "stac_extensions": [
                 "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
@@ -3940,7 +3940,7 @@
         },
         {
             "type": "Feature",
-            "collection": "Santa Rita Ecostate Mapping - May 2019",
+            "collection": "Santa-Rita-Ecostate-Mapping",
             "stac_version": "1.0.0",
             "stac_extensions": [
                 "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
@@ -4063,7 +4063,7 @@
         },
         {
             "type": "Feature",
-            "collection": "Santa Rita Ecostate Mapping - May 2019",
+            "collection": "Santa-Rita-Ecostate-Mapping",
             "stac_version": "1.0.0",
             "stac_extensions": [
                 "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
@@ -4186,7 +4186,7 @@
         },
         {
             "type": "Feature",
-            "collection": "Santa Rita Ecostate Mapping - May 2019",
+            "collection": "Santa-Rita-Ecostate-Mapping",
             "stac_version": "1.0.0",
             "stac_extensions": [
                 "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
@@ -4309,7 +4309,7 @@
         },
         {
             "type": "Feature",
-            "collection": "Santa Rita Ecostate Mapping - May 2019",
+            "collection": "Santa-Rita-Ecostate-Mapping",
             "stac_version": "1.0.0",
             "stac_extensions": [
                 "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
@@ -4432,7 +4432,7 @@
         },
         {
             "type": "Feature",
-            "collection": "Santa Rita Ecostate Mapping - May 2019",
+            "collection": "Santa-Rita-Ecostate-Mapping",
             "stac_version": "1.0.0",
             "stac_extensions": [
                 "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
@@ -4555,7 +4555,7 @@
         },
         {
             "type": "Feature",
-            "collection": "Santa Rita Ecostate Mapping - May 2019",
+            "collection": "Santa-Rita-Ecostate-Mapping",
             "stac_version": "1.0.0",
             "stac_extensions": [
                 "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
@@ -4678,7 +4678,7 @@
         },
         {
             "type": "Feature",
-            "collection": "Santa Rita Ecostate Mapping - May 2019",
+            "collection": "Santa-Rita-Ecostate-Mapping",
             "stac_version": "1.0.0",
             "stac_extensions": [
                 "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
@@ -4801,7 +4801,7 @@
         },
         {
             "type": "Feature",
-            "collection": "Santa Rita Ecostate Mapping - May 2019",
+            "collection": "Santa-Rita-Ecostate-Mapping",
             "stac_version": "1.0.0",
             "stac_extensions": [
                 "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
@@ -4924,7 +4924,7 @@
         },
         {
             "type": "Feature",
-            "collection": "Santa Rita Ecostate Mapping - May 2019",
+            "collection": "Santa-Rita-Ecostate-Mapping",
             "stac_version": "1.0.0",
             "stac_extensions": [
                 "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
@@ -5047,7 +5047,7 @@
         },
         {
             "type": "Feature",
-            "collection": "Santa Rita Ecostate Mapping - May 2019",
+            "collection": "Santa-Rita-Ecostate-Mapping",
             "stac_version": "1.0.0",
             "stac_extensions": [
                 "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
@@ -5170,7 +5170,7 @@
         },
         {
             "type": "Feature",
-            "collection": "Santa Rita Ecostate Mapping - May 2019",
+            "collection": "Santa-Rita-Ecostate-Mapping",
             "stac_version": "1.0.0",
             "stac_extensions": [
                 "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
@@ -5293,7 +5293,7 @@
         },
         {
             "type": "Feature",
-            "collection": "Santa Rita Ecostate Mapping - May 2019",
+            "collection": "Santa-Rita-Ecostate-Mapping",
             "stac_version": "1.0.0",
             "stac_extensions": [
                 "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
@@ -5416,7 +5416,7 @@
         },
         {
             "type": "Feature",
-            "collection": "Santa Rita Ecostate Mapping - May 2019",
+            "collection": "Santa-Rita-Ecostate-Mapping",
             "stac_version": "1.0.0",
             "stac_extensions": [
                 "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
@@ -5539,7 +5539,7 @@
         },
         {
             "type": "Feature",
-            "collection": "Santa Rita Ecostate Mapping - May 2019",
+            "collection": "Santa-Rita-Ecostate-Mapping",
             "stac_version": "1.0.0",
             "stac_extensions": [
                 "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
@@ -5662,7 +5662,7 @@
         },
         {
             "type": "Feature",
-            "collection": "Santa Rita Ecostate Mapping - May 2019",
+            "collection": "Santa-Rita-Ecostate-Mapping",
             "stac_version": "1.0.0",
             "stac_extensions": [
                 "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
@@ -5785,7 +5785,7 @@
         },
         {
             "type": "Feature",
-            "collection": "Santa Rita Ecostate Mapping - May 2019",
+            "collection": "Santa-Rita-Ecostate-Mapping",
             "stac_version": "1.0.0",
             "stac_extensions": [
                 "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
@@ -5908,7 +5908,7 @@
         },
         {
             "type": "Feature",
-            "collection": "Santa Rita Ecostate Mapping - May 2019",
+            "collection": "Santa-Rita-Ecostate-Mapping",
             "stac_version": "1.0.0",
             "stac_extensions": [
                 "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
@@ -6031,7 +6031,7 @@
         },
         {
             "type": "Feature",
-            "collection": "Santa Rita Ecostate Mapping - May 2019",
+            "collection": "Santa-Rita-Ecostate-Mapping",
             "stac_version": "1.0.0",
             "stac_extensions": [
                 "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
@@ -6154,7 +6154,7 @@
         },
         {
             "type": "Feature",
-            "collection": "Santa Rita Ecostate Mapping - May 2019",
+            "collection": "Santa-Rita-Ecostate-Mapping",
             "stac_version": "1.0.0",
             "stac_extensions": [
                 "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
@@ -6277,7 +6277,7 @@
         },
         {
             "type": "Feature",
-            "collection": "Santa Rita Ecostate Mapping - May 2019",
+            "collection": "Santa-Rita-Ecostate-Mapping",
             "stac_version": "1.0.0",
             "stac_extensions": [
                 "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
@@ -6400,7 +6400,7 @@
         },
         {
             "type": "Feature",
-            "collection": "Santa Rita Ecostate Mapping - May 2019",
+            "collection": "Santa-Rita-Ecostate-Mapping",
             "stac_version": "1.0.0",
             "stac_extensions": [
                 "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
