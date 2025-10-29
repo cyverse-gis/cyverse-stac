@@ -243,7 +243,7 @@
                 "1a_g2_ortho": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/1a_g2_products/1a_g2_ortho.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]
+                    "roles": ["data"]
                 }
             }
         },
@@ -351,7 +351,7 @@
                 "1a_u6_DSM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/1a_u6_products/1a_u6_DSM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": ["data"]]
+                    "roles": ["data"]
                 },
                 "1a_u6_DTM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/1a_u6_products/1a_u6_DTM.tif",
@@ -361,7 +361,7 @@
                 "1a_u6_ortho": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/1a_u6_products/1a_u6_ortho.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": ["data"]]
+                    "roles": ["data"]
                 },
                 "1a_u6_CHM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/1a_u6_products/1a_u6_CHM.tif",
@@ -474,7 +474,7 @@
                 "21_2_CHM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/21_2_products/21_2_CHM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": ["data"]]
+                    "roles": ["data"]
                 },
                 "21_2_DSM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/21_2_products/21_2_DSM.tif",
