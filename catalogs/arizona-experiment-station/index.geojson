@@ -1591,7 +1591,7 @@
                 "22_3_DSM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/22_3_products/22_3_DSM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]
+                    "roles": ["data"]
                 },
                 "22_3_DTM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/22_3_products/22_3_DTM.tif",
