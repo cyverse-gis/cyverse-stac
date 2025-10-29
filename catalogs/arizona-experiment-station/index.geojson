@@ -228,22 +228,22 @@
                 "1a_g2_CHM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/1a_g2_products/1a_g2_CHM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "1a_g2_DSM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/1a_g2_products/1a_g2_DSM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "1a_g2_DTM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/1a_g2_products/1a_g2_DTM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "1a_g2_ortho": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/1a_g2_products/1a_g2_ortho.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": [["data"]
                 }
             }
         },
@@ -351,22 +351,22 @@
                 "1a_u6_DSM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/1a_u6_products/1a_u6_DSM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]]
                 },
                 "1a_u6_DTM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/1a_u6_products/1a_u6_DTM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "1a_u6_ortho": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/1a_u6_products/1a_u6_ortho.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]]
                 },
                 "1a_u6_CHM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/1a_u6_products/1a_u6_CHM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 }
             }
         },
@@ -474,22 +474,22 @@
                 "21_2_CHM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/21_2_products/21_2_CHM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]]
                 },
                 "21_2_DSM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/21_2_products/21_2_DSM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "21_2_DTM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/21_2_products/21_2_DTM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "21_2_ortho": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/21_2_products/21_2_ortho.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 }
             }
         },
@@ -597,22 +597,22 @@
                 "21_3_CHM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/21_3_products/21_3_CHM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "21_3_DSM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/21_3_products/21_3_DSM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "21_3_DTM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/21_3_products/21_3_DTM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "21_3_ortho": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/21_3_products/21_3_ortho.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 }
             }
         },
@@ -720,22 +720,22 @@
                 "21_5_DTM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/21_5_products/21_5_DTM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "21_5_ortho": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/21_5_products/21_5_ortho.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "21_5_CHM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/21_5_products/21_5_CHM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "21_5_DSM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/21_5_products/21_5_DSM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 }
             }
         },
@@ -843,22 +843,22 @@
                 "21_6_DTM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/21_6_products/21_6_DTM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "21_6_ortho": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/21_6_products/21_6_ortho.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "21_6_CHM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/21_6_products/21_6_CHM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "21_6_DSM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/21_6_products/21_6_DSM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 }
             }
         },
@@ -966,22 +966,22 @@
                 "21_7_CHM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/21_7_products/21_7_CHM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "21_7_DSM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/21_7_products/21_7_DSM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "21_7_DTM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/21_7_products/21_7_DTM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "21_7_ortho": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/21_7_products/21_7_ortho.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 }
             }
         },
@@ -1089,22 +1089,22 @@
                 "21_8_CHM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/21_8_products/21_8_CHM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "21_8_DSM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/21_8_products/21_8_DSM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "21_8_DTM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/21_8_products/21_8_DTM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "21_8_ortho": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/21_8_products/21_8_ortho.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 }
             }
         },
@@ -1212,22 +1212,22 @@
                 "21_9_DTM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/21_9_products/21_9_DTM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "21_9_ortho": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/21_9_products/21_9_ortho.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "21_9_CHM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/21_9_products/21_9_CHM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "21_9_DSM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/21_9_products/21_9_DSM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 }
             }
         },
@@ -1335,22 +1335,22 @@
                 "22_1_CHM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/22_1_products/22_1_CHM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "22_1_DSM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/22_1_products/22_1_DSM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "22_1_DTM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/22_1_products/22_1_DTM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "22_1_ortho": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/22_1_products/22_1_ortho.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 }
             }
         },
@@ -1458,22 +1458,22 @@
                 "22_2_DSM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/22_2_products/22_2_DSM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "22_2_DTM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/22_2_products/22_2_DTM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "22_2_ortho": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/22_2_products/22_2_ortho.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "22_2_CHM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/22_2_products/22_2_CHM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 }
             }
         },
@@ -1581,22 +1581,22 @@
                 "22_3_ortho": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/22_3_products/22_3_ortho.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "22_3_CHM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/22_3_products/22_3_CHM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "22_3_DSM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/22_3_products/22_3_DSM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": [["data"]
                 },
                 "22_3_DTM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/22_3_products/22_3_DTM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 }
             }
         },
@@ -1704,22 +1704,22 @@
                 "22_5_CHM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/22_5_products/22_5_CHM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "22_5_DSM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/22_5_products/22_5_DSM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "22_5_DTM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/22_5_products/22_5_DTM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "22_5_ortho": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/22_5_products/22_5_ortho.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 }
             }
         },
@@ -1827,22 +1827,22 @@
                 "22_6_CHM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/22_6_products/22_6_CHM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "22_6_DSM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/22_6_products/22_6_DSM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "22_6_DTM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/22_6_products/22_6_DTM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "22_6_ortho": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/22_6_products/22_6_ortho.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 }
             }
         },
@@ -1950,22 +1950,22 @@
                 "22_9_ortho": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/22_9_products/22_9_ortho.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "22_9_CHM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/22_9_products/22_9_CHM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "22_9_DSM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/22_9_products/22_9_DSM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "22_9_DTM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/22_9_products/22_9_DTM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 }
             }
         },
@@ -2073,22 +2073,22 @@
                 "22_g1_DTM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/22_g1_products/22_g1_DTM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "22_g1_ortho": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/22_g1_products/22_g1_ortho.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "22_g1_CHM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/22_g1_products/22_g1_CHM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "22_g1_DSM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/22_g1_products/22_g1_DSM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 }
             }
         },
@@ -2196,22 +2196,22 @@
                 "23_g1_CHM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/23_g1_products/23_g1_CHM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "23_g1_DSM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/23_g1_products/23_g1_DSM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "23_g1_DTM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/23_g1_products/23_g1_DTM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "23_g1_ortho": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/23_g1_products/23_g1_ortho.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 }
             }
         },
@@ -2319,22 +2319,22 @@
                 "28_g1_CHM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/28_g1_products/28_g1_CHM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "28_g1_DSM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/28_g1_products/28_g1_DSM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "28_g1_DTM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/28_g1_products/28_g1_DTM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "28_g1_ortho": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/28_g1_products/28_g1_ortho.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 }
             }
         },
@@ -2442,22 +2442,22 @@
                 "2b_u1_CHM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/2b_u1_products/2b_u1_CHM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "2b_u1_DSM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/2b_u1_products/2b_u1_DSM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "2b_u1_DTM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/2b_u1_products/2b_u1_DTM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "2b_u1_ortho": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/2b_u1_products/2b_u1_ortho.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 }
             }
         },
@@ -2565,22 +2565,22 @@
                 "2n_10w_CHM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/2n_10w_products/2n_10w_CHM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "2n_10w_DSM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/2n_10w_products/2n_10w_DSM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "2n_10w_DTM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/2n_10w_products/2n_10w_DTM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "2n_10w_ortho": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/2n_10w_products/2n_10w_ortho.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 }
             }
         },
@@ -2688,22 +2688,22 @@
                 "2n_1w_CHM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/2n_1w_products/2n_1w_CHM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "2n_1w_DSM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/2n_1w_products/2n_1w_DSM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "2n_1w_DTM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/2n_1w_products/2n_1w_DTM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "2n_1w_ortho": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/2n_1w_products/2n_1w_ortho.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 }
             }
         },
@@ -2811,22 +2811,22 @@
                 "2s_1_ortho": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/2s_1_products/2s_1_ortho.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "2s_1_CHM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/2s_1_products/2s_1_CHM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "2s_1_DSM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/2s_1_products/2s_1_DSM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "2s_1_DTM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/2s_1_products/2s_1_DTM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 }
             }
         },
@@ -2934,22 +2934,22 @@
                 "2s_2_CHM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/2s_2_products/2s_2_CHM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "2s_2_DSM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/2s_2_products/2s_2_DSM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "2s_2_DTM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/2s_2_products/2s_2_DTM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "2s_2_ortho": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/2s_2_products/2s_2_ortho.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 }
             }
         },
@@ -3057,7 +3057,7 @@
                 "2s_6_CHM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/2s_6_products/2s_6_CHM.tif",
                     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-                    "roles": [["data"]]
+                    "roles": ["data"]
                 },
                 "2s_6_DSM": {
                     "href": "https://data.cyverse.org/dav-anon/iplant/home/shared/commons_repo/curated/Gillan_Ecosphere_2021/raster_products/May_2019/2s_6_products/2s_6_DSM.tif",
