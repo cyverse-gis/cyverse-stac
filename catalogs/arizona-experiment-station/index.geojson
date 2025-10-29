@@ -2134,8 +2134,8 @@
                 -110.838617492,
                 31.811939679
             ],
+            "links": [],
             "properties": {
-                
                 "platform": "DJI Phantom 4 RTK",
                 "license": "CC-BY-SA-4.0",
                 "mission": "The imagery was part of the Ecostate Mapping project of 2019 at Santa Rita Experimental Range",
@@ -2257,8 +2257,8 @@
                 -110.828686394,
                 31.802577915
             ],
+            "links": [],
             "properties": {
-                
                 "platform": "DJI Phantom 4 RTK",
                 "license": "CC-BY-SA-4.0",
                 "mission": "The imagery was part of the Ecostate Mapping project of 2019 at Santa Rita Experimental Range",
@@ -2380,8 +2380,8 @@
                 -110.841432828,
                 31.839986263
             ],
+            "links": [],
             "properties": {
-                
                 "platform": "DJI Phantom 4 RTK",
                 "license": "CC-BY-SA-4.0",
                 "mission": "The imagery was part of the Ecostate Mapping project of 2019 at Santa Rita Experimental Range",
@@ -2503,8 +2503,8 @@
                 -110.841529182,
                 31.822026767
             ],
+            "links": [],
             "properties": {
-                
                 "platform": "DJI Phantom 4 RTK",
                 "license": "CC-BY-SA-4.0",
                 "mission": "The imagery was part of the Ecostate Mapping project of 2019 at Santa Rita Experimental Range",
@@ -2626,8 +2626,8 @@
                 -110.862959788,
                 31.839680895
             ],
+            "links": [],
             "properties": {
-                
                 "platform": "DJI Phantom 4 RTK",
                 "license": "CC-BY-SA-4.0",
                 "mission": "The imagery was part of the Ecostate Mapping project of 2019 at Santa Rita Experimental Range",
@@ -2749,8 +2749,8 @@
                 -110.892537464027,
                 31.8169521629682
             ],
+            "links": [],
             "properties": {
-                
                 "platform": "DJI Phantom 4 RTK",
                 "license": "CC-BY-SA-4.0",
                 "mission": "The imagery was part of the Ecostate Mapping project of 2019 at Santa Rita Experimental Range",
@@ -2872,8 +2872,8 @@
                 -110.89276939,
                 31.815285905
             ],
+            "links": [],
             "properties": {
-                
                 "platform": "DJI Phantom 4 RTK",
                 "license": "CC-BY-SA-4.0",
                 "mission": "The imagery was part of the Ecostate Mapping project of 2019 at Santa Rita Experimental Range",
@@ -2995,8 +2995,8 @@
                 -110.851708043,
                 31.79805404
             ],
+            "links": [],
             "properties": {
-                
                 "platform": "DJI Phantom 4 RTK",
                 "license": "CC-BY-SA-4.0",
                 "mission": "The imagery was part of the Ecostate Mapping project of 2019 at Santa Rita Experimental Range",
@@ -3118,8 +3118,8 @@
                 -110.841053513,
                 31.813141315
             ],
+            "links": [],
             "properties": {
-                
                 "platform": "DJI Phantom 4 RTK",
                 "license": "CC-BY-SA-4.0",
                 "mission": "The imagery was part of the Ecostate Mapping project of 2019 at Santa Rita Experimental Range",
@@ -3241,8 +3241,8 @@
                 -110.884894755112,
                 31.8145449369591
             ],
+            "links": [],
             "properties": {
-                
                 "platform": "DJI Phantom 4 RTK",
                 "license": "CC-BY-SA-4.0",
                 "mission": "The imagery was part of the Ecostate Mapping project of 2019 at Santa Rita Experimental Range",
@@ -3364,6 +3364,7 @@
                 -110.8872087858625,
                 31.81401594805968
             ],
+            "links": [],
             "properties": {
                 "gsd": "0.019",
                 "platform": "DJI Phantom 4 RTK",
@@ -3487,8 +3488,8 @@
                 -110.82376221993101,
                 31.8452682315802
             ],
+            "links": [],
             "properties": {
-                
                 "platform": "DJI Phantom 4 RTK",
                 "license": "CC-BY-SA-4.0",
                 "mission": "The imagery was part of the Ecostate Mapping project of 2019 at Santa Rita Experimental Range",
@@ -3610,8 +3611,8 @@
                 -110.908191139,
                 31.783233416
             ],
+            "links": [],
             "properties": {
-                
                 "platform": "DJI Phantom 4 RTK",
                 "license": "CC-BY-SA-4.0",
                 "mission": "The imagery was part of the Ecostate Mapping project of 2019 at Santa Rita Experimental Range",
@@ -3733,8 +3734,8 @@
                 -110.864624042275,
                 31.8057163168851
             ],
+            "links": [],
             "properties": {
-                
                 "platform": "DJI Phantom 4 RTK",
                 "license": "CC-BY-SA-4.0",
                 "mission": "The imagery was part of the Ecostate Mapping project of 2019 at Santa Rita Experimental Range",
@@ -3856,8 +3857,8 @@
                 -110.864810292626,
                 31.8032740220296
             ],
+            "links": [],
             "properties": {
-                
                 "platform": "DJI Phantom 4 RTK",
                 "license": "CC-BY-SA-4.0",
                 "mission": "The imagery was part of the Ecostate Mapping project of 2019 at Santa Rita Experimental Range",
@@ -3979,8 +3980,8 @@
                 -110.891951959,
                 31.821690538
             ],
+            "links": [],
             "properties": {
-                
                 "platform": "DJI Phantom 4 RTK",
                 "license": "CC-BY-SA-4.0",
                 "mission": "The imagery was part of the Ecostate Mapping project of 2019 at Santa Rita Experimental Range",
@@ -4102,8 +4103,8 @@
                 -110.887255765,
                 31.82216922
             ],
+            "links": [],
             "properties": {
-                
                 "platform": "DJI Phantom 4 RTK",
                 "license": "CC-BY-SA-4.0",
                 "mission": "The imagery was part of the Ecostate Mapping project of 2019 at Santa Rita Experimental Range",
@@ -4225,8 +4226,8 @@
                 -110.816553616,
                 31.855601912
             ],
+            "links": [],
             "properties": {
-                
                 "platform": "DJI Phantom 4 RTK",
                 "license": "CC-BY-SA-4.0",
                 "mission": "The imagery was part of the Ecostate Mapping project of 2019 at Santa Rita Experimental Range",
@@ -4348,8 +4349,8 @@
                 -110.821389981,
                 31.856273179
             ],
+            "links": [],
             "properties": {
-                
                 "platform": "DJI Phantom 4 RTK",
                 "license": "CC-BY-SA-4.0",
                 "mission": "The imagery was part of the Ecostate Mapping project of 2019 at Santa Rita Experimental Range",
@@ -4471,8 +4472,8 @@
                 -110.817439526,
                 31.826787731
             ],
+            "links": [],
             "properties": {
-                
                 "platform": "DJI Phantom 4 RTK",
                 "license": "CC-BY-SA-4.0",
                 "mission": "The imagery was part of the Ecostate Mapping project of 2019 at Santa Rita Experimental Range",
@@ -4594,8 +4595,8 @@
                 -110.820416112,
                 31.854101982
             ],
+            "links": [],
             "properties": {
-                
                 "platform": "DJI Phantom 4 RTK",
                 "license": "CC-BY-SA-4.0",
                 "mission": "The imagery was part of the Ecostate Mapping project of 2019 at Santa Rita Experimental Range",
@@ -4717,8 +4718,8 @@
                 -110.827109769,
                 31.83849168
             ],
+            "links": [],
             "properties": {
-                
                 "platform": "DJI Phantom 4 RTK",
                 "license": "CC-BY-SA-4.0",
                 "mission": "The imagery was part of the Ecostate Mapping project of 2019 at Santa Rita Experimental Range",
@@ -4840,8 +4841,8 @@
                 -110.826140647285,
                 31.8375395291493
             ],
+            "links": [],
             "properties": {
-                
                 "platform": "DJI Phantom 4 RTK",
                 "license": "CC-BY-SA-4.0",
                 "mission": "The imagery was part of the Ecostate Mapping project of 2019 at Santa Rita Experimental Range",
@@ -4963,8 +4964,8 @@
                 -110.819483041,
                 31.826382677
             ],
+            "links": [],
             "properties": {
-                
                 "platform": "DJI Phantom 4 RTK",
                 "license": "CC-BY-SA-4.0",
                 "mission": "The imagery was part of the Ecostate Mapping project of 2019 at Santa Rita Experimental Range",
@@ -5086,8 +5087,8 @@
                 -110.833255054,
                 31.829421068
             ],
+            "links": [],
             "properties": {
-                
                 "platform": "DJI Phantom 4 RTK",
                 "license": "CC-BY-SA-4.0",
                 "mission": "The imagery was part of the Ecostate Mapping project of 2019 at Santa Rita Experimental Range",
@@ -5209,8 +5210,8 @@
                 -110.835472945,
                 31.869260848
             ],
+            "links": [],
             "properties": {
-                
                 "platform": "DJI Phantom 4 RTK",
                 "license": "CC-BY-SA-4.0",
                 "mission": "The imagery was part of the Ecostate Mapping project of 2019 at Santa Rita Experimental Range",
@@ -5332,8 +5333,8 @@
                 -110.824918254,
                 31.857870816
             ],
+            "links": [],
             "properties": {
-                
                 "platform": "DJI Phantom 4 RTK",
                 "license": "CC-BY-SA-4.0",
                 "mission": "The imagery was part of the Ecostate Mapping project of 2019 at Santa Rita Experimental Range",
@@ -5455,8 +5456,8 @@
                 -110.821860931,
                 31.858523547
             ],
+            "links": [],
             "properties": {
-                
                 "platform": "DJI Phantom 4 RTK",
                 "license": "CC-BY-SA-4.0",
                 "mission": "The imagery was part of the Ecostate Mapping project of 2019 at Santa Rita Experimental Range",
@@ -5578,8 +5579,8 @@
                 -110.824368461,
                 31.860270549
             ],
+            "links": [],
             "properties": {
-                
                 "platform": "DJI Phantom 4 RTK",
                 "license": "CC-BY-SA-4.0",
                 "mission": "The imagery was part of the Ecostate Mapping project of 2019 at Santa Rita Experimental Range",
@@ -5701,8 +5702,8 @@
                 -110.839214313,
                 31.826285948
             ],
+            "links": [],
             "properties": {
-                
                 "platform": "DJI Phantom 4 RTK",
                 "license": "CC-BY-SA-4.0",
                 "mission": "The imagery was part of the Ecostate Mapping project of 2019 at Santa Rita Experimental Range",
@@ -5824,8 +5825,8 @@
                 -110.863946894577,
                 31.7870097910487
             ],
+            "links": [],
             "properties": {
-                
                 "platform": "DJI Phantom 4 RTK",
                 "license": "CC-BY-SA-4.0",
                 "mission": "The imagery was part of the Ecostate Mapping project of 2019 at Santa Rita Experimental Range",
@@ -5947,8 +5948,8 @@
                 -110.86016711,
                 31.780923949
             ],
+            "links": [],
             "properties": {
-                
                 "platform": "DJI Phantom 4 RTK",
                 "license": "CC-BY-SA-4.0",
                 "mission": "The imagery was part of the Ecostate Mapping project of 2019 at Santa Rita Experimental Range",
@@ -6070,8 +6071,8 @@
                 -110.853016585444,
                 31.7818972467804
             ],
+            "links": [],
             "properties": {
-                
                 "platform": "DJI Phantom 4 RTK",
                 "license": "CC-BY-SA-4.0",
                 "mission": "The imagery was part of the Ecostate Mapping project of 2019 at Santa Rita Experimental Range",
@@ -6193,8 +6194,8 @@
                 -110.86049638840399,
                 31.7788074427605
             ],
+            "links": [],
             "properties": {
-                
                 "platform": "DJI Phantom 4 RTK",
                 "license": "CC-BY-SA-4.0",
                 "mission": "The imagery was part of the Ecostate Mapping project of 2019 at Santa Rita Experimental Range",
@@ -6316,8 +6317,8 @@
                 -110.81196837419401,
                 31.8276873818567
             ],
+            "links": [],
             "properties": {
-                
                 "platform": "DJI Phantom 4 RTK",
                 "license": "CC-BY-SA-4.0",
                 "mission": "The imagery was part of the Ecostate Mapping project of 2019 at Santa Rita Experimental Range",
@@ -6439,8 +6440,8 @@
                 -110.876381183,
                 31.784126726
             ],
+            "links": [],
             "properties": {
-                
                 "platform": "DJI Phantom 4 RTK",
                 "license": "CC-BY-SA-4.0",
                 "mission": "The imagery was part of the Ecostate Mapping project of 2019 at Santa Rita Experimental Range",
