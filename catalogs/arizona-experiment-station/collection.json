@@ -7,7 +7,7 @@
   "links": [
     {
       "rel": "preview",
-      "href": "https://raw.githubusercontent.com/cyverse-gis/cyverse-stac/refs/heads/main/data/forest.png",
+      "href": "https://raw.githubusercontent.com/cyverse-gis/cyverse-stac/refs/heads/main/data/srer_ecostate.png",
       "type": "image/png",
       "title": "Collection Thumbnail"
     }
